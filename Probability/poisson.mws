@@ -1,0 +1,55 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 155 "Poisson Distribution with
+ parameter lambda.  Note that this is a discrete distribution with the
+ assumption that the mean equals the variance equals lambda." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 36 "f:=lambda^x*exp(-lambda)/GAMMA(x+1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*()%'lambdaG%\"xG\"\"\"-%$expG6#
+,$F'!\"\"F)-%&GAMMAG6#,&F(F)F)F)F." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "lambda:=.5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'lam
+bdaG$\"\"&!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "plot(f,x
+=0..10);" }}{PARA 13 "" 1 "" {GLPLOT2D 400 300 300 {PLOTDATA 2 "6%-%'C
+URVESG6$7Y7$$\"\"!F)$\"3u*****pf1`1'!#=7$$\"3emmm;arz@F,$\"39%)4N[N(zq
+&F,7$$\"3v***\\7y%*z7$F,$\"3A$zU`S(=_aF,7$$\"3[LL$e9ui2%F,$\"3?-0\"=$p
+jb^F,7$$\"3z***\\(oMrU^F,$\"3!e$[m&fH))y%F,7$$\"3nmmm\"z_\"4iF,$\"3M+C
+he-g,WF,7$$\"3Unmmm6m#G(F,$\"3zvPX!zvV+%F,7$$\"39ommT&phN)F,$\"39x$y08
+60h$F,7$$\"3A,+v=ddC%*F,$\"3UQ>/9bGIKF,7$$\"3KLLe*=)H\\5!#<$\"3#G6pu0(
+4oGF,7$$\"3-++v=JN[6FX$\"3+y#HTP6Bb#F,7$$\"3smm\"z/3uC\"FX$\"3Ova_ow<e
+AF,7$$\"3ULLe*ot*\\8FX$\"3CVehQT%y(>F,7$$\"3!****\\7LRDX\"FX$\"31+WNwF
+qA<F,7$$\"3%om;zR'ok;FX$\"3oh94+VZt7F,7$$\"33++D1J:w=FX$\"3aMM(HJWHB*!
+#>7$$\"3oLLL3En$4#FX$\"3_UPWE8]0lFcp7$$\"3#pmmT!RE&G#FX$\"3ly,Fvj(zq%F
+cp7$$\"3D+++D.&4]#FX$\"36]KCdIx?KFcp7$$\"3;+++vB_<FFX$\"33n\"=*G,;m@Fc
+p7$$\"33+++v'Hi#HFX$\"3o\\5\"y\")))yX\"Fcp7$$\"3&om;z*ev:JFX$\"30@.jT*
+pk+\"Fcp7$$\"3_LLL347TLFX$\"3c]T$)3\"3cR'!#?7$$\"3nLLLLY.KNFX$\"3B&oIb
+%=/6VFgr7$$\"33++D\"o7Tv$FX$\"3]IBkJL6%p#Fgr7$$\"3?LLL$Q*o]RFX$\"3Eq,u
+*pd*f<Fgr7$$\"3m++D\"=lj;%FX$\"3U9crTE@#4\"Fgr7$$\"3S++vV&R<P%FX$\"3)Q
+&*fIL71(o!#@7$$\"3CML$e9Ege%FX$\"339r8>+:(>%Fat7$$\"3]LLeR\"3Gy%FX$\"3
+;k,nl()>[EFat7$$\"3emm;/T1&*\\FX$\"3w+P;P*>$)f\"Fat7$$\"3=nm\"zRQb@&FX
+$\"3o@'fz%)p$y$*!#A7$$\"3:++v=>Y2aFX$\"3s_1'f/qb&eFfu7$$\"3Znm;zXu9cFX
+$\"3I6g#Q*oH'\\$Ffu7$$\"34+++]y))GeFX$\"3G=-$)R'=s.#Ffu7$$\"3H++]i_QQg
+FX$\"3s$Ggb'yl#>\"Ffu7$$\"3b++D\"y%3TiFX$\"3m:HhcnSfq!#B7$$\"3+++]P![h
+Y'FX$\"30bH-\"G?c\"RF`w7$$\"3iKLL$Qx$omFX$\"3'3%)RY_Z9H#F`w7$$\"3Y+++v
+.I%)oFX$\"3mD.`w.4&G\"F`w7$$\"3?mm\"zpe*zqFX$\"3yO*)p*Q'pnv!#C7$$\"3;,
+++D\\'QH(FX$\"3CWj/(Qmt@%Fex7$$\"3%HL$e9S8&\\(FX$\"3%=pz,9z)>CFex7$$\"
+3s++D1#=bq(FX$\"3Y[qZqIqY8Fex7$$\"3\"HLL$3s?6zFX$\"3'yy![Ai$Qb(!#D7$$
+\"3a***\\7`Wl7)FX$\"3/ZJ[eZa,TFjy7$$\"3enmmm*RRL)FX$\"3S]k$z;GiE#Fjy7$
+$\"3%zmmTvJga)FX$\"3;#\\Rmk_#H7Fjy7$$\"3]MLe9tOc()FX$\"3#e1R8d'zom!#E7
+$$\"31,++]Qk\\*)FX$\"33RB@0M'ey$F_[l7$$\"3![LL3dg6<*FX$\"3KL+#))e6!p>F
+_[l7$$\"3%ymmmw(Gp$*FX$\"3%Q3#)>EaD4\"F_[l7$$\"3C++D\"oK0e*FX$\"3.By&H
+%>)\\!e!#F7$$\"35,+v=5s#y*FX$\"3iyO`-U(f:$Fd\\l7$$\"#5F)$\"3_CE#>ihAj
+\"Fd\\l-%'COLOURG6&%$RGBG$F\\]l!\"\"F(F(-%+AXESLABELSG6$Q\"x6\"Q!Fi]l-
+%%VIEWG6$;F(F[]l%(DEFAULTG" 1 6 0 1 10 0 2 9 1 4 2 1.000000 45.000000 
+45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "
+mean:=lambda;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%meanG$\"\"&!\"\"" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "variance:=lambda;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)varianceG$\"\"&!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "4 1 0" 0 }{VIEWOPTS 1 
+1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

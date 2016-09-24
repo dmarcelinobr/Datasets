@@ -1,0 +1,58 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 188 "t-distribution with degre
+es of freedom equal to nu.  This worksheet calculates the probability \+
+of t<=x.  Plug in the degrees of freedom nu and the calculated value o
+f t to get the p-value." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "r
+estart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "f:=(GAMMA((nu+1)
+/2)/GAMMA(nu/2))*(1/sqrt(nu*Pi))*(1+(x^2/nu))^(-(nu+1)/2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"fG**-%&GAMMAG6#,&%#nuG#\"\"\"\"\"#F+F,F,
+-F'6#,$F*F+!\"\"*&F*F,%#PiGF,#F1F-),&F,F,*&%\"xGF-F*F1F,,&F*F4#F,F-F1F
+," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "nu:=50;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#nuG\"#]" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 9 "t:=1.676;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"tG$\"%w;!\"$" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "evalf(integrate(f,x=-1000
+..t));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+bN4+&*!#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "plot(f,x=-5..t);" }}{PARA 13 "" 1 "
+" {GLPLOT2D 400 300 300 {PLOTDATA 2 "6%-%'CURVESG6$7en7$$!\"&\"\"!$\"3
+A^$>]dYNG\"!#A7$$!3wLLy)>#[a[!#<$\"3ED^\\75%**4#F-7$$!3hmT-Qz'ys%F1$\"
+3;uegN2-4KF-7$$!37L$G'fpZ&e%F1$\"3I4E,?EDV^F-7$$!3kL$)R@@9UWF1$\"3oRJ.
+7ho>#)F-7$$!3'o;M'G&)[*H%F1$\"39C.\"=!RC-8!#@7$$!3;L3@(QIs;%F1$\"39e=P
+o-u#)>FH7$$!3!**\\dCu%GISF1$\"3%Gk\\W!o[VIFH7$$!3iL3vg`l))QF1$\"3+`d#y
+K9Tq%FH7$$!3-+vE'=![ZPF1$\"3ru%4:#[9+sFH7$$!3gmmnmTE-OF1$\"3![Qfz>P_5
+\"!#?7$$!3SL$yv\"yNuMF1$\"3k,[)=Ab()f\"F\\o7$$!3)****HIcl.L$F1$\"3gu`;
+d!)z)R#F\\o7$$!3%****\\C1#y&=$F1$\"3GEMSwRUlNF\\o7$$!3!****p*o!\\k/$F1
+$\"3wDYz;d,m^F\\o7$$!3ML3bi8#*>HF1$\"3%HuQF66H;(F\\o7$$!3ymmf\"on%pFF1
+$\"3MeO'\\ISH/\"!#>7$$!3QmmyyO,UEF1$\"3[xSvEHW<9F[q7$$!35+v*RPaP\\#F1$
+\"3S=PR3B_(*>F[q7$$!3%pm'on(>DO#F1$\"3OA!**ft\"[rEF[q7$$!3m*\\(*\\gM&=
+AF1$\"3bC\"*yk@7AOF[q7$$!3o*\\#f!oE93#F1$\"3kHA>oMjpZF[q7$$!3Nm;/X*o$Q
+>F1$\"3O\\()R.jRciF[q7$$!3amT,'G(*p!=F1$\"3!H([K<jg4zF[q7$$!3IL$eS?&Hl
+;F1$\"3Qdz'p+V@+\"!#=7$$!3BL3bll5=:F1$\"31EwIZl/e7Fds7$$!3')*\\UIUy**Q
+\"F1$\"3J%y$z$pL'4:Fds7$$!3!HL[*=lf^7F1$\"3!4X/S7!f2=Fds7$$!3E++MrWj36
+F1$\"3Kna&*3h*p8#Fds7$$!3W,+b()*Rxo*Fds$\"3]*HL)*QS0Z#Fds7$$!3C&*\\P+!
+=XL)Fds$\"3%*Q&*H-m;#z#Fds7$$!3q(**\\;q&*>$oFds$\"3#G!p&\\&o4KJFds7$$!
+3kom'))e7>[&Fds$\"3]@npn#RqS$Fds7$$!3i)***\\'p5//%Fds$\"3yx]C>[\"Hl$Fd
+s7$$!30J$3Ft&>MFFds$\"3<kO46%R6#QFds7$$!3#4;/nuw,-#Fds$\"3'>r+\">Kz()Q
+Fds7$$!3z!***pgx:18Fds$\"3_CS*)>U9NRFds7$$!3%e6a=]'R-(*F[q$\"3QnSv6n^]
+RFds7$$!3!QK3nR:KM'F[q$\"3m3dA(y*QhRFds7$$!3wJDc\"HMS)HF[q$\"3y,2O^Xsn
+RFds7$$\"3)HgKe8o9v$F\\o$\"33#orhI)\\pRFds7$$\"3)4&**\\s*ek)QF[q$\"3eq
+j_k,ZmRFds7$$\"3mTmTJ6x(R(F[q$\"3;CKa!fj%eRFds7$$\"3ALL.H$344\"Fds$\"3
+;l$>d\"*4b%RFds7$$\"3I-]#\\aR?W\"Fds$\"3hu<#)G(fw#RFds7$$\"3fl\"zQVH'G
+@Fds$\"3]y]()G'*))yQFds7$$\"3()GL$GK>_\"GFds$\"3XP)p._+C\"QFds7$$\"3u$
+*\\i!H6GD%Fds$\"30u/6\"3d.i$Fds7$$\"3\"Qnmu@$QPcFds$\"3s+k(Q8;tP$Fds7$
+$\"3Emm\"3*zI`qFds$\"377b&[2aQ3$Fds7$$\"3;O$e@>3vX)Fds$\"31S.1ZiJjFFds
+7$$\"3-,+gUB#yu*Fds$\"3Y))3(>3UhX#Fds7$$\"3tL$)3(zmE7\"F1$\"3,K/!y')eR
+5#Fds7$$\"3?nm-8l$\\D\"F1$\"3]HsFBH7+=Fds7$$\"3!**\\-!=O'fR\"F1$\"35WL
+0))eK(\\\"Fds7$$\"3-+v6_X%4`\"F1$\"3m@NNj[FM7Fds7$$\"3#************fn
+\"F1$\"3')\\2-r^x\\)*F[q-%'COLOURG6&%$RGBG$\"#5!\"\"$F*F*F\\^l-%+AXESL
+ABELSG6$Q\"x6\"Q!Fa^l-%%VIEWG6$;F($\"%w;!\"$%(DEFAULTG" 1 2 0 1 10 0 
+2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "7 0 0" 0 }{VIEWOPTS 1 1 0 1 
+1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

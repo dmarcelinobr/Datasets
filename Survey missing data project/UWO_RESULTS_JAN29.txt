@@ -1,0 +1,903 @@
+NRW:
+
+***see associated exccel file NrW_dk_recode.xlsx
+***see associated .do file: uwo_recoding_jan29.do
+***see associated data set save "C:\Users\Deuta\Desktop\Survey missing data project\
+Survey missing data project DEC30 (former NOV27\uwo_2010_medw_full_weights_2_mod_august_5_DK.dta", replace
+
+
+
+gen test_jan29=(1+newtestjan29_1)*786/3293
+
+
+gen  test_jan29_1=(1+ newtestjan29_2)*786/3652
+
+gen  test_jan29_2=(1+ newtestjan29_3)*786/3671
+
+gen test_jan29_0=(1+ newtestjan29)*786/2779
+
+
+. logit  voted age age_sq edu [iw= test_jan29 ]
+
+Iteration 0:   log likelihood = -515.43779  
+Iteration 1:   log likelihood = -480.88905  
+Iteration 2:   log likelihood = -480.25116  
+Iteration 3:   log likelihood = -480.24983  
+Iteration 4:   log likelihood = -480.24983  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =      70.38
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -480.24983                       Pseudo R2       =     0.0683
+
+---------------------------------------------------
+---------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0561921   .0354731     1.58   0.113    -.0133339    .1257182
+      age_sq |  -.0003201   .0004082    -0.78   0.433    -.0011201    .0004799
+         edu |   .7539375   .1116528     6.75   0.000      .535102    .9727731
+       _cons |  -2.404307   .7486548    -3.21   0.001    -3.871643   -.9369703
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw= test_jan29_1 ]
+
+Iteration 0:   log likelihood = -515.94061  
+Iteration 1:   log likelihood = -481.74687  
+Iteration 2:   log likelihood =  -481.1321  
+Iteration 3:   log likelihood = -481.13093  
+Iteration 4:   log likelihood = -481.13093  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =      69.62
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -481.13093                       Pseudo R2       =     0.0675
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0476712   .0352889     1.35   0.177    -.0214938    .1168361
+      age_sq |  -.0002109   .0004069    -0.52   0.604    -.0010083    .0005866
+         edu |   .7347989   .1108424     6.63   0.000     .5175519     .952046
+       _cons |  -2.228826   .7417943    -3.00   0.003    -3.682716   -.7749357
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw= test_jan29_2 ]
+
+Iteration 0:   log likelihood = -516.05901  
+Iteration 1:   log likelihood = -481.79859  
+Iteration 2:   log likelihood = -481.17962  
+Iteration 3:   log likelihood = -481.17842  
+Iteration 4:   log likelihood = -481.17842  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =      69.76
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -481.17842                       Pseudo R2       =     0.0676
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0492535   .0352872     1.40   0.163    -.0199082    .1184153
+      age_sq |  -.0002313   .0004066    -0.57   0.569    -.0010281    .0005656
+         edu |   .7372511   .1109601     6.64   0.000     .5197733    .9547288
+       _cons |  -2.259864   .7425126    -3.04   0.002    -3.715162   -.8045663
+------------------------------------------------------------------------------
+
+. 
+
+. logit  voted age age_sq edu [iw= test_jan29_0 ]
+
+Iteration 0:   log likelihood = -507.98949  
+Iteration 1:   log likelihood = -474.26089  
+Iteration 2:   log likelihood = -473.54155  
+Iteration 3:   log likelihood = -473.53981  
+Iteration 4:   log likelihood = -473.53981  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =      68.90
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -473.53981                       Pseudo R2       =     0.0678
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0556547   .0360827     1.54   0.123     -.015066    .1263754
+      age_sq |  -.0003098   .0004133    -0.75   0.454    -.0011198    .0005003
+         edu |   .7470551    .112195     6.66   0.000     .5271569    .9669533
+       _cons |  -2.332891   .7647515    -3.05   0.002    -3.831777    -.834006
+------------------------------------------------------------------------------
+
+
+
+. logit  voted age age_sq edu [iw= wtpre]
+
+Iteration 0:   log likelihood = -403.28759  
+Iteration 1:   log likelihood = -378.24453  
+Iteration 2:   log likelihood = -377.09027  
+Iteration 3:   log likelihood = -377.08707  
+Iteration 4:   log likelihood = -377.08707  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =      52.40
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -377.08707                       Pseudo R2       =     0.0650
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |    .031439   .0364599     0.86   0.389    -.0400211    .1028991
+      age_sq |   -.000111    .000405    -0.27   0.784    -.0009049    .0006828
+         edu |    .641465   .1019599     6.29   0.000     .4416272    .8413027
+       _cons |  -1.160089   .7962002    -1.46   0.145    -2.720613    .4004348
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw= wtpost]
+
+Iteration 0:   log likelihood = -522.73107  
+Iteration 1:   log likelihood = -475.54328  
+Iteration 2:   log likelihood = -475.02754  
+Iteration 3:   log likelihood = -475.02697  
+Iteration 4:   log likelihood = -475.02697  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =      95.41
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -475.02697                       Pseudo R2       =     0.0913
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |    .057864   .0323541     1.79   0.074    -.0055489    .1212769
+      age_sq |  -.0002832    .000353    -0.80   0.422    -.0009751    .0004087
+         edu |   .7601328    .092832     8.19   0.000     .5781855    .9420802
+       _cons |  -3.132815   .7454823    -4.20   0.000    -4.593934   -1.671697
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw= wtpreges]
+
+Iteration 0:   log likelihood = -444.30982  
+Iteration 1:   log likelihood = -398.19018  
+Iteration 2:   log likelihood = -395.65599  
+Iteration 3:   log likelihood = -395.64484  
+Iteration 4:   log likelihood = -395.64484  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =      97.33
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -395.64484                       Pseudo R2       =     0.1095
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0966566   .0359845     2.69   0.007     .0261283    .1671849
+      age_sq |  -.0006608    .000394    -1.68   0.094    -.0014331    .0001114
+         edu |   .7901361   .1028396     7.68   0.000     .5885741     .991698
+       _cons |  -3.421537   .8168031    -4.19   0.000    -5.022442   -1.820632
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw= wtpostges]
+
+Iteration 0:   log likelihood = -520.40037  
+Iteration 1:   log likelihood = -456.62633  
+Iteration 2:   log likelihood = -455.25947  
+Iteration 3:   log likelihood = -455.25563  
+Iteration 4:   log likelihood = -455.25563  
+
+Logistic regression                               Number of obs   =        783
+                                                  LR chi2(3)      =     130.29
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -455.25563                       Pseudo R2       =     0.1252
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |    .095884   .0334792     2.86   0.004      .030266    .1615021
+      age_sq |  -.0005952    .000361    -1.65   0.099    -.0013027    .0001123
+         edu |   .8882999   .0994411     8.93   0.000     .6933989    1.083201
+       _cons |  -4.366695   .7919239    -5.51   0.000    -5.918838   -2.814553
+------------------------------------------------------------------------------
+
+
+********************
+**WITH INTEREST
+********************
+
+. logit  voted interest_elect  age age_sq edu [iw= test_jan29 ]
+
+Iteration 0:   log likelihood = -500.75103  
+Iteration 1:   log likelihood =  -388.6056  
+Iteration 2:   log likelihood = -386.17784  
+Iteration 3:   log likelihood = -386.17449  
+Iteration 4:   log likelihood = -386.17449  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     229.15
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -386.17449                       Pseudo R2       =     0.2288
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3304635   .0294822    11.21   0.000     .2726794    .3882475
+         age |   .1074711   .0400146     2.69   0.007      .029044    .1858982
+      age_sq |  -.0009826   .0004563    -2.15   0.031     -.001877   -.0000882
+         edu |   .5881881    .119914     4.91   0.000      .353161    .8232152
+       _cons |  -4.735557   .8686327    -5.45   0.000    -6.438045   -3.033068
+------------------------------------------------------------------------------
+
+
+. logit  voted interest_elect age age_sq edu [iw= test_jan29_1 ]
+
+Iteration 0:   log likelihood =  -501.5378  
+Iteration 1:   log likelihood = -392.38524  
+Iteration 2:   log likelihood = -390.23017  
+Iteration 3:   log likelihood = -390.22644  
+Iteration 4:   log likelihood = -390.22644  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     222.62
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -390.22644                       Pseudo R2       =     0.2219
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3254054   .0294432    11.05   0.000     .2676977    .3831131
+         age |   .0965766   .0396423     2.44   0.015     .0188791    .1742742
+      age_sq |  -.0008477   .0004535    -1.87   0.062    -.0017367    .0000412
+         edu |   .5641379    .118476     4.76   0.000     .3319292    .7963466
+       _cons |   -4.49406   .8560363    -5.25   0.000    -6.171861    -2.81626
+------------------------------------------------------------------------------
+
+
+. logit  voted interest_elect age age_sq edu [iw= test_jan29_2 ]
+
+Iteration 0:   log likelihood = -501.61552  
+Iteration 1:   log likelihood = -391.92435  
+Iteration 2:   log likelihood = -389.73929  
+Iteration 3:   log likelihood = -389.73564  
+Iteration 4:   log likelihood = -389.73564  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     223.76
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -389.73564                       Pseudo R2       =     0.2230
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |    .326348   .0294536    11.08   0.000     .2686201    .3840759
+         age |   .0969132   .0396902     2.44   0.015     .0191219    .1747044
+      age_sq |  -.0008513   .0004538    -1.88   0.061    -.0017408    .0000382
+         edu |    .566989   .1186214     4.78   0.000     .3344954    .7994826
+       _cons |  -4.507686   .8574691    -5.26   0.000    -6.188294   -2.827077
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw= test_jan29_0 ]
+
+Iteration 0:   log likelihood = -495.38397  
+Iteration 1:   log likelihood = -380.35467  
+Iteration 2:   log likelihood = -377.30499  
+Iteration 3:   log likelihood = -377.29957  
+Iteration 4:   log likelihood = -377.29957  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     236.17
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -377.29957                       Pseudo R2       =     0.2384
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3418617   .0298741    11.44   0.000     .2833095     .400414
+         age |   .1050303   .0410848     2.56   0.011     .0245057     .185555
+      age_sq |  -.0009645   .0004666    -2.07   0.039     -.001879   -.0000499
+         edu |   .5830259   .1216961     4.79   0.000      .344506    .8215459
+       _cons |  -4.657097   .8930581    -5.21   0.000    -6.407459   -2.906736
+------------------------------------------------------------------------------
+
+. 
+
+
+
+. logit  voted interest_elect  age age_sq edu [iw= wtpre]
+
+Iteration 0:   log likelihood = -401.59189  
+Iteration 1:   log likelihood = -323.75697  
+Iteration 2:   log likelihood = -317.92362  
+Iteration 3:   log likelihood = -317.87388  
+Iteration 4:   log likelihood = -317.87388  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     167.44
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -317.87388                       Pseudo R2       =     0.2085
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3670268   .0372988     9.84   0.000     .2939225    .4401312
+         age |   .0545606   .0388887     1.40   0.161    -.0216599    .1307811
+      age_sq |  -.0005048   .0004261    -1.18   0.236    -.0013399    .0003304
+         edu |   .4685468   .1088309     4.31   0.000      .255242    .6818515
+       _cons |  -3.424662   .9020645    -3.80   0.000    -5.192676   -1.656649
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect  age age_sq edu [iw= wtpost]
+
+Iteration 0:   log likelihood = -520.66901  
+Iteration 1:   log likelihood = -404.43487  
+Iteration 2:   log likelihood = -403.23973  
+Iteration 3:   log likelihood = -403.23549  
+Iteration 4:   log likelihood = -403.23549  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     234.87
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -403.23549                       Pseudo R2       =     0.2255
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3654178   .0349517    10.45   0.000     .2969136    .4339219
+         age |   .0777312   .0351898     2.21   0.027     .0087605    .1467019
+      age_sq |  -.0006537   .0003845    -1.70   0.089    -.0014074       .0001
+         edu |   .5822947     .09991     5.83   0.000     .3864747    .7781147
+       _cons |  -5.282157   .8492545    -6.22   0.000    -6.946665   -3.617649
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect  age age_sq edu [iw= wtpreges]
+
+Iteration 0:   log likelihood = -442.43019  
+Iteration 1:   log likelihood = -330.33458  
+Iteration 2:   log likelihood = -321.97685  
+Iteration 3:   log likelihood = -321.90569  
+Iteration 4:   log likelihood = -321.90565  
+Iteration 5:   log likelihood = -321.90565  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     241.05
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -321.90565                       Pseudo R2       =     0.2724
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3469566   .0319415    10.86   0.000     .2843523    .4095608
+         age |   .1195829   .0386231     3.10   0.002     .0438831    .1952827
+      age_sq |  -.0010338   .0004183    -2.47   0.013    -.0018536    -.000214
+         edu |   .5437745   .1080055     5.03   0.000     .3320876    .7554614
+       _cons |  -5.045396   .9050322    -5.57   0.000    -6.819226   -3.271565
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect  age age_sq edu [iw= wtpostges]
+
+Iteration 0:   log likelihood = -517.85511  
+Iteration 1:   log likelihood = -369.46988  
+Iteration 2:   log likelihood = -366.86731  
+Iteration 3:   log likelihood = -366.85443  
+Iteration 4:   log likelihood = -366.85443  
+
+Logistic regression                               Number of obs   =        778
+                                                  LR chi2(4)      =     302.00
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -366.85443                       Pseudo R2       =     0.2916
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3502107   .0299826    11.68   0.000     .2914459    .4089755
+         age |   .1096925   .0365368     3.00   0.003     .0380816    .1813034
+      age_sq |  -.0009056   .0003937    -2.30   0.021    -.0016773   -.0001339
+         edu |   .6136898   .1063914     5.77   0.000     .4051666    .8222131
+       _cons |  -5.821615   .8808754    -6.61   0.000    -7.548099   -4.095131
+------------------------------------------------------------------------------
+
+. 
+
+
+. pwcorr  test_jan29 test_jan29_1 test_jan29_2 test_jan29_0 test7 age age_sq edu interest_elect qsd2
+
+             | test_~29 test_~_1 test_j~2 test_j~0    test7      age   age_sq
+-------------+---------------------------------------------------------------
+  test_jan29 |   1.0000 
+test_jan29_1 |   0.9941   1.0000 
+test_jan29_2 |   0.9942   0.9998   1.0000 
+test_jan29_0 |   0.9819   0.9743   0.9745   1.0000 
+       test7 |   0.9633   0.9653   0.9657   0.9700   1.0000 
+         age |  -0.1470  -0.1533  -0.1519  -0.1300  -0.1478   1.0000 
+      age_sq |  -0.1459  -0.1506  -0.1493  -0.1312  -0.1488   0.9864   1.0000 
+         edu |  -0.1315  -0.1329  -0.1334  -0.1389  -0.1449  -0.1604  -0.1662 
+interest_e~t |  -0.4021  -0.3979  -0.3985  -0.4015  -0.4319   0.1657   0.1630 
+        qsd2 |  -0.2213  -0.2284  -0.2284  -0.2197  -0.2365   0.1611   0.1653 
+
+             |      edu intere~t     qsd2
+-------------+---------------------------
+         edu |   1.0000 
+interest_e~t |   0.1440   1.0000 
+        qsd2 |   0.0437   0.1599   1.0000 
+
+. 
+
+ sum  newtestjan29_1 newtestjan29_2 newtestjan29_3  newtestjan29
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+newtestjan~1 |      1016    3.276575    6.957102          0         47
+newtestjan~2 |      1016    3.742126    7.624593          0         50
+newtestjan~3 |      1016    3.764764    7.680105          0         50
+newtestjan29 |      1016    2.623031    5.518676          0         36
+
+. 
+
+ reg intent_2_vote_q7b newtestjan29_1 interest_elect  new_test29_1_interest
+
+      Source |       SS       df       MS              Number of obs =     358
+-------------+------------------------------           F(  3,   354) =  101.99
+       Model |  1566.24091     3  522.080304           Prob > F      =  0.0000
+    Residual |  1812.13898   354  5.11903666           R-squared     =  0.4636
+-------------+------------------------------           Adj R-squared =  0.4591
+       Total |  3378.37989   357  9.46324899           Root MSE      =  2.2625
+
+------------------------------------------------------------------------------
+intent_2_~7b |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+newtestjan~1 |  -.1301575   .0314702    -4.14   0.000    -.1920495   -.0682654
+interest_e~t |   .5721194    .049025    11.67   0.000     .4757025    .6685363
+new_test29~t |   .0138847   .0062794     2.21   0.028     .0015351    .0262342
+       _cons |    4.38799    .382164    11.48   0.000     3.636393    5.139588
+------------------------------------------------------------------------------
+
+. 
+
+WITH FLAGGED RESPONDENTS REMOVED:
+
+*********************
+**simple logit model
+**********************
+. logit  voted age age_sq edu if flag==.
+
+Iteration 0:   log likelihood = -369.47286  
+Iteration 1:   log likelihood = -341.96311  
+Iteration 2:   log likelihood = -340.07854  
+Iteration 3:   log likelihood = -340.07336  
+Iteration 4:   log likelihood = -340.07336  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      58.80
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -340.07336                       Pseudo R2       =     0.0796
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0408438   .0421267     0.97   0.332     -.041723    .1234106
+      age_sq |   .0000333   .0004932     0.07   0.946    -.0009333        .001
+         edu |   .5424851   .1127151     4.81   0.000     .3215676    .7634027
+       _cons |  -1.400493   .8559422    -1.64   0.102    -3.078109    .2771228
+------------------------------------------------------------------------------
+
+
+. logit  voted age age_sq edu [iw=  test_jan29 ] if flag==.
+
+Iteration 0:   log likelihood = -455.62573  
+Iteration 1:   log likelihood = -410.51647  
+Iteration 2:   log likelihood =  -407.5788  
+Iteration 3:   log likelihood = -407.55183  
+Iteration 4:   log likelihood = -407.55182  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      96.15
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -407.55182                       Pseudo R2       =     0.1055
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |  -.0252583    .045267    -0.56   0.577    -.1139799    .0634633
+      age_sq |   .0010101   .0005658     1.79   0.074    -.0000989     .002119
+         edu |   .6344948   .1144515     5.54   0.000      .410174    .8588157
+       _cons |  -1.045244   .8767583    -1.19   0.233    -2.763659     .673171
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw=  test_jan29_1] if flag==.
+
+Iteration 0:   log likelihood =   -456.909  
+Iteration 1:   log likelihood = -410.45322  
+Iteration 2:   log likelihood = -406.98652  
+Iteration 3:   log likelihood = -406.93759  
+Iteration 4:   log likelihood = -406.93755  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      99.94
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -406.93755                       Pseudo R2       =     0.1094
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |  -.0429061   .0460108    -0.93   0.351    -.1330856    .0472734
+      age_sq |   .0012537   .0005801     2.16   0.031     .0001168    .0023907
+         edu |   .6123196   .1136422     5.39   0.000     .3895851    .8350541
+       _cons |  -.7215744   .8815172    -0.82   0.413    -2.449316    1.006168
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw=  test_jan29_2] if flag==.
+
+Iteration 0:   log likelihood = -456.58845  
+Iteration 1:   log likelihood = -410.27537  
+Iteration 2:   log likelihood = -406.86364  
+Iteration 3:   log likelihood = -406.81695  
+Iteration 4:   log likelihood = -406.81691  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      99.54
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -406.81691                       Pseudo R2       =     0.1090
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |  -.0396449   .0459022    -0.86   0.388    -.1296115    .0503217
+      age_sq |   .0012105    .000578     2.09   0.036     .0000776    .0023433
+         edu |   .6137565   .1137825     5.39   0.000     .3907468    .8367662
+       _cons |  -.7792459   .8808297    -0.88   0.376     -2.50564    .9471486
+------------------------------------------------------------------------------
+
+
+
+. logit  voted age age_sq edu [iw=  test_jan29_0] if flag==.
+
+Iteration 0:   log likelihood = -445.50225  
+Iteration 1:   log likelihood = -401.29826  
+Iteration 2:   log likelihood =  -398.1996  
+Iteration 3:   log likelihood = -398.16841  
+Iteration 4:   log likelihood = -398.16839  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      94.67
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -398.16839                       Pseudo R2       =     0.1062
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |  -.0280297   .0466793    -0.60   0.548    -.1195193      .06346
+      age_sq |   .0010455   .0005808     1.80   0.072    -.0000929    .0021839
+         edu |   .6268548   .1151323     5.44   0.000     .4011996    .8525099
+       _cons |  -.9295846   .9060578    -1.03   0.305    -2.705425    .8462561
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw=  wtpre] if flag==.
+
+Iteration 0:   log likelihood = -357.92367  
+Iteration 1:   log likelihood = -337.03932  
+Iteration 2:   log likelihood = -335.97897  
+Iteration 3:   log likelihood = -335.97594  
+Iteration 4:   log likelihood = -335.97594  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      43.90
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -335.97594                       Pseudo R2       =     0.0613
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0378412   .0390072     0.97   0.332    -.0386115    .1142938
+      age_sq |  -.0000751   .0004429    -0.17   0.865    -.0009432    .0007931
+         edu |   .5279296   .1037419     5.09   0.000     .3245992      .73126
+       _cons |  -1.148526     .82699    -1.39   0.165    -2.769397    .4723443
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw=  wtpost] if flag==.
+
+Iteration 0:   log likelihood = -474.61667  
+Iteration 1:   log likelihood = -433.33837  
+Iteration 2:   log likelihood =  -432.7671  
+Iteration 3:   log likelihood = -432.76673  
+Iteration 4:   log likelihood = -432.76673  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      83.70
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -432.76673                       Pseudo R2       =     0.0882
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .0649728   .0334399     1.94   0.052    -.0005683    .1305139
+      age_sq |  -.0002789   .0003691    -0.76   0.450    -.0010023    .0004446
+         edu |   .6268135   .0937947     6.68   0.000     .4429793    .8106476
+       _cons |  -3.048283   .7560837    -4.03   0.000     -4.53018   -1.566386
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw=  wtpreges] if flag==.
+
+Iteration 0:   log likelihood = -391.07761  
+Iteration 1:   log likelihood = -348.78661  
+Iteration 2:   log likelihood = -346.05543  
+Iteration 3:   log likelihood = -346.04793  
+Iteration 4:   log likelihood = -346.04793  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =      90.06
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -346.04793                       Pseudo R2       =     0.1151
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .1103515   .0383283     2.88   0.004     .0352293    .1854736
+      age_sq |  -.0006948   .0004283    -1.62   0.105    -.0015343    .0001447
+         edu |   .6478914   .1041053     6.22   0.000     .4438488     .851934
+       _cons |  -3.495581   .8455396    -4.13   0.000    -5.152808   -1.838353
+------------------------------------------------------------------------------
+
+. logit  voted age age_sq edu [iw=  wtpostges] if flag==.
+
+Iteration 0:   log likelihood = -466.00937  
+Iteration 1:   log likelihood = -408.35296  
+Iteration 2:   log likelihood = -407.02686  
+Iteration 3:   log likelihood = -407.02288  
+Iteration 4:   log likelihood = -407.02288  
+
+Logistic regression                               Number of obs   =        749
+                                                  LR chi2(3)      =     117.97
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -407.02288                       Pseudo R2       =     0.1266
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+         age |   .1087668   .0347183     3.13   0.002     .0407202    .1768134
+      age_sq |  -.0006466   .0003789    -1.71   0.088    -.0013891     .000096
+         edu |   .7293941   .1001942     7.28   0.000     .5330171    .9257711
+       _cons |  -4.350845   .8041606    -5.41   0.000    -5.926971   -2.774719
+------------------------------------------------------------------------------
+
+. 
+
+************************
+****
+**WITH ADDED INTEREST
+****
+************************
+
+. logit  voted interest_elect age age_sq edu if flag==.
+
+Iteration 0:   log likelihood = -366.97044  
+Iteration 1:   log likelihood =  -296.8193  
+Iteration 2:   log likelihood = -290.46044  
+Iteration 3:   log likelihood = -290.40205  
+Iteration 4:   log likelihood = -290.40204  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     153.14
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -290.40204                       Pseudo R2       =     0.2087
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3411017   .0374036     9.12   0.000      .267792    .4144113
+         age |   .0770952   .0433629     1.78   0.075    -.0078946     .162085
+      age_sq |  -.0005418   .0004987    -1.09   0.277    -.0015193    .0004357
+         edu |   .3768051    .119053     3.17   0.002     .1434656    .6101447
+       _cons |  -3.704823   .9407231    -3.94   0.000    -5.548606   -1.861039
+------------------------------------------------------------------------------
+
+
+
+. logit  voted interest_elect age age_sq edu [iw=  test_jan29 ] if flag==.
+
+Iteration 0:   log likelihood = -442.86349  
+Iteration 1:   log likelihood = -342.13901  
+Iteration 2:   log likelihood = -338.78078  
+Iteration 3:   log likelihood = -338.76367  
+Iteration 4:   log likelihood = -338.76367  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     208.20
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -338.76367                       Pseudo R2       =     0.2351
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3125473   .0327676     9.54   0.000      .248324    .3767706
+         age |   .0811689   .0460219     1.76   0.078    -.0090324    .1713702
+      age_sq |  -.0004527   .0005563    -0.81   0.416    -.0015431    .0006377
+         edu |   .4833711   .1231547     3.92   0.000     .2419924    .7247498
+       _cons |  -4.194037    .953807    -4.40   0.000    -6.063465    -2.32461
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw=  test_jan29_1 ] if flag==.
+
+Iteration 0:   log likelihood = -444.37984  
+Iteration 1:   log likelihood = -344.59253  
+Iteration 2:   log likelihood = -341.15151  
+Iteration 3:   log likelihood = -341.12415  
+Iteration 4:   log likelihood = -341.12414  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     206.51
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -341.12414                       Pseudo R2       =     0.2324
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3067429   .0328165     9.35   0.000     .2424236    .3710621
+         age |     .06295   .0467247     1.35   0.178    -.0286287    .1545286
+      age_sq |  -.0002089   .0005709    -0.37   0.714     -.001328    .0009101
+         edu |   .4570317    .121931     3.75   0.000     .2180513    .6960121
+       _cons |    -3.8291   .9551551    -4.01   0.000     -5.70117   -1.957031
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw=  test_jan29_2 ] if flag==.
+
+Iteration 0:   log likelihood = -444.03432  
+Iteration 1:   log likelihood = -343.87894  
+Iteration 2:   log likelihood = -340.43107  
+Iteration 3:   log likelihood = -340.40449  
+Iteration 4:   log likelihood = -340.40448  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     207.26
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -340.40448                       Pseudo R2       =     0.2334
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3085497   .0328615     9.39   0.000     .2441424     .372957
+         age |   .0648785   .0466414     1.39   0.164     -.026537     .156294
+      age_sq |  -.0002344   .0005691    -0.41   0.680    -.0013498     .000881
+         edu |   .4592901   .1221109     3.76   0.000     .2199571    .6986231
+       _cons |  -3.872716   .9550597    -4.05   0.000    -5.744598   -2.000833
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw=  test_jan29_0 ] if flag==.
+
+Iteration 0:   log likelihood = -434.61925  
+Iteration 1:   log likelihood = -331.13677  
+Iteration 2:   log likelihood = -326.88402  
+Iteration 3:   log likelihood = -326.85632  
+Iteration 4:   log likelihood = -326.85631  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     215.53
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -326.85631                       Pseudo R2       =     0.2479
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3288793   .0333878     9.85   0.000     .2634405    .3943181
+         age |   .0790575   .0476753     1.66   0.097    -.0143844    .1724995
+      age_sq |  -.0004335   .0005739    -0.76   0.450    -.0015583    .0006912
+         edu |   .4764905   .1252568     3.80   0.000     .2309917    .7219892
+       _cons |  -4.148607   .9878709    -4.20   0.000    -6.084798   -2.212415
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw=  wtpre ] if flag==.
+
+Iteration 0:   log likelihood = -356.23618  
+Iteration 1:   log likelihood = -292.17152  
+Iteration 2:   log likelihood = -285.89281  
+Iteration 3:   log likelihood = -285.83327  
+Iteration 4:   log likelihood = -285.83324  
+Iteration 5:   log likelihood = -285.83324  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     140.81
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -285.83324                       Pseudo R2       =     0.1976
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3670562   .0399918     9.18   0.000     .2886737    .4454387
+         age |   .0667591   .0400434     1.67   0.095    -.0117244    .1452427
+      age_sq |  -.0005526   .0004439    -1.25   0.213    -.0014226    .0003173
+         edu |    .368642   .1111636     3.32   0.001     .1507654    .5865186
+       _cons |  -3.529436    .919278    -3.84   0.000    -5.331188   -1.727684
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw=  wtpost ] if flag==.
+
+Iteration 0:   log likelihood = -472.65499  
+Iteration 1:   log likelihood = -371.96286  
+Iteration 2:   log likelihood = -370.32196  
+Iteration 3:   log likelihood = -370.31909  
+Iteration 4:   log likelihood = -370.31909  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     204.67
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -370.31909                       Pseudo R2       =     0.2165
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3616941    .036622     9.88   0.000     .2899162    .4334719
+         age |   .0849362   .0355044     2.39   0.017     .0153489    .1545234
+      age_sq |  -.0006621   .0003903    -1.70   0.090     -.001427    .0001028
+         edu |   .4711147   .1015363     4.64   0.000     .2721071    .6701222
+       _cons |   -5.20801   .8523141    -6.11   0.000    -6.878515   -3.537505
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw=  wtpreges ] if flag==.
+
+Iteration 0:   log likelihood = -389.33816  
+Iteration 1:   log likelihood = -291.52211  
+Iteration 2:   log likelihood = -283.09096  
+Iteration 3:   log likelihood =    -283.02  
+Iteration 4:   log likelihood = -283.01997  
+Iteration 5:   log likelihood = -283.01997  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     212.64
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -283.01997                       Pseudo R2       =     0.2731
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3570055   .0353378    10.10   0.000     .2877447    .4262662
+         age |   .1410005   .0396594     3.56   0.000     .0632696    .2187314
+      age_sq |  -.0011958   .0004321    -2.77   0.006    -.0020427    -.000349
+         edu |   .4357889   .1103905     3.95   0.000     .2194275    .6521503
+       _cons |  -5.345149   .9246013    -5.78   0.000    -7.157334   -3.532964
+------------------------------------------------------------------------------
+
+. logit  voted interest_elect age age_sq edu [iw=  wtpostges ] if flag==.
+
+Iteration 0:   log likelihood = -463.65138  
+Iteration 1:   log likelihood = -330.58644  
+Iteration 2:   log likelihood = -326.89743  
+Iteration 3:   log likelihood = -326.89208  
+Iteration 4:   log likelihood = -326.89208  
+
+Logistic regression                               Number of obs   =        744
+                                                  LR chi2(4)      =     273.52
+                                                  Prob > chi2     =     0.0000
+Log likelihood = -326.89208                       Pseudo R2       =     0.2950
+
+------------------------------------------------------------------------------
+       voted |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+interest_e~t |   .3644486   .0327061    11.14   0.000     .3003458    .4285513
+         age |   .1264381   .0370855     3.41   0.001     .0537519    .1991243
+      age_sq |  -.0010331   .0004009    -2.58   0.010    -.0018188   -.0002473
+         edu |     .49889   .1091062     4.57   0.000     .2850459    .7127342
+       _cons |   -6.01821   .8931912    -6.74   0.000    -7.768833   -4.267588
+------------------------------------------------------------------------------
+
+. 
+
+
+************
+**IV
+************
+
+. reg intent_2_vote_q7b newtestjan29_1 interest_elect  new_test29_1_interest if flag==.
+
+      Source |       SS       df       MS              Number of obs =     333
+-------------+------------------------------           F(  3,   329) =  107.95
+       Model |  1273.40685     3  424.468949           Prob > F      =  0.0000
+    Residual |  1293.62018   329  3.93197623           R-squared     =  0.4961
+-------------+------------------------------           Adj R-squared =  0.4915
+       Total |  2567.02703   332  7.73200912           Root MSE      =  1.9829
+
+------------------------------------------------------------------------------
+intent_2_~7b |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+newtestjan~1 |  -.1292882   .0291899    -4.43   0.000    -.1867106   -.0718659
+interest_e~t |   .5452016   .0448467    12.16   0.000     .4569792     .633424
+new_test29~t |   .0142706   .0057577     2.48   0.014     .0029441    .0255971
+       _cons |   4.778139   .3518128    13.58   0.000     4.086052    5.470225
+------------------------------------------------------------------------------
+

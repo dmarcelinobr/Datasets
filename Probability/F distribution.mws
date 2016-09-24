@@ -1,0 +1,64 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 175 "F-Distribution.  This she
+et calculates probabilities for an F distributed variable.  The user s
+upplies degrees of freedom nu1 and nu2 and calculated values of the F \+
+statistic." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 141 "f:=(GAMMA((nu[1]+nu[2])/2))
+/(GAMMA(nu[1]/2)*GAMMA(nu[2]/2))*nu[1]^(nu[1]/2)*nu[2]^(nu[2]/2)*x^(nu
+[1]/2-1)*(nu[2]+nu[1]*x)^(-(nu[1]+nu[2])/2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG*0-%&GAMMAG6#,&&%#nuG6#\"\"\"#F-\"\"#*&F.F-&F+6#F
+/F-F-F--F'6#,$F*F.!\"\"-F'6#,$F1F.F6)F*F5F-)F1F9F-)%\"xG,&F*F.F-F6F-),
+&F1F-*&F*F-F=F-F-,&F*#F6F/*&#F-F/F-F1F-F6F-" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 9 "nu[1]:=4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#nu
+G6#\"\"\"\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "nu[2]:=10
+0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#nuG6#\"\"#\"$+\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "F:=2.46;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"FG$\"$Y#!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 20 "integrate(f,x=0..F);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+q3
+,)\\*!#5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "plot(f,x=0..F);
+" }}{PARA 13 "" 1 "" {GLPLOT2D 400 300 300 {PLOTDATA 2 "6%-%'CURVESG6$
+7hn7$$\"\"!F)F(7$$\"3*)***\\7)\\_S8!#>$\"3.<1U;p)*=`F-7$$\"3y****\\i*
+\\5o#F-$\"3y\\zK+&oX.\"!#=7$$\"3m***\\P%\\d@SF-$\"3Feu#4eO#4:F57$$\"3a
+*****\\#**4i`F-$\"3_CXA_M3d>F57$$\"3?**\\(=;n[p(F-$\"3)3@(*4iDen#F57$$
+\"3-+]()RMw-5F5$\"3ti6eC&QCK$F57$$\"3/+DJ8v5l7F5$\"3uTJGhl.qRF57$$\"3#
+****\\ne^u_\"F5$\"3,3$oJSC,a%F57$$\"3')*****pkM:z\"F5$\"3;H-IlVGU]F57$
+$\"35++D2xhb?F5$\"3O0td,&>'yaF57$$\"3x*\\7oiX%=BF5$\"3iP3D4z9`eF57$$\"
+3s**\\PYNF\"e#F5$\"3)4cVf*[EthF57$$\"3s**\\(yzB'oIF5$\"3D_+djV%)QmF57$
+$\"3k**\\([vYKd$F5$\"3'e[Vp@y)ppF57$$\"3p**\\(ok(=MQF5$\"3umUu*4w$*3(F
+57$$\"3s**\\()Q&G^4%F5$\"3Sv&y_e=z<(F57$$\"3'***\\7!fK_N%F5$\"3$Rhx;j.
+$QsF57$$\"3m**\\PTmL:YF5$\"3'Q'*pu$ybtsF57$$\"3++v$*Gc)G)[F5$\"3aJ,&H9
+;iG(F57$$\"3M++];YV]^F5$\"39;?$z)**RxsF57$$\"3M**\\P5>4'Q&F5$\"3od8,\"
+opOD(F57$$\"3Z***\\U?\\<i&F5$\"3\"H5w+r&\\;sF57$$\"3g++]*zPB:'F5$\"3=9
+.&\\Wa.4(F57$$\"3;****\\U]5&o'F5$\"37E\"[%)3\\`\"pF57$$\"35++]+]_)>(F5
+$\"3!zI)3)Qg:r'F57$$\"3!)**\\()3&fZm(F5$\"3$GJF$>+'R]'F57$$\"3e****\\M
+u:>#)F5$\"3D2j%)=*))oB'F57$$\"3;*****z>0))o)F5$\"373V]s**y)*fF57$$\"3
+\"*)*\\(e><^B*F5$\"3mbzP<'>Nr&F57$$\"3?*****H)ep=(*F5$\"3enKW#>YtX&F57
+$$\"33+veMe#\\-\"!#<$\"3o!>XJN=e<&F57$$\"3)**\\ix#zWv5F_u$\"3`;2z\\c&*
+4\\F57$$\"35+](=Vi\"G6F_u$\"3_QH8S+:PYF57$$\"35+vL-3dw6F_u$\"3EBn4)3OB
+R%F57$$\"3(***\\ipdyG7F_u$\"3*G+2?#*>d8%F57$$\"3#**\\()eWAIG\"F_u$\"3/
+'Rfi!oXyQF57$$\"3&**\\7?jN-L\"F_u$\"3YE,*4oxGm$F57$$\"3)***\\ZmrA\"Q\"
+F_u$\"3gG4:5$o#RMF57$$\"3s****46k!RV\"F_u$\"3!\\b<'y>j=KF57$$\"3')**\\
+duFW&[\"F_u$\"3;$3)Q=g98IF57$$\"3&)*\\(=coIN:F_u$\"3A-,rk;6CGF57$$\"3'
+***\\A<Cn!f\"F_u$\"3/%RJ]e2ai#F57$$\"3p****HO3US;F_u$\"3%o#[S3FucCF57$
+$\"3%****\\A*y`$p\"F_u$\"3SsJagxt'G#F57$$\"3*)*\\(oR)p;u\"F_u$\"3ox:a&
+)pUT@F57$$\"3/++br2H%z\"F_u$\"3o=;:qNv\"*>F57$$\"3i*\\(enH!Q%=F_u$\"33
+\\p?KhOf=F57$$\"3-+vtyub&*=F_u$\"3dK/ZoSPH<F57$$\"3q***\\K(p:Y>F_u$\"3
+)***QtF>@5;F57$$\"3))*\\(oa*H\"**>F_u$\"3)[lt!\\,Y$\\\"F57$$\"3')****z
+J#\\,0#F_u$\"3Ea*pAYk$)Q\"F57$$\"3\")**\\_6QK-@F_u$\"37:GH^\\&zG\"F57$
+$\"3-+vQfj1a@F_u$\"3KepR>.0&>\"F57$$\"3'*****4(Q7;?#F_u$\"3+1f3[!=_6\"
+F57$$\"3#***\\U+b5cAF_u$\"3z,D+I)p)H5F57$$\"3!)****f!zW[I#F_u$\"3_&)33
+ECw(e*F-7$$\"3%**\\(eR5\"oN#F_u$\"3!)oA@Q-)4)))F-7$$\"3&)*\\71P\\lS#F_
+u$\"3)\\lYQaS5D)F-7$$\"3'*************fCF_u$\"3B!RE%3Ej@wF--%'COLOURG6
+&%$RGBG$\"#5!\"\"F(F(-%+AXESLABELSG6$Q\"x6\"Q!Fi^l-%%VIEWG6$;F($\"$Y#!
+\"#%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 
+0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "
+8 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 
+}

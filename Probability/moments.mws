@@ -1,0 +1,74 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 510 "The Moments about the Mea
+n of a Distribution: The second, third, and fourth moments about the m
+ean of a distribution are the variance, skewness, and kurtosis.  In pr
+actice, the skewness and kurtosis are normalized because the higher mo
+ments tend to explode.  Below are the calculations for obtaining the m
+oments and normalized skewness and kurtosis of a distribution.  Plug i
+n any distribution at f to use this sheet, but you must adjust the bou
+ndaries of integration to assure you have a probability function." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "f:=4*x/81*
+(9-x^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,$*&%\"xG\"\"\",&\"
+\"*F(*$)F'\"\"#F(!\"\"F(#\"\"%\"#\")" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "integrate(f,x=0..3);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "plot(f,x=0..3)
+;" }}{PARA 13 "" 1 "" {GLPLOT2D 400 300 300 {PLOTDATA 2 "6%-%'CURVESG6
+$7U7$$\"\"!F)F(7$$\"3s******\\i9Rl!#>$\"3Aqk'))R1\\!HF-7$$\"3/++vVA)GA
+\"!#=$\"3#RX>!R8+EaF-7$$\"3+++]Peui=F3$\"3'R!o.\"Q_pC)F-7$$\"3A++]i3&o
+]#F3$\"3lYXg\"Gwj5\"F37$$\"3%)***\\(oX*y9$F3$\"3ar^$>=gOQ\"F37$$\"3z**
+*\\P9CAu$F3$\"3A%\\:_sItj\"F37$$\"3!)***\\P*zhdVF3$\"3!ywFI%o&e*=F37$$
+\"31++v$>fS*\\F3$\"3Wd3OPK2e@F37$$\"3$)***\\(=$f%GcF3$\"3r)4*o%f%[8CF3
+7$$\"3Q+++Dy,\"G'F3$\"3)*[5.qi>pEF37$$\"33++]7<zboF3$\"3s#3NZ4!*y)GF37
+$$\"3`+++v4&G](F3$\"3)ezE%G%Hg7$F37$$\"3!)*****\\7nD:)F3$\"3E>Bv5/ybLF
+37$$\"3[+++D!*oy()F3$\"3#*G#*>*=\\vc$F37$$\"3))***\\PpnsM*F3$\"3Kxkyh/
+/^PF37$$\"3,++]siL-5!#<$\"3w]dO![Jv&RF37$$\"3-+++!R5'f5Fdp$\"30N<Il<(=
+7%F37$$\"3)***\\P/QBE6Fdp$\"3?:tu`E/+VF37$$\"3!******\\\"o?&=\"Fdp$\"3
+YtcaeQUXWF37$$\"31+]Pa&4*\\7Fdp$\"3OMY)=vc3f%F37$$\"33+]7j=_68Fdp$\"3e
+Gz#p-W\\r%F37$$\"33++vVy!eP\"Fdp$\"3#psq:xz'G[F37$$\"34+](=WU[V\"Fdp$
+\"3-U<Ae[I=\\F37$$\"3)****\\7B>&)\\\"Fdp$\"3OM(y.$)\\$)*\\F37$$\"3)***
+\\P>:mk:Fdp$\"3o%>%yi7Ui]F37$$\"3'***\\iv&QAi\"Fdp$\"3=f-]5Or,^F37$$\"
+31++vtLU%o\"Fdp$\"3*>Pcy4Ni7&F37$$\"3!******\\Nm'[<Fdp$\"3;7s6:<HJ^F37
+$$\"3\"****\\(yb^6=Fdp$\"3%=n$3&>^b6&F37$$\"3)***\\PMaKs=Fdp$\"3w)3I,@
+[,3&F37$$\"3&****\\7TW)R>Fdp$\"3_9zYNkx;]F37$$\"3z*****\\@80+#Fdp$\"3m
+i#Rf]5v$\\F37$$\"31++]7,Hl?Fdp$\"3..97cvxG[F37$$\"3()**\\P4w)R7#Fdp$\"
+3YbC1$e&43ZF37$$\"3;++]x%f\")=#Fdp$\"3#[]=$QkK^XF37$$\"3!)**\\P/-a[AFd
+p$\"3?MR#[Q`%zVF37$$\"3/+](=Yb;J#Fdp$\"3oHbO\\7#Q<%F37$$\"3')****\\i@O
+tBFdp$\"3CgErgbSYRF37$$\"3')**\\PfL'zV#Fdp$\"3/'Q1op?'zOF37$$\"3>+++!*
+>=+DFdp$\"33Nfdd`=%R$F37$$\"3-++DE&4Qc#Fdp$\"3')GXco@isIF37$$\"3=+]P%>
+5pi#Fdp$\"3#H4\"[e1NBFF37$$\"39+++bJ*[o#Fdp$\"3m.#R\"G75vBF37$$\"33++D
+r\"[8v#Fdp$\"3T&3:([//V>F37$$\"3++++Ijy5GFdp$\"3$3%He+a7E:F37$$\"31+]P
+/)fT(GFdp$\"378IBqC=\\5F37$$\"3&)*****\\0)[/HFdp$\"3O/'*=&e2))3)F-7$$
+\"31+]i0j\"[$HFdp$\"3bnc;ZKj1cF-7$$\"3E+D\"G:3u'HFdp$\"35s\"\\0*Q,]GF-
+7$$\"\"$F)F(-%'COLOURG6&%$RGBG$\"#5!\"\"F(F(-%+AXESLABELSG6$Q\"x6\"Q!F
+j[l-%%VIEWG6$;F(F][l%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 1.000000 
+45.000000 45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "E[x]:=integrate(x*f,x=0..3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"EG6#%\"xG#\"\")\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 38 "mu[0]:=integrate((x-E[x])^0*f,x=0..3);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>&%#muG6#\"\"!\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 38 "mu[1]:=integrate((x-E[x])^1*f,x=0..3);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>&%#muG6#\"\"\"\"\"!" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 38 "mu[2]:=integrate((x-E[x])^2*f,x=0..3);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%#muG6#\"\"##\"#6\"#D" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 38 "mu[3]:=integrate((x-E[x])^3*f,x=0..3);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#muG6#\"\"$#!#K\"$v)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "mu[4]:=integrate((x-E[x])^4*f,x=0..
+3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#muG6#\"\"%#\"%$p$\"%]()" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "variance:=evalf(m[2]);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)varianceG$\"+++++W!#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "skewness:=evalf(mu[3]/mu[2]^(3/2));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)skewnessG$!+fT.`7!#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "kurtosis:=evalf(mu[4]/mu[2]^
+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)kurtosisG$\"+Es/!=#!\"*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "12 0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

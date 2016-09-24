@@ -1,0 +1,71 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 343 "Gamma Distribution with p
+arameters Lambda and P and random variable x.  The Gamma encompasses s
+everal other distributions.  When P=1 it becomes an exponential distri
+bution.  When lambda=1/2 and P=n/2 it is a chi-squared.  The Erlang di
+stribution results for P=any positive integer.  Note that lambda=1/b f
+or the Generalized Gamma distribution." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "f:=(lambda^P/GAMMA(P))*exp(-lambda*
+x)*x^(P-1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG**)%'lambdaG%\"PG
+\"\"\"-%&GAMMAG6#F(!\"\"-%$expG6#,$*&F'F)%\"xGF)F-F))F3,&F(F)F)F-F)" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "lambda:=1;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%'lambdaG\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "P:=3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"PG\"\"$" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "evalf(integrate(f,x=0..10
+00));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"\"\"\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "plot(f,x=0..10);" }}{PARA 13 "" 1 "
+" {GLPLOT2D 400 300 300 {PLOTDATA 2 "6%-%'CURVESG6$7bo7$$\"\"!F)F(7$$
+\"3WmmmT&)G\\a!#>$\"31bx7@C9l5F-7$$\"3GLLL3x&)*3\"!#=$\"3ZdG1'zO1#QF-7
+$$\"3$*****\\ilyM;F3$\"3))=!3ZX#z3xF-7$$\"3emmm;arz@F3$\"3\\+!=OZV*G7F
+37$$\"3;L$e*)4bQl#F3$\"395C$*)RFpl\"F37$$\"3v***\\7y%*z7$F3$\"3m._A!**
+>O4#F37$$\"3Lm;ajW8-OF3$\"3YFK8O&Q__#F37$$\"3[LL$e9ui2%F3$\"3%=l9dN57%
+HF37$$\"3\"pm\"H2Q\\4YF3$\"3-zl&omx0Q$F37$$\"3z***\\(oMrU^F3$\"3O#ps*G
+[G#y$F37$$\"3oK$3-8Lfn&F3$\"3F7@Zx*G79%F37$$\"3nmmm\"z_\"4iF3$\"3c\"3-
+z0dXX%F37$$\"3Unmmm6m#G(F3$\"3]9tOc_(R%\\F37$$\"39ommT&phN)F3$\"3wK)ps
+z*H^_F37$$\"37M$3-js.*))F3$\"3;QC@'R`=M&F37$$\"3A,+v=ddC%*F3$\"3-%>Iv:
++[R&F37$$\"3wM3-jsn\"p*F3$\"3$RdFhWf\"3aF37$$\"3?n;H2)y(e**F3$\"38>,s#
+4>LT&F37$$\"3'*\\i:N!)eA5!#<$\"3/R2`')3p5aF37$$\"3KLLe*=)H\\5Fcq$\"35P
+LBPqo+aF37$$\"3-++v=JN[6Fcq$\"3\"4t4$45'fI&F37$$\"3smm\"z/3uC\"Fcq$\"3
+7S\\&)p?hN^F37$$\"3ULLe*ot*\\8Fcq$\"3/XLZ:([$**[F37$$\"3!****\\7LRDX\"
+Fcq$\"3sZ*[/!4:?YF37$$\"3[LLekGhe:Fcq$\"3#os!z3\\r-VF37$$\"3%om;zR'ok;
+Fcq$\"3%)Q')=\")e0qRF37$$\"3OLL3_(>/x\"Fcq$\"35WP!*)H1Xj$F37$$\"33++D1
+J:w=Fcq$\"3r#eH)yVi.LF37$$\"3+n;HdG\"\\)>Fcq$\"3'3mqi=!)[(HF37$$\"3oLL
+L3En$4#Fcq$\"3E'yl'H\")yiEF37$$\"3_++Dc#o%*=#Fcq$\"3\"[3Fvu.VS#F37$$\"
+3#pmmT!RE&G#Fcq$\"3%)3-x*\\2E;#F37$$\"3D+++D.&4]#Fcq$\"3Sy<xHmc#o\"F37
+$$\"3;+++vB_<FFcq$\"3e\"4i-fQ#)G\"F37$$\"33+++v'Hi#HFcq$\"3i*\\8<4%zR)
+*F-7$$\"3&om;z*ev:JFcq$\"31WWL\">rhj(F-7$$\"3_LLL347TLFcq$\"3/nlP7zy%f
+&F-7$$\"3nLLLLY.KNFcq$\"3!e)[P\"*>*zE%F-7$$\"33++D\"o7Tv$Fcq$\"3ag#okS
+'Q#4$F-7$$\"3?LLL$Q*o]RFcq$\"3KI'=R.H9J#F-7$$\"3m++D\"=lj;%Fcq$\"3Uaca
+!e(**p;F-7$$\"3S++vV&R<P%Fcq$\"3[+%R0AP$>7F-7$$\"3CML$e9Ege%Fcq$\"3Kh4
+[YX+T()!#?7$$\"3]LLeR\"3Gy%Fcq$\"3$*e=.P#QST'F^y7$$\"3emm;/T1&*\\Fcq$
+\"3w\\4ldZ)fd%F^y7$$\"3=nm\"zRQb@&Fcq$\"3>$)HCQo&*4KF^y7$$\"3:++v=>Y2a
+Fcq$\"3=j5MK\\j]BF^y7$$\"3Znm;zXu9cFcq$\"3=&)*\\9')GUn\"F^y7$$\"34+++]
+y))GeFcq$\"3]CE9vOxv6F^y7$$\"3H++]i_QQgFcq$\"3Eb_Vi.-*H)!#@7$$\"3b++D
+\"y%3TiFcq$\"3b;slXFv5fFb[l7$$\"3+++]P![hY'Fcq$\"3a(\\')G%Q2XSFb[l7$$
+\"3iKLL$Qx$omFcq$\"33;U[x:#4(GFb[l7$$\"3Y+++v.I%)oFcq$\"37td>f9z')>Fb[
+l7$$\"3?mm\"zpe*zqFcq$\"3))Q!HVWZ3U\"Fb[l7$$\"3;,++D\\'QH(Fcq$\"3CH#=s
+'=;J)*!#A7$$\"3%HL$e9S8&\\(Fcq$\"3ELXqFp4TpFa]l7$$\"3s++D1#=bq(Fcq$\"3
+eT\\gi\\a;[Fa]l7$$\"3\"HLL$3s?6zFcq$\"3q$*oTD@zkLFa]l7$$\"3a***\\7`Wl7
+)Fcq$\"3dH$*4K&[!3BFa]l7$$\"3enmmm*RRL)Fcq$\"3!zrep]<Kg\"Fa]l7$$\"3%zm
+mTvJga)Fcq$\"3+'p:M_iI5\"Fa]l7$$\"3]MLe9tOc()Fcq$\"3HRe]t:o.w!#B7$$\"3
+1,++]Qk\\*)Fcq$\"3e-i\"=;okR&Fe_l7$$\"3![LL3dg6<*Fcq$\"35a[nb`kQOFe_l7
+$$\"3%ymmmw(Gp$*Fcq$\"3I'G(yP68bDFe_l7$$\"3C++D\"oK0e*Fcq$\"3)yO@'yI.^
+<Fe_l7$$\"35,+v=5s#y*Fcq$\"3![<[[ts%=7Fe_l7$$\"#5F)$\"3hKUv*[9YC)!#C-%
+'COLOURG6&%$RGBG$Faal!\"\"F(F(-%+AXESLABELSG6$Q\"x6\"Q!F_bl-%%VIEWG6$;
+F(F`al%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 
+0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "Mean:=P/la
+mbda;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%MeanG#\"\"$\"\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "Variance:=P/lambda^2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)VarianceG#\"\"$\"\"%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 343 }{VIEWOPTS 
+1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

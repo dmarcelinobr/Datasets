@@ -1,0 +1,153 @@
+UWO results
+Jan 23
+**This is not final, see the end of the file. 
+
+****distributions of variables
+
+. tab voted
+
+      voted |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 |        173       22.01       22.01
+          1 |        613       77.99      100.00
+------------+-----------------------------------
+      Total |        786      100.00
+
+. tab voted [iw= test7]
+
+      voted |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 | 302.666529       38.51       38.51
+          1 | 483.336088       61.49      100.00
+------------+-----------------------------------
+      Total | 786.002617      100.00
+
+. tab voted [iw=  wtpre]
+
+      voted |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 | 167.289408       21.24       21.24
+          1 | 620.272976       78.76      100.00
+------------+-----------------------------------
+      Total | 787.562384      100.00
+
+. tab voted [iw=  wtpost]
+
+      voted |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 | 311.829628       39.85       39.85
+          1 | 470.668905       60.15      100.00
+------------+-----------------------------------
+      Total | 782.498533      100.00
+
+. tab voted [iw=  wtpostges]
+
+      voted |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 | 303.982872       38.85       38.85
+          1 | 478.438124       61.15      100.00
+------------+-----------------------------------
+      Total | 782.420996      100.00
+
+. tab voted [iw=  wtpreges ]
+
+      voted |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          0 | 202.112746       25.89       25.89
+          1 | 578.558278       74.11      100.00
+------------+-----------------------------------
+      Total | 780.671024      100.00
+
+****CORRELATIONS
+
+. corr  test1  voted age  age_sq edu  qsd2
+(obs=781)
+
+             |    test1    voted      age   age_sq      edu     qsd2
+-------------+------------------------------------------------------
+       test1 |   1.0000
+       voted |  -0.2567   1.0000
+         age |  -0.1854   0.1315   1.0000
+      age_sq |  -0.1844   0.1208   0.9859   1.0000
+         edu |  -0.1426   0.1876  -0.1704  -0.1810   1.0000
+        qsd2 |  -0.2436   0.0893   0.1870   0.1917   0.0578   1.0000
+
+. tab  qsd2
+
+      qsd2. |
+    gender. |      Freq.     Percent        Cum.
+------------+-----------------------------------
+     female |        516       51.14       51.14
+       male |        493       48.86      100.00
+------------+-----------------------------------
+      Total |      1,009      100.00
+
+. tab  qsd2, nol
+
+      qsd2. |
+    gender. |      Freq.     Percent        Cum.
+------------+-----------------------------------
+          1 |        516       51.14       51.14
+          2 |        493       48.86      100.00
+------------+-----------------------------------
+      Total |      1,009      100.00
+
+****correlations with political variables in the pretest only:
+****the reason being that none of this was asked in the posttest
+
+. pwcorr test1 interest_elect
+
+             |    test1 intere~t
+-------------+------------------
+       test1 |   1.0000 
+interest_e~t |  -0.4319   1.0000 
+
+. pwcorr test1 q5 if q5<99 ***Interest in politics in general
+
+             |    test1       q5
+-------------+------------------
+       test1 |   1.0000 
+          q5 |  -0.4542   1.0000 
+
+****correlations with satisfaction with democracy:
+at the beginning of the survey
+. sum  b_q1a b_q1b b_q1c
+
+    Variable |       Obs        Mean    Std. Dev.       Min        Max
+-------------+--------------------------------------------------------
+       b_q1a |       523    7.313576    13.09109          0         99
+       b_q1b |       516    6.091085    10.47259          0         99
+       b_q1c |       512    8.035156    19.01258          0         99
+
+. corr test1  b_q1a if  b_q1a <99
+(obs=513)
+
+             |    test1    b_q1a
+-------------+------------------
+       test1 |   1.0000
+       b_q1a |  -0.0777   1.0000
+
+
+. corr test1  b_q1b if  b_q1b <99
+(obs=510)
+
+             |    test1    b_q1b
+-------------+------------------
+       test1 |   1.0000
+       b_q1b |  -0.0583   1.0000
+
+
+. corr test1  b_q1c if  b_q1c <99
+(obs=491)
+
+             |    test1    b_q1c
+-------------+------------------
+       test1 |   1.0000
+       b_q1c |   0.0373   1.0000
+
+
+. 
+****at the end of the survey
+***I realized that, as in the case of the UK survey, test1 includes dks to the "satisfaction with democracy" Q
+***Made a note in the jan23 file that I need to pay more careful attention to what the measure encompasses. 
+

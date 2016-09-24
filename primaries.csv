@@ -1,0 +1,101 @@
+state,st,county,fips,party,candidate,votes,vote_share
+Iowa,IA,Plymouth,19149,Democrat,Hillary Clinton,387,0.554
+New Hampshire,NH,Grafton,33009,Republican,Marco Rubio,1923,0.119463254
+Iowa,IA,Poweshiek,19157,Republican,Donald Trump,258,0.262
+Iowa,IA,Cass,19029,Republican,Ben Carson,142,0.154
+New Hampshire,NH,Merrimack,33013,Democrat,Bernie Sanders,18076,0.596863134
+South Carolina,SC,Edgefield,45037,Republican,Ben Carson,326,0.081
+Iowa,IA,Wapello,19179,Republican,Carly Fiorina,10,0.006
+Iowa,IA,Keokuk,19107,Democrat,Hillary Clinton,250,0.625
+Iowa,IA,Carroll,19027,Republican,Rand Paul,31,0.03
+Iowa,IA,Grundy,19075,Republican,Chris Christie,12,0.013
+Iowa,IA,Mitchell,19131,Republican,Rand Paul,34,0.072
+Iowa,IA,Webster,19187,Democrat,Hillary Clinton,866,0.542
+South Carolina,SC,Anderson,45007,Republican,Ted Cruz,8750,0.255
+Iowa,IA,Jones,19105,Democrat,Hillary Clinton,419,0.466
+New Hampshire,NH,Merrimack,33013,Republican,Marco Rubio,3056,0.094242452
+Iowa,IA,Iowa,19095,Democrat,Hillary Clinton,357,0.51
+Nevada,NV,Carson City,32510,Republican,Donald Trump,1066,0.434
+Iowa,IA,Cass,19029,Republican,Marco Rubio,176,0.19
+South Carolina,SC,Hampton,45049,Republican,Jeb Bush,83,0.05
+Iowa,IA,Allamakee,19005,Republican,Ben Carson,77,0.112
+Iowa,IA,Palo Alto,19147,Republican,Mike Huckabee,17,0.039
+Iowa,IA,Ida,19093,Republican,Rick Santorum,14,0.027
+South Carolina,SC,Saluda,45081,Republican,John Kasich,156,0.045
+Iowa,IA,Greene,19073,Republican,Ben Carson,62,0.114
+South Carolina,SC,Greenville,45045,Republican,Ted Cruz,22899,0.246
+Nevada,NV,Humboldt,32013,Republican,John Kasich,42,0.049
+Iowa,IA,Grundy,19075,Republican,Rand Paul,32,0.034
+South Carolina,SC,Cherokee,45021,Republican,Ben Carson,879,0.102
+Iowa,IA,Jasper,19099,Republican,John Kasich,13,0.006
+Iowa,IA,Monroe,19135,Republican,Ted Cruz,195,0.36
+Iowa,IA,Buchanan,19019,Republican,Marco Rubio,110,0.131
+New Hampshire,NH,Sullivan,33019,Republican,Donald Trump,3080,0.380952381
+Iowa,IA,Jasper,19099,Democrat, Uncommitted,0,0
+Iowa,IA,Emmet,19063,Democrat, Uncommitted,0,0
+Iowa,IA,Cherokee,19035,Republican,Ben Carson,119,0.142
+Iowa,IA,Kossuth,19109,Republican,Ben Carson,150,0.158
+Iowa,IA,Dallas,19049,Republican,Marco Rubio,2469,0.339
+South Carolina,SC,Barnwell,45011,Republican,Ben Carson,171,0.066
+Iowa,IA,Winnebago,19189,Republican,Carly Fiorina,7,0.011
+Nevada,NV,Lander,32015,Republican,Marco Rubio,72,0.173
+Iowa,IA,Adams,19003,Republican,Marco Rubio,47,0.172
+Iowa,IA,Poweshiek,19157,Republican,Ted Cruz,282,0.287
+Iowa,IA,Mills,19129,Republican,Rand Paul,33,0.029
+South Carolina,SC,Edgefield,45037,Republican,Marco Rubio,900,0.225
+Iowa,IA,Calhoun,19025,Republican,Marco Rubio,121,0.217
+Iowa,IA,Shelby,19165,Republican,Ben Carson,109,0.146
+Iowa,IA,Dickinson,19059,Republican,Rand Paul,34,0.028
+New Hampshire,NH,Strafford,33017,Republican,Donald Trump,7352,0.343760228
+Nevada,NV,Douglas,32005,Republican,John Kasich,199,0.043
+Iowa,IA,Monroe,19135,Republican,Jeb Bush,3,0.006
+New Hampshire,NH,Grafton,33009,Republican,Chris Christie,1067,0.066285643
+Iowa,IA,Bremer,19017,Democrat, Uncommitted,0,0
+South Carolina,SC,Dorchester,45035,Republican,Donald Trump,6949,0.315
+Iowa,IA,Buchanan,19019,Republican,Ted Cruz,308,0.368
+Iowa,IA,Woodbury,19193,Republican,John Kasich,44,0.009
+Iowa,IA,Chickasaw,19037,Republican,Ted Cruz,161,0.268
+South Carolina,SC,Dillon,45033,Republican,Donald Trump,972,0.363
+Iowa,IA,Dallas,19049,Democrat, Uncommitted,0,0
+Iowa,IA,Buchanan,19019,Republican,Carly Fiorina,31,0.037
+Iowa,IA,Mills,19129,Republican,Rick Santorum,31,0.028
+Iowa,IA,Jefferson,19101,Democrat,Bernie Sanders,654,0.727
+Iowa,IA,Taylor,19173,Republican,Chris Christie,5,0.013
+New Hampshire,NH,Coos,33007,Republican,John Kasich,942,0.165234169
+South Carolina,SC,McCormick,45065,Republican,Ted Cruz,371,0.204
+Nevada,NV,Storey,32029,Republican,Ted Cruz,79,0.211
+New Hampshire,NH,Hillsborough,33011,Democrat,Hillary Clinton,28099,0.420990336
+Iowa,IA,Polk,19153,Republican,Ted Cruz,7864,0.253
+Iowa,IA,Lyon,19119,Democrat,Martin O'Malley,6,0.03
+New Hampshire,NH,Strafford,33017,Democrat,Hillary Clinton,8801,0.356806941
+South Carolina,SC,York,45091,Republican,Jeb Bush,2036,0.054
+Iowa,IA,Van Buren,19177,Democrat,Bernie Sanders,106,0.533
+Iowa,IA,Kossuth,19109,Republican,Ted Cruz,285,0.301
+Iowa,IA,Lucas,19117,Republican,Ben Carson,68,0.115
+Iowa,IA,Johnson,19103,Republican,Chris Christie,171,0.024
+South Carolina,SC,Horry,45051,Republican,Ben Carson,2638,0.049
+Iowa,IA,Louisa,19115,Republican,John Kasich,5,0.007
+Iowa,IA,Wayne,19185,Republican,Ben Carson,36,0.086
+South Carolina,SC,Sumter,45085,Republican,Ted Cruz,2474,0.221
+Nevada,NV,White Pine,32033,Republican,John Kasich,17,0.039
+Iowa,IA,Fremont,19071,Republican,Jeb Bush,10,0.023
+Iowa,IA,Chickasaw,19037,Republican,Donald Trump,166,0.276
+Iowa,IA,Monona,19133,Democrat,Hillary Clinton,180,0.602
+Iowa,IA,Harrison,19085,Republican,Ben Carson,221,0.217
+Iowa,IA,Grundy,19075,Republican,Ted Cruz,272,0.288
+Iowa,IA,Dallas,19049,Republican,Donald Trump,1510,0.207
+Iowa,IA,Palo Alto,19147,Democrat, Uncommitted,0,0
+Iowa,IA,Lee,19111,Republican,Rick Santorum,6,0.005
+South Carolina,SC,Saluda,45081,Republican,Ben Carson,295,0.086
+Iowa,IA,Adams,19003,Democrat,Martin O'Malley,0,0
+Iowa,IA,Guthrie,19077,Republican,Donald Trump,208,0.276
+Iowa,IA,Butler,19023,Republican,Mike Huckabee,21,0.023
+Iowa,IA,Dubuque,19061,Republican,Ted Cruz,824,0.207
+Iowa,IA,Shelby,19165,Democrat,Martin O'Malley,0,0
+Iowa,IA,Fayette,19065,Republican,Marco Rubio,180,0.18
+Iowa,IA,Henry,19087,Democrat,Bernie Sanders,350,0.5
+Iowa,IA,Winneshiek,19191,Republican,Donald Trump,274,0.262
+Nevada,NV,Elko,32007,Republican,Ted Cruz,1039,0.438
+Iowa,IA,Ringgold,19159,Republican,Chris Christie,3,0.009
+Iowa,IA,Greene,19073,Republican,John Kasich,6,0.011
+Iowa,IA,Decatur,19053,Democrat,Bernie Sanders,141,0.472

@@ -1,0 +1,63 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT -1 84 "Beta Distri
+bution with Parameters alpha and beta and random variable between 0 an
+d c" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 87 
+"B:=(GAMMA(alpha+beta)/(GAMMA(alpha)*GAMMA(beta)))*(x/c)^(alpha-1)*(1-
+x/c)^(beta-1)*1/c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"BG*.-%&GAMMA
+G6#,&%&alphaG\"\"\"%%betaGF+F+-F'6#F*!\"\"-F'6#F,F/)*&%\"xGF+%\"cGF/,&
+F*F+F+F/F+),&F+F+F3F/,&F,F+F+F/F+F5F/" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "alpha:=3 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&alph
+aG\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "beta:=3;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%betaG\"\"$" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 5 "c:=5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG\"
+\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "integrate(B,x=0..c);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 81 "plot(B,x=0..c,title=\"Beta Distribution with Random
+ Variable Constrained 0 to c\");" }}{PARA 13 "" 1 "" {GLPLOT2D 400 
+300 300 {PLOTDATA 2 "6&-%'CURVESG6$7Y7$$\"\"!F)F(7$$\"3WmmmT&)G\\a!#>$
+\"3Ea'fd#GCsp!#@7$$\"3GLLL3x&)*3\"!#=$\"3Up_X()exFF!#?7$$\"3))**\\i!R(
+*Rc\"F4$\"3uDE@B+44bF77$$\"3umm\"H2P\"Q?F4$\"3M'3i!o]Rt\"*F77$$\"3MLL$
+eRwX5$F4$\"3K?r=.4([.#F-7$$\"33ML$3x%3yTF4$\"36vO\")p'='=NF-7$$\"3emm
+\"z%4\\Y_F4$\"3MCdba$HDH&F-7$$\"3`LLeR-/PiF4$\"3CRSn=PB_rF-7$$\"3]***
+\\il'pisF4$\"3#)p'4$*Q7([#*F-7$$\"3>MLe*)>VB$)F4$\"3/lSc,v?b6F47$$\"3Y
+++DJbw!Q*F4$\"3k/hEsY$QR\"F47$$\"3%ommTIOo/\"!#<$\"3hA&onriSk\"F47$$\"
+3YLL3_>jU6Fbo$\"3#>*e#**QX\\'=F47$$\"37++]i^Z]7Fbo$\"3k*oRy/W/6#F47$$
+\"33++](=h(e8Fbo$\"3_#*)3)o[$*\\BF47$$\"3/++]P[6j9Fbo$\"3U[\"3))**43d#
+F47$$\"3UL$e*[z(yb\"Fbo$\"3s9/gg#=0w#F47$$\"3wmm;a/cq;Fbo$\"3KJvr.J()p
+HF47$$\"3%ommmJ<gw\"Fbo$\"3@PH&eW&QJJF47$$\"3/+]iSj0x=Fbo$\"3o+afTgy)H
+$F47$$\"3gmmm\"pW`(>Fbo$\"3lGC9s!epU$F47$$\"3K+]i!f#=$3#Fbo$\"3d`\"zZg
+8Wa$F47$$\"3?+](=xpe=#Fbo$\"3**)RE8U@Dj$F47$$\"37nm\"H28IH#Fbo$\"3-@4V
+4Rw)p$F47$$\"3um;zpSS\"R#Fbo$\"3`T$)3g;'et$F47$$\"3-+v$41oWW#Fbo$\"3W(
+[LuN+ju$F47$$\"3GLL3_?`(\\#Fbo$\"3seK3\"p#**\\PF47$$\"3AL3_D1l_DFbo$\"
+3!R@o;Bumu$F47$$\"3fL$e*)>pxg#Fbo$\"3w'>8\"4f2OPF47$$\"33+]Pf4t.FFbo$
+\"3bDJm@yN+PF47$$\"3uLLe*Gst!GFbo$\"3`vZfIO[POF47$$\"30+++DRW9HFbo$\"3
+;!\\Mwu:na$F47$$\"3:++DJE>>IFbo$\"382[7uC]LMF47$$\"3F+]i!RU07$Fbo$\"3w
+R%RfbZ@I$F47$$\"3+++v=S2LKFbo$\"3:b'*R/u%G8$F47$$\"3Jmmm\"p)=MLFbo$\"3
+[Nf\"3uT9'HF47$$\"3B++](=]@W$Fbo$\"3;GOyvOYgFF47$$\"35L$e*[$z*RNFbo$\"
+3)oSUj/HWc#F47$$\"3e++]iC$pk$Fbo$\"3T:k.w`dPBF47$$\"3[m;H2qcZPFbo$\"3$
+Q5[3XZ[6#F47$$\"3O+]7.\"fF&QFbo$\"3G&QJ&H2`v=F47$$\"3Ymm;/OgbRFbo$\"3_
+cPs%[G%Q;F47$$\"3w**\\ilAFjSFbo$\"3[.o]lCv!R\"F47$$\"3yLLL$)*pp;%Fbo$
+\"3GH')=2Mtc6F47$$\"3)RL$3xe,tUFbo$\"3sMu^%z>QE*F-7$$\"3Cn;HdO=yVFbo$
+\"3&*R1\"Q(*R^6(F-7$$\"3a+++D>#[Z%Fbo$\"3-Qmp'e`>I&F-7$$\"3SnmT&G!e&e%
+Fbo$\"3G,#)*yp%*oY$F-7$$\"3#RLLL)Qk%o%Fbo$\"3?lfT+p?&4#F-7$$\"37+]iSjE
+!z%Fbo$\"31c0%)zz1!p*F77$$\"3L+++DM\"3%[Fbo$\"3h``KGIg+dF77$$\"3a+]P40
+O\"*[Fbo$\"3QH*ekK`3r#F77$$\"3s+voa-oX\\Fbo$\"3([.,b`#\\GpF07$$\"\"&F)
+F(-%'COLOURG6&%$RGBG$\"#5!\"\"F(F(-%&TITLEG6#QZBeta~Distribution~with~
+Random~Variable~Constrained~0~to~c6\"-%+AXESLABELSG6$Q\"xF`]lQ!F`]l-%%
+VIEWG6$;F(Fc\\l%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 1.000000 45.000000 
+45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "
+E[x]:=c*alpha/(alpha+beta);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"EG
+6#%\"xG#\"\"&\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "V[x]:
+=c^2*(alpha*beta)/((alpha+beta)^2*(alpha+beta+1));" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>&%\"VG6#%\"xG#\"#D\"#G" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "10 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

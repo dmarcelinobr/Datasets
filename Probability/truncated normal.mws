@@ -1,0 +1,59 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 342 "Below change the limits o
+f the integral at t[i]=0..10 to change the limits of the distribution.
+  That is, change Y[L] and Y[U] below.  Note that in practice you shou
+ldn't set limits at infinity, because the plot command won't range tha
+t high.  Just set upper or lower limits to some large number.  Also, s
+et the mean and variance parameters.\n" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "Y[L]:=5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"YG6#%
+\"LG\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "Y[U]:=20;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"YG6#%\"UG\"#?" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "mu[i]:=15;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>&%#muG6#%\"iG\"#:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "si
+gma[i]:=5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%&sigmaG6#%\"iG\"\"&" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 164 "f:=((1/sqrt(2*pi*sigma[i
+]^2))*exp(-((y[i]-mu[i])^2)/(2*sigma[i]^2)))/(integrate(((1/sqrt(2*pi*
+sigma[i]^2))*exp(-((t[i]-mu[i])^2)/(2*sigma[i]^2))),t[i]=Y[L]..Y[U]));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,$**\"\"##\"\"\"F'-%$expG6#,
+$*$),&&%\"yG6#%\"iGF)\"#:!\"\"F'F)#F6\"#]F)%#PiG#F6F',&-%$erfG6#,$*$-%
+%sqrtG6#F'F)F(F)-F=6#F@F)F6#F)\"\"&" }}}{EXCHG {PARA 11 "" 1 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "plot(f,y[i]=Y[L].
+.Y[U]);" }}{PARA 13 "" 1 "" {GLPLOT2D 496 496 496 {PLOTDATA 2 "6%-%'CU
+RVESG6$7S7$$\"\"&\"\"!$\"3q$4u6l8\">8!#>7$$\"3E++]7t&pK&!#<$\"3W)[([f(
+4-]\"F-7$$\"3****\\(=7T9h&F1$\"3+%)[T9[1s;F-7$$\"3<++v=HPJfF1$\"3#>'HG
+u2n\")=F-7$$\"3;++DJaU`iF1$\"31m#*>TeY5@F-7$$\"3U+]P%GZRd'F1$\"39UBVZZ
+1cBF-7$$\"3G+](=276(oF1$\"3e#)=,pxm*f#F-7$$\"3S+](o**3)yrF1$\"3/@]a#e$
+ynGF-7$$\"3[+](ofHq\\(F1$\"3M&3XC**p:;$F-7$$\"3.+]Pf'HU\"yF1$\"3#o[GlR
+X.Z$F-7$$\"3k****\\7*309)F1$\"3rv;*QnYM!QF-7$$\"3:++Dce*yU)F1$\"3v)4p:
+X4(3TF-7$$\"3g++]([D9v)F1$\"3+g.mtV4kWF-7$$\"3o)***\\iNGw!*F1$\"32(>ij
+_u9$[F-7$$\"3C****\\7XM*Q*F1$\"3[rZk;$3L>&F-7$$\"3;**\\(o%Qjt'*F1$\"3K
+Xt2k*4l_&F-7$$\"3#****\\i8o6+\"!#;$\"3P>XL<*oc#fF-7$$\"3(******\\>0)H5
+Fgp$\"3]bM_S>%QE'F-7$$\"3'**\\(=-p6j5Fgp$\"3)4GN^RaSl'F-7$$\"3/++]2Mg#
+4\"Fgp$\"3'QR.iAWP*pF-7$$\"35+v=xZ&\\7\"Fgp$\"3!)pqN-h#pN(F-7$$\"37+Dc
+J4wb6Fgp$\"3s0Xk*f$H!p(F-7$$\"3++](=#R!z=\"Fgp$\"3GvZcnRr@!)F-7$$\"3)*
+*\\P4A@u@\"Fgp$\"3+/$3$p*G$3$)F-7$$\"3/+]i:'f#\\7Fgp$\"3U%G&o')eK&f)F-
+7$$\"33+vof2L#G\"Fgp$\"3[E28p;zl))F-7$$\"3$**\\7yG>6J\"Fgp$\"3co%f?mpd
+2*F-7$$\"33+](oo6AM\"Fgp$\"3S&)4#o2XNF*F-7$$\"3)*****\\xJLu8Fgp$\"3F+$
+\\\"4L'RW*F-7$$\"3/+]P*yddS\"Fgp$\"3e<CwhbRv&*F-7$$\"3++v=<F;O9Fgp$\"3
+WCo`rc)ym*F-7$$\"3#***\\i0A#*p9Fgp$\"3!pxBj*\\QH(*F-7$$\"3*)****\\2mD+
+:Fgp$\"3A!ogd[.qu*F-7$$\"3*****\\i0XE`\"Fgp$\"3x3_DL@DE(*F-7$$\"3%**\\
+(o/Q*>c\"Fgp$\"3a[*R-(>Ps'*F-7$$\"3=++vQ(zSf\"Fgp$\"3iOX$o`\")fd*F-7$$
+\"3***\\(=-,FC;Fgp$\"3U'4f^Bf0X*F-7$$\"33+v$4tFel\"Fgp$\"3mW$y:9c\\G*F
+-7$$\"3!****\\73\"o'o\"Fgp$\"3)pu6X*px!4*F-7$$\"3-+voz;)*=<Fgp$\"3+\"Q
+QC\"fjb))F-7$$\"31+++&*44]<Fgp$\"3')4C\")*p=4g)F-7$$\"35+]7jZ!>y\"Fgp$
+\"3#*o+=INl9$)F-7$$\"34+v=(4bM\"=Fgp$\"3xzC)3Y'33!)F-7$$\"3;++]xlWU=Fg
+p$\"3,!4&eW&[#4xF-7$$\"39+]i&3uc(=Fgp$\"3Ww/5zH)*\\tF-7$$\"3\"******\\
+;$R0>Fgp$\"3&ep6p4el,(F-7$$\"38+v=-*zq$>Fgp$\"3mpx^(zl<l'F-7$$\"33+D\"
+G:3u'>Fgp$\"3YH&\\$4'fmH'F-7$$\"#?F*$\"3%Qn+IBd=\"fF--%'COLOURG6&%$RGB
+G$\"#5!\"\"$F*F*Fa[l-%+AXESLABELSG6$Q%y[i]6\"Q!Ff[l-%%VIEWG6$;F(Ffz%(D
+EFAULTG" 1 2 0 1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curv
+e 1" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "8 0 0" 
+0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

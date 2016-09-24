@@ -1,0 +1,61 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 50 "Negative Binomial with par
+ameters theta and lambda" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "
+restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 106 "f:=(GAMMA(thet
+a+y)/(GAMMA(theta)*GAMMA(y+1)))*(lambda/(lambda+theta))^y*(1-(lambda/(
+lambda+theta)))^theta;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*,-%&G
+AMMAG6#,&%&thetaG\"\"\"%\"yGF+F+-F'6#F*!\"\"-F'6#,&F,F+F+F+F/)*&%'lamb
+daGF+,&F5F+F*F+F/F,F+),&F+F+F4F/F*F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "theta:=5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&thetaG
+\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "lambda:=5;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'lambdaG\"\"&" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 16 "plot(f,y=0..15);" }}{PARA 13 "" 1 "" 
+{GLPLOT2D 400 300 300 {PLOTDATA 2 "6%-%'CURVESG6$7fn7$$\"\"!F)$\"3++++
++++DJ!#>7$$\"3$*****\\ilyM;!#=$\"3o=>0e/UaQF,7$$\"3')*****\\7t&pKF0$\"
+3X,4Ac@89YF,7$$\"3=+](=<#*>p%F0$\"3G&o%z+mV!H&F,7$$\"3$****\\(=7T9hF0$
+\"3)[K26YXH(fF,7$$\"3p**\\7.-29xF0$\"3tb(e.xD*QnF,7$$\"3X****\\(=HPJ*F
+0$\"31Lvt^_0%\\(F,7$$\"3;+++v\"*R#4\"!#<$\"3%p\"RkSeWM#)F,7$$\"3;++DJa
+U`7FO$\"3)p5x/enr%*)F,7$$\"32+D\"yN'o89FO$\"3r'>DZLJAi*F,7$$\"3)***\\P
+%GZRd\"FO$\"3&)Q[=]^tD5F07$$\"3%)**\\(=276(=FO$\"3n]P7:**QJ6F07$$\"3'*
+**\\(o**3)y@FO$\"3hW'>4SsBA\"F07$$\"3/+](ofHq\\#FO$\"39\"fU+ylaH\"F07$
+$\"3.+]Pf'HU\"GFO$\"3!ok0+DLoM\"F07$$\"3%)*\\PfGpt(HFO$\"3mK(*3![#3l8F
+07$$\"33++]7*309$FO$\"3w'=S-)e)zP\"F07$$\"3!***\\P%Q-UG$FO$\"3]TPtMm3&
+Q\"F07$$\"3:++Dce*yU$FO$\"3;rlt6CO)Q\"F07$$\"3Q+](=ng'*e$FO$\"35\"3Xp3
+(p(Q\"F07$$\"3;++]([D9v$FO$\"3K@$>TH'o#Q\"F07$$\"3k*****\\_aQ\"RFO$\"3
+)yEVX2vNP\"F07$$\"3c****\\iNGwSFO$\"3!>=cl_z1O\"F07$$\"37++]7XM*Q%FO$
+\"3OJ(=3['HE8F07$$\"3/+](o%QjtYFO$\"3%4o?2;idG\"F07$$\"32++]i8o6]FO$\"
+3EfMJDRMG7F07$$\"3i******\\>0)H&FO$\"3E0)o!GTnt6F07$$\"3Y**\\(=-p6j&FO
+$\"3l_Y\">DT^5\"F07$$\"3d*****\\2Mg#fFO$\"3_%QS8y'fT5F07$$\"35+](=xZ&
+\\iFO$\"3k)4kt(z%Hq*F,7$$\"3;+]i:$4wb'FO$\"3&e')p:)R(4-*F,7$$\"3-++v=#
+R!zoFO$\"3%R4;n#>P<$)F,7$$\"3q+]P4A@urFO$\"3Y&z*\\7PJ'o(F,7$$\"3I++Dch
+f#\\(FO$\"3%fPbme0'GqF,7$$\"3))**\\(of2L#yFO$\"3W+y'eb;kP'F,7$$\"3M**
+\\7yG>6\")FO$\"3k/;QyH$y$eF,7$$\"3w++voo6A%)FO$\"3%y8*4(*[-*G&F,7$$\"3
+q*****\\xJLu)FO$\"37/i$*GYUfZF,7$$\"3W++v$*ydd!*FO$\"3M;XmhTqyUF,7$$\"
+3#***\\(=<F;O*FO$\"3o$pKC!*y'[QF,7$$\"35***\\i0A#*p*FO$\"3R(Q$4;D'3T$F
+,7$$\"3*)****\\2mD+5!#;$\"3o.qbpf!>0$F,7$$\"3*****\\i0XE.\"Fdx$\"3$>$y
+$eVRIq#F,7$$\"3%**\\(o/Q*>1\"Fdx$\"3Oam,\"G?gT#F,7$$\"3=++vQ(zS4\"Fdx$
+\"3B+()4<e*>8#F,7$$\"3***\\(=-,FC6Fdx$\"3G,7JeNG\"*=F,7$$\"33+v$4tFe:
+\"Fdx$\"3g$y8cvi^m\"F,7$$\"3!****\\73\"o'=\"Fdx$\"3kIrM'zHtY\"F,7$$\"3
+-+voz;)*=7Fdx$\"3mro>_&oFG\"F,7$$\"31+++&*44]7Fdx$\"39')[9\"R)*[7\"F,7
+$$\"35+]7jZ!>G\"Fdx$\"3BgR)ef.v\")*!#?7$$\"34+v=(4bMJ\"Fdx$\"3yC*4He.I
+c)Fd[l7$$\"3;++]xlWU8Fdx$\"3csF*Ryh5a(Fd[l7$$\"39+]i&3ucP\"Fdx$\"3loZU
+\"fQ\"3lFd[l7$$\"3\"******\\;$R09Fdx$\"3_'QF1-Wlp&Fd[l7$$\"38+v=-*zqV
+\"Fdx$\"3\"e.v`?v_$\\Fd[l7$$\"33+D\"G:3uY\"Fdx$\"3g;/B\"[bjH%Fd[l7$$\"
+#:F)$\"33J1R];W'p$Fd[l-%'COLOURG6&%$RGBG$\"#5!\"\"F(F(-%+AXESLABELSG6$
+Q\"y6\"Q!Fc^l-%%VIEWG6$;F(Fd]l%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 
+1.000000 45.000000 45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 13 "mean:=lambda;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+%meanG\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "variance:=ev
+alf(lambda*(1+(1/theta)*lambda));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%)varianceG$\"#5\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}}{MARK "8 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

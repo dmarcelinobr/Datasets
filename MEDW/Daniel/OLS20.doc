@@ -1,0 +1,26 @@
+{\rtf1\ansi\deff0{\fonttbl{\f0\froman Times New Roman;}{\f1\fswiss Arial;}{\f2\fmodern Courier New;}}
+\pard\qc\sb79\sa79\fs29 OLS Results\par
+\trowd\intbl\trautofit1\trgaph144\sb79\sa79\trqc\clbrdrt\brdrs\cellx1848\clbrdrt\brdrs\cellx6048\fs24 \ql \cell \qc (DV= Federal - Municipal)\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb79\sa0\trqc\clbrdrt\brdrs\cellx1848\clbrdrt\brdrs\cellx6048\fs24 \pard\intbl\ql q42fed_mun\cell \pard\intbl\tqdec\tx1837 {\fs24 0.300}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [5.96]}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql q43fed_mun\cell \pard\intbl\tqdec\tx1837 {\fs24 0.284}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [12.91]*}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql age\cell \pard\intbl\tqdec\tx1837 {\fs24 0.003}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [0.97]}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql gender\cell \pard\intbl\tqdec\tx1837 {\fs24 0.207}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [8.75]+}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql sd6bmother\cell \pard\intbl\tqdec\tx1837 {\fs24 0.314}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [1.99]}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql sd6eyears\cell \pard\intbl\tqdec\tx1837 {\fs24 -0.020}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [5.46]}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql sd7place\cell \pard\intbl\tqdec\tx1837 {\fs24 0.791}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [50.13]*}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql _cons\cell \pard\intbl\tqdec\tx1837 {\fs24 0.888}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql \cell \pard\intbl\tqdec\tx1837 {\fs20 [3.16]}\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql F statistic\cell \pard\intbl\tqdec\tx1837 .\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa0\trqc\cellx1848\cellx6048\fs24 \pard\intbl\ql {\i R}{\super 2}\cell \pard\intbl\tqdec\tx1837 0.18\cell\row
+\trowd\intbl\trautofit1\trgaph144\sb0\sa79\trqc\clbrdrb\brdrs\cellx1848\clbrdrb\brdrs\cellx6048\fs24 \pard\intbl\ql {\i N}\cell \pard\intbl\tqdec\tx1837 2,214\cell\row
+\pard\qc\sb79\sa0\fs19 + {\i p}<0.1; * {\i p}<0.05; ** {\i p}<0.01; *** {\i p}<0.001\par
+\pard\qc\sb0\sa79\fs19 t statistics in brackets\par
+\pard\sb0\sa0\fs24\par
+}

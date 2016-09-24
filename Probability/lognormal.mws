@@ -1,0 +1,67 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 82 "Log Normal distribution.  \+
+Note that x can only be positive with this distribution." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "resta
+rt;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 67 "n:=(1/x)*(1/sigma)*(
+1/sqrt(2*Pi))*exp((-1/2)*(ln(x)-mu)^2/sigma^2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"nG,$*,%\"xG!\"\"%&sigmaGF(\"\"##\"\"\"F*%#PiG#F(F*-
+%$expG6#,$*&,&-%#lnG6#F'F,%#muGF(F*F)!\"#F.F,F+" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 9 "sigma:=2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+&sigmaG\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "mu:=5;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#muG\"\"&" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 36 "evalf(integrate(n,x=0..1000000000));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#$\"+++++5!\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 90 "plot(n,x=0..100,title=\"LogNormal Distribution with M
+ean mu and Standard Deviation sigma\");" }}{PARA 13 "" 1 "" {GLPLOT2D 
+400 300 300 {PLOTDATA 2 "6&-%'CURVESG6$7`o7$$\"3B+++v1h6o!#>$\"3\\!GBr
+#3Q;=!#?7$$\"3/+++N@Ki8!#=$\"3PLzM\\d9SKF-7$$\"3*)*****>?$[V?F1$\"3yr%
+*R%)Q\\*H%F-7$$\"34+++qUkCFF1$\"3cGM%4$GvD^F-7$$\"3@+++P`!eS$F1$\"3o6L
+L(>.9z&F-7$$\"3')*****\\Smp3%F1$\"3(Q'\\\"fv+,M'F-7$$\"3)******>ZF\"oZ
+F1$\"3sJDOx6:+oF-7$$\"3=+++S&)G\\aF1$\"3W4N+-(\\4>(F-7$$\"3]+++v1h6oF1
+$\"3!z2Z7,Bm\"yF-7$$\"3s******4G$R<)F1$\"3'**)*>Zon5H)F-7$$\"3/+++X\\D
+O&*F1$\"3W2)o\"R\\Ge')F-7$$\"3/+++3x&)*3\"!#<$\"3c?X;R8WY*)F-7$$\"3%**
+****>c'yM;F^o$\"3f>jc@CC:'*F-7$$\"31+++;arz@F^o$\"3WT'e<UV2()*F-7$$\"3
+;+++O.D)H#F^o$\"33+%)4)pph*)*F-7$$\"3\"******pD&y;CF^o$\"3&[hn-@TR\"**
+F-7$$\"3,+++x,KNDF^o$\"3$4E_)4y0D**F-7$$\"3?+++)4bQl#F^o$\"3Aw%\\n2p.$
+**F-7$$\"3-+++R\\#4*GF^o$\"3R7#\\>\\xj#**F-7$$\"3()******zZ*z7$F^o$\"3
+I2h%zvXm!**F-7$$\"3)******>YM@g$F^o$\"3,(*4G<.=L)*F-7$$\"3=+++XTFwSF^o
+$\"3Jpi&Hed$H(*F-7$$\"3<+++\"z_\"4iF^o$\"3U2.W_6=>\"*F-7$$\"3y******R&
+phN)F^o$\"3/!)=^qmp#[)F-7$$\"3%*******)=)H\\5!#;$\"3$R3-Spsf!zF-7$$\"3
+'******z/3uC\"F`s$\"3-!3f;nd'HuF-7$$\"3-+++J$RDX\"F`s$\"3?aZ$)\\gw!*pF
+-7$$\"3#******zR'ok;F`s$\"3/bD8h%\\te'F-7$$\"3%******f5`h(=F`s$\"3I?w4
+l?!)GiF-7$$\"3)******zgsO4#F`s$\"35=<;**>_)*eF-7$$\"3)******R!RE&G#F`s
+$\"3\"\\'yc7.KNcF-7$$\"3;+++D.&4]#F`s$\"3[6wK`-tl`F-7$$\"32+++vB_<FF`s
+$\"3s9doqho>^F-7$$\"34+++v'Hi#HF`s$\"3gS7b%\\jG!\\F-7$$\"3-+++(*ev:JF`
+s$\"3%\\r\"H`Q6@ZF-7$$\"3!******z!47TLF`s$\"3_>HG&[R:_%F-7$$\"3'******
+HjM?`$F`s$\"3#*Ri0Q#y\\O%F-7$$\"3;+++\"o7Tv$F`s$\"3%=5E&eln&>%F-7$$\"3
+G+++$Q*o]RF`s$\"3m`dO088cSF-7$$\"3w*****4=lj;%F`s$\"3J=J'f*G-8RF-7$$\"
+3M+++V&R<P%F`s$\"3'QrW74Gby$F-7$$\"3I+++Xh-'e%F`s$\"3A(Q_,=^2m$F-7$$\"
+39+++R\"3Gy%F`s$\"3%*RVJ*Q<Hb$F-7$$\"3++++.T1&*\\F`s$\"36;Q;R%3KW$F-7$
+$\"3E+++(RQb@&F`s$\"39))=3**>)eL$F-7$$\"3\"******z\">Y2aF`s$\"3eLr\\%3
+'\\ZKF-7$$\"3#)*****zdWZh&F`s$\"3U7Nco])o:$F-7$$\"3>+++\\y))GeF`s$\"3s
+IR&G`a\"oIF-7$$\"3!******>E&QQgF`s$\"3Ep$3hVxd)HF-7$$\"3\"*******zZ3Ti
+F`s$\"3&y,Z.HJ*4HF-7$$\"3))*****f.[hY'F`s$\"3oV\"e8QM)HGF-7$$\"3!*****
+*>Qx$omF`s$\"3S&=q&*H'HhFF-7$$\"3/+++u.I%)oF`s$\"3yOo!H\"*\\9p#F-7$$\"
+3s+++(pe*zqF`s$\"3#R?6%H[$4j#F-7$$\"3Q+++C\\'QH(F`s$\"3yobmYwfnDF-7$$
+\"3c+++8S8&\\(F`s$\"3)3#oe6\\_5DF-7$$\"3\"******\\?=bq(F`s$\"37$QtPv<L
+X#F-7$$\"3k*****p?27\"zF`s$\"33@'*\\$yh'*R#F-7$$\"3h******HXaE\")F`s$
+\"3o?f#)yAvXBF-7$$\"3V+++l*RRL)F`s$\"3_qiei-*eH#F-7$$\"3w*****HvJga)F`
+s$\"3#3S$o\"emoC#F-7$$\"3!)*****HJnjv)F`s$\"3XlSJz=5+AF-7$$\"3G+++\\Qk
+\\*)F`s$\"3!zL[c.o'e@F-7$$\"3!*******o0;r\"*F`s$\"3UcEgvL*G6#F-7$$\"3)
+******\\w(Gp$*F`s$\"3Ov&)*[3@M2#F-7$$\"3K+++!oK0e*F`s$\"372CX]EyK?F-7$
+$\"33+++<5s#y*F`s$\"3'f4Bg*\\@&*>F-7$$\"$+\"\"\"!$\"3cmtaw!=i&>F--%'CO
+LOURG6&%$RGBG$\"#5!\"\"$Fh`lFh`lFbal-%&TITLEG6#Q[oLogNormal~Distributi
+on~with~Mean~mu~and~Standard~Deviation~sigma6\"-%+AXESLABELSG6$Q\"xFga
+lQ!Fgal-%%VIEWG6$;FbalFf`l%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 1.000000 
+45.000000 45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "7 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

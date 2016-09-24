@@ -1,0 +1,70 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 647 "Generalized Gamma Distrib
+ution with parameters a,b,c,k and x>a>0.  The parameter a is a lower t
+runcation limit, often set at zero.  When k=1 and a=0 we have a gamma \+
+with parameters b and c.  Note that b=1/lambda from the Gamma workshee
+t, as well as for Greene p. 855.  When c=k=1 and a=0 we have an expone
+ntial with parameter b.  When c=1 and a=0 we have a Weibull with param
+eters b and k.  When a=0, b=2, c=v/2, k=1 we have a Chi-Squared with v
+ degrees of freedom.  When k approaches zero, c approaches infinity, a
+nd b approaches infinity such that k^2c tends to 1/sigma^2 and bc^1/k \+
+tends to m, then the generalized gamma tends to the lognormal." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 58 "f:=(k*(x-a)^(k*c-1))/(b^(k*c)*GAMMA(c))*exp(
+-((x-a)/b)^k);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*,%\"kG\"\"\")
+,&%\"xGF'%\"aG!\"\",&*&F&F'%\"cGF'F'F'F,F')%\"bGF.F,-%&GAMMAG6#F/F,-%$
+expG6#,$)*&F)F'F1F,F&F,F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 
+"a:=0;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"aG\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "b:=2;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"bG\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "c:=4;" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG\"\"%" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 5 "k:=1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"kG\"
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "evalf(integrate(f,x
+=0..100000000));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"\"\"\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "plot(f,x=0..10,title=\"Gener
+alized Gamma with Parameters a,b,c,k\");" }}{PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}{PARA 13 "" 1 "" {GLPLOT2D 400 300 300 {PLOTDATA 
+2 "6&-%'CURVESG6$7S7$$\"\"!F)F(7$$\"3emmm;arz@!#=$\"3m6w:^1yt'*!#A7$$
+\"3[LL$e9ui2%F-$\"3yrc#H3\\Wv&!#@7$$\"3nmmm\"z_\"4iF-$\"3Aiqf,C3G=!#?7
+$$\"39ommT&phN)F-$\"31jRk%3)>-SF<7$$\"3KLLe*=)H\\5!#<$\"31?d%=PI:7(F<7
+$$\"3smm\"z/3uC\"FE$\"3M$3l*z`j$3\"!#>7$$\"3!****\\7LRDX\"FE$\"3v!fkMr
+yTa\"FM7$$\"3%om;zR'ok;FE$\"3Sz4W)Hq/4#FM7$$\"33++D1J:w=FE$\"3;y/5\"y`
+Bp#FM7$$\"3oLLL3En$4#FE$\"3e')HtcP)fN$FM7$$\"3#pmmT!RE&G#FE$\"3Ea_0>/^
+lRFM7$$\"3D+++D.&4]#FE$\"3)*GK?(4mim%FM7$$\"3;+++vB_<FFE$\"3Sw(=Y_>@P&
+FM7$$\"33+++v'Hi#HFE$\"3x+INpOqUgFM7$$\"3&om;z*ev:JFE$\"3_MU+&*[+NmFM7
+$$\"3_LLL347TLFE$\"3_3];U=a4tFM7$$\"3nLLLLY.KNFE$\"3#[<-]I?$\\yFM7$$\"
+33++D\"o7Tv$FE$\"3CAL]_ZUM%)FM7$$\"3?LLL$Q*o]RFE$\"3,30Q:Cw4*)FM7$$\"3
+m++D\"=lj;%FE$\"3wLG!em(z\"Q*FM7$$\"3S++vV&R<P%FE$\"35OKn;i$4y*FM7$$\"
+3CML$e9Ege%FE$\"3<:+<BxO95F-7$$\"3]LLeR\"3Gy%FE$\"3@Fc?!G2G/\"F-7$$\"3
+emm;/T1&*\\FE$\"3)o.*z(4'Go5F-7$$\"3=nm\"zRQb@&FE$\"3c`JSQo9*3\"F-7$$
+\"3:++v=>Y2aFE$\"3EW@EPBz-6F-7$$\"3Znm;zXu9cFE$\"3;*eMt8$*H6\"F-7$$\"3
+4+++]y))GeFE$\"31(Ruqs;)=6F-7$$\"3H++]i_QQgFE$\"3K\"ej%f09?6F-7$$\"3b+
++D\"y%3TiFE$\"3(*fY'*R)pv6\"F-7$$\"3+++]P![hY'FE$\"37?.DeYg56F-7$$\"3i
+KLL$Qx$omFE$\"3@*=HN*[&45\"F-7$$\"3Y+++v.I%)oFE$\"3c**>;X,V(3\"F-7$$\"
+3?mm\"zpe*zqFE$\"3)HXEsVuD2\"F-7$$\"3;,++D\\'QH(FE$\"35P(>Wh-Q0\"F-7$$
+\"3%HL$e9S8&\\(FE$\"3<?X;dq*R.\"F-7$$\"3s++D1#=bq(FE$\"3Ms\"H\\\">N65F
+-7$$\"3\"HLL$3s?6zFE$\"3Si#H!)zDb()*FM7$$\"3a***\\7`Wl7)FE$\"3g?X$*>(p
+9h*FM7$$\"3enmmm*RRL)FE$\"3S]#***zF=X$*FM7$$\"3%zmmTvJga)FE$\"3EYq\">@
+kI1*FM7$$\"3]MLe9tOc()FE$\"3;wL2\\xlv()FM7$$\"31,++]Qk\\*)FE$\"3`*f'Qz
+5f1&)FM7$$\"3![LL3dg6<*FE$\"3)ya:mUaU>)FM7$$\"3%ymmmw(Gp$*FE$\"32\"fs6
+cgG\"zFM7$$\"3C++D\"oK0e*FE$\"37/5qHHA7wFM7$$\"35,+v=5s#y*FE$\"3T9*fxF
+c^K(FM7$$\"#5F)$\"3\"z-92z%p=qFM-%'COLOURG6&%$RGBG$Fgz!\"\"F(F(-%&TITL
+EG6#QJGeneralized~Gamma~with~Parameters~a,b,c,k6\"-%+AXESLABELSG6$Q\"x
+Fd[lQ!Fd[l-%%VIEWG6$;F(Ffz%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 1.000000 
+45.000000 45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "Mean:=evalf(a+b*GAMMA(c+1/k)/GAMMA(c));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%%MeanG$\"\"#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 71 "Variance:=evalf(b^2*(GAMMA(c+2/k)/GAMMA(c)-(GAMMA(c
++1/k)/GAMMA(c))^2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)VarianceG$
+\"\"%\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0
+ 0 0" 542 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 
+1 }

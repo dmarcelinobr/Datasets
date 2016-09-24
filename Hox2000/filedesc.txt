@@ -1,0 +1,16 @@
+Files used in J.J. Hox (2000). Multilevel analysis of grouped and longitudinal data. Pp. 15-32 in T.D. Little, K.U. Schnabel & J. Baumert (Eds.). Modeling longitudinal and multiple-group data. Practical issues, applied approaches, and specific examples. Hillsdale, NJ: Lawrence Erlbaum.
+
+
+SCHOOL.SAV	SPSS file for School-achievement example, page 18.
+
+ROGOFULL.SAV	SPSS file for Rogosa-Saner data, page 22.
+ROGOMISS.SAV	SPSS file for Rogosa-Saner data with MCAR missings, page 30.
+ROGOATTR.SAV	SPSS file for Rogosa-Saner data with MCAR missings plus missings by attrition, page 30.
+
+FAMINT.SAV	SPSS file for sibling intelligence data from Van Peet, page 25. Compared to data used in Hox, 1995, Applied Multilevel Analysis, these data include partially missing records that have been made complete by EM imputation.
+
+*.WS			MLwiN worksheet files for these data.
+
+*.am*	AMOS 4 setup files for latent growth model on Rogosa-Saner data.
+
+

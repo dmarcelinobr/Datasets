@@ -1,0 +1,66 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" -1 -1 "
+Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 205 "Binomial distribution wit
+h parameters n, x, and p, where p is the probability of success in n t
+rials, x is the number of successes, and n is the number of trials.  N
+ote that the Bernoulli results when n=1." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 
+"f:=(GAMMA(n+1)/(GAMMA(x+1)*GAMMA(n-x+1)))*p^x*(1-p)^(n-x);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"fG*,-%&GAMMAG6#,&%\"nG\"\"\"F+F+F+-F'6#,
+&%\"xGF+F+F+!\"\"-F'6#,(F*F+F/F0F+F+F0)%\"pGF/F+),&F+F+F5F0,&F*F+F/F0F
++" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "p:=.2;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"pG$\"\"#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "n:=10;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"nG\"#5" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "evalf(integrate(f,x=0..10
+));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+VVK/'*!#5" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 60 "plot(f,x=0..n,title=\"binomial for x succ
+esses in n trials\");" }}{PARA 13 "" 1 "" {GLPLOT2D 400 300 300 
+{PLOTDATA 2 "6&-%'CURVESG6$7jn7$$\"\"!F)$\"3)>++S#=ut5!#=7$$\"3GLLL3x&
+)*3\"F,$\"3;kd=O!yyD\"F,7$$\"3emmm;arz@F,$\"33Yd$HcssW\"F,7$$\"3v***\\
+7y%*z7$F,$\"3i>vdq#eRh\"F,7$$\"3[LL$e9ui2%F,$\"3%p\"zK86A!y\"F,7$$\"3z
+***\\(oMrU^F,$\"3=hNR?(*3k>F,7$$\"3nmmm\"z_\"4iF,$\"3vRP.Ez%=9#F,7$$\"
+3Unmmm6m#G(F,$\"37i$QKM!y6BF,7$$\"39ommT&phN)F,$\"3=3bs34.qCF,7$$\"3A,
++v=ddC%*F,$\"3)3f+:()fNh#F,7$$\"3KLLe*=)H\\5!#<$\"3k3$[(\\25TFF,7$$\"3
+smm\"z/3uC\"Fgn$\"3f`Cm8OxHHF,7$$\"3ULLe*ot*\\8Fgn$\"3APWN#yU5+$F,7$$
+\"3!****\\7LRDX\"Fgn$\"3UNT-A_[`IF,7$$\"3!om;z4wb]\"Fgn$\"33\\0?!zOJ2$
+F,7$$\"3[LLekGhe:Fgn$\"3_^&pky(p(3$F,7$$\"3;++DJ'\\;h\"Fgn$\"3_vgfk]>(
+4$F,7$$\"3%om;zR'ok;Fgn$\"3gaOQ\"zw;5$F,7$$\"34+++vIb<<Fgn$\"3k&o+a'3A
+,JF,7$$\"3OLL3_(>/x\"Fgn$\"3u2-())yOf4$F,7$$\"3hmm;HkGB=Fgn$\"3sFh&G#)
+Hf3$F,7$$\"33++D1J:w=Fgn$\"3)z$*>e?A82$F,7$$\"3+n;HdG\"\\)>Fgn$\"3%y$R
+v-hSFIF,7$$\"3oLLL3En$4#Fgn$\"3'Gz*pu^+mHF,7$$\"3#pmmT!RE&G#Fgn$\"3CE4
+c)=x-#GF,7$$\"3D+++D.&4]#Fgn$\"3#Ryz,$zf4EF,7$$\"3;+++vB_<FFgn$\"3?7n
+\"Q?!)HO#F,7$$\"33+++v'Hi#HFgn$\"3HT8A4#Rh5#F,7$$\"3&om;z*ev:JFgn$\"3;
+_ad$zxr'=F,7$$\"3_LLL347TLFgn$\"33\\fBmAP(e\"F,7$$\"3nLLLLY.KNFgn$\"3O
+UbmhRkh8F,7$$\"33++D\"o7Tv$Fgn$\"3jYJH*R`*=6F,7$$\"3?LLL$Q*o]RFgn$\"3/
+L(p8-!*zD*!#>7$$\"3m++D\"=lj;%Fgn$\"3_HDI([]aR(Fhu7$$\"3S++vV&R<P%Fgn$
+\"3!3\"\\^b[EweFhu7$$\"3CML$e9Ege%Fgn$\"3=$o)*H.\\qa%Fhu7$$\"3]LLeR\"3
+Gy%Fgn$\"3)o^_i>f.a$Fhu7$$\"3emm;/T1&*\\Fgn$\"3o&zYduU0m#Fhu7$$\"3=nm
+\"zRQb@&Fgn$\"3)[z%)eO`M%>Fhu7$$\"3:++v=>Y2aFgn$\"3742'*[YYd9Fhu7$$\"3
+Znm;zXu9cFgn$\"3cSb'HeA@0\"Fhu7$$\"34+++]y))GeFgn$\"3GRtn\"RO,R(!#?7$$
+\"3H++]i_QQgFgn$\"3%4&HixxOX^Ffx7$$\"3b++D\"y%3TiFgn$\"3)\\bP$4*3$oNFf
+x7$$\"3+++]P![hY'Fgn$\"3B%4chHeLL#Ffx7$$\"3iKLL$Qx$omFgn$\"3'[sr)R4Sm:
+Ffx7$$\"3Y+++v.I%)oFgn$\"3u)p.^0g_+\"Ffx7$$\"3?mm\"zpe*zqFgn$\"3o@OJ\"
+)o`:m!#@7$$\"3;,++D\\'QH(Fgn$\"3!H`*pc7?5TFez7$$\"3%HL$e9S8&\\(Fgn$\"3
+cZe)))*)**)yDFez7$$\"3s++D1#=bq(Fgn$\"3#[Ke,4uLb\"Fez7$$\"3\"HLL$3s?6z
+Fgn$\"3#4Tp.>DAF*!#A7$$\"3a***\\7`Wl7)Fgn$\"3#e%=(G'G%4G&Fj[l7$$\"3enm
+mm*RRL)Fgn$\"3n#*Rtn\"G,+$Fj[l7$$\"3%zmmTvJga)Fgn$\"3&ea\"GiTrS;Fj[l7$
+$\"3]MLe9tOc()Fgn$\"3![FixHwbx)!#B7$$\"31,++]Qk\\*)Fgn$\"3oG_*)*RV8\"[
+F_]l7$$\"3![LL3dg6<*Fgn$\"3-`3?z#*yNBF_]l7$$\"3%ymmmw(Gp$*Fgn$\"3#H.qG
+>dE=\"F_]l7$$\"3C++D\"oK0e*Fgn$\"3g%[ki<u\\\\&!#C7$$\"35,+v=5s#y*Fgn$
+\"3YB(Q%Q%H*=DFd^l7$$\"#5F)$\"3*=+++++S-\"Fd^l-%'COLOURG6&%$RGBG$F\\_l
+!\"\"F(F(-%&TITLEG6#QEbinomial~for~x~successes~in~n~trials6\"-%+AXESLA
+BELSG6$Q\"xFi_lQ!Fi_l-%%VIEWG6$;F(F[_l%(DEFAULTG" 1 2 0 1 10 0 2 9 1 
+4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" }}}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "mean:=n*p;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%%meanG$\"#?!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "varia
+nce:=n*p*(1-p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)varianceG$\"$g\"
+!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 
+205 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
