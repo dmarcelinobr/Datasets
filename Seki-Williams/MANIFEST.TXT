@@ -1,0 +1,14 @@
+Seki-Williams Annual Government Partisanship--Version 2.0-1.tab (text/tab-separated-values) 1444705 bytes.
+Seki-Williams Annual Government Partisanship--Version 2.0.tab (text/tab-separated-values) 1765983 bytes.
+Seki-Williams Government Partisanship.do (application/x-stata-syntax) 21044 bytes.
+Seki-Williams Governments--Version 2.0.tab (text/tab-separated-values) 367460 bytes.
+Seki-Williams Ministers--Version 2.0.tab (text/tab-separated-values) 1262554 bytes.
+SW 2016 Codebook--Governments.pdf (application/pdf) 227214 bytes.
+SW 2016 Codebook--Ministers.pdf (application/pdf) 121913 bytes.
+SW 2016 Codebook--Partisanship.pdf (application/pdf) 176595 bytes.
+SW 2016 Release Notes.pdf (application/pdf) 113720 bytes.
+SW2016_Appendix1a.pdf (application/pdf) 357636 bytes.
+SW2016_Appendix1b.pdf (application/pdf) 492591 bytes.
+SW2016_Appendix1c.pdf (application/pdf) 288419 bytes.
+WKB Ministers--Version 2.0-1.tab (text/tab-separated-values) 1479992 bytes.
+WKB Ministers--Version 2.0.tab (text/tab-separated-values) 1698920 bytes.
