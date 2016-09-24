@@ -1,0 +1,1145 @@
+pie(mtcars, col=4)
+pie(mtcars, col=5)
+str(mtcar)
+str(mtcars)
+mtcars$gear <- as.factor( mtcars$gear)
+pie(mtcars, col=10)
+pie <- function(df, col, label=col) {#
+	df$pie = df[,col]#
+	l = levels(df$pie)#
+	t = table(df$pie)#
+	levels(df$pie) = paste(names(t), " ", format(100*t/sum(t),digits=1), "%", sep="")#
+	p = ggplot(df, aes(x=factor(1), fill=pie)) + #
+		geom_bar(width=1) + coord_polar(theta="y") + xlab("") + ylab("") + #
+		scale_fill_hue(name=label, breaks=levels(df$pie), labels=levels(df$pie)) + #
+		theme(axis.text.y=element_blank(), axis.text.x=element_blank(), axis.ticks=element_blank()) + theme_minimalist()#
+	print(p)#
+}
+pie(mtcars, col=10)
+require(SciencesPo)
+pie(mtcars, col=10)
+pie <- function(df, col, label=col) {#
+	df$pie = df[,col]#
+	l = levels(df$pie)#
+	t = table(df$pie)#
+	levels(df$pie) = paste(names(t), " ", format(100*t/sum(t),digits=1), "%", sep="")#
+	p = ggplot(df, aes(x=factor(1), fill=pie)) + #
+		geom_bar(width=1) + coord_polar(theta="y") + xlab("") + ylab("") + #
+		scale_fill_hue(name=label, breaks=levels(df$pie), labels=levels(df$pie)) + #
+		 theme_minimalist() +theme(axis.text.y=element_blank(), axis.text.x=element_blank(), axis.ticks=element_blank()) #
+	print(p)#
+}
+pie(mtcars, col=10)
+pie <- function(df, col, label=col) {#
+	df$pie = df[,col]#
+	l = levels(df$pie)#
+	t = table(df$pie)#
+	levels(df$pie) = paste(names(t), " ", format(100*t/sum(t),digits=1), "%", sep="")#
+	p = ggplot(df, aes(x=factor(1), fill=pie)) + #
+		geom_bar(width=1) + coord_polar(theta="y") + xlab("") + ylab("") + #
+		scale_fill_hue(name=label, breaks=levels(df$pie), labels=levels(df$pie)) + #
+		 theme_minimalist() ) #
+	print(p)#
+}
+pie <- function(df, col, label=col) {#
+	df$pie = df[,col]#
+	l = levels(df$pie)#
+	t = table(df$pie)#
+	levels(df$pie) = paste(names(t), " ", format(100*t/sum(t),digits=1), "%", sep="")#
+	p = ggplot(df, aes(x=factor(1), fill=pie)) + #
+		geom_bar(width=1) + coord_polar(theta="y") + xlab("") + ylab("") + #
+		scale_fill_hue(name=label, breaks=levels(df$pie), labels=levels(df$pie)) + #
+		 theme_minimalist()#
+	print(p)#
+}
+pie(mtcars, col=10)
+pie <- function(df, col, label=col) {#
+	df$pie = df[,col]#
+	l = levels(df$pie)#
+	t = table(df$pie)#
+	levels(df$pie) = paste(names(t), " ", format(100*t/sum(t),digits=1), "%", sep="")#
+	p = ggplot(df, aes(x=factor(1), fill=pie)) + #
+		geom_bar(width=1) + coord_polar(theta="y") + xlab("") + ylab("") + #
+		scale_fill_hue(name=label, breaks=levels(df$pie), labels=levels(df$pie)) + #
+		 theme_minimalist() +theme(axis.text.y=element_blank(), axis.text.x=element_blank(), axis.ticks=element_blank()) #
+	print(p)#
+}
+foreach(i=1:3, j=10,.combine=rbind) %dopar% {#
+   c(i, j)#
+ }#
+#
+ foreach(i=1:3, j=10:100, .combine=rbind) %dopar% {#
+  c(i, j)#
+ }
+foreach(i=1:3, j=10,.combine=cbind) %dopar% {#
+   c(i, j)#
+ }#
+#
+ foreach(i=1:3, j=10:100, .combine=cbind) %dopar% {#
+  c(i, j)#
+ }
+foreach(i=1:3, j=10,.combine='c') %dopar% {#
+   c(i, j)#
+ }#
+#
+ foreach(i=1:3, j=10:100, .combine='c') %dopar% {#
+  c(i, j)#
+ }
+foreach(i=1:3, j=10,.combine='c') %dopar% {#
+   c(i, j)#
+ }#
+#
+ foreach(i=1:3, j=10:100, .combine='c',.inorder=FALSE) %dopar% {#
+  c(i, j)#
+ }
+foreach(i=1:3, j=10,.combine='rbind') %dopar% {#
+   c(i, j)#
+ }#
+#
+ foreach(i=1:3, j=10:100, .combine='rbind') %dopar% {#
+  c(i, j)#
+ }
+foreach(i=1:3, j=10,.combine='rbind') %do% {#
+   c(i, j)#
+ }#
+#
+ foreach(i=1:3, j=10:100, .combine='rbind') %do% {#
+  c(i, j)#
+ }
+foreach(i=1:3, j=10,.combine='rbind') %do% {#
+   c(i, j)#
+ }#
+#
+ foreach(icount(1000), j=10:100, .combine='rbind') %do% {#
+  c(i, j)#
+ }
+require(iterators)
+foreach(i=1:3, j=10,.combine='rbind') %do% {#
+   c(i, j)#
+ }#
+#
+ foreach(icount(1000), j=10:100, .combine='rbind') %do% {#
+  c(i, j)#
+ }
+foreach(i=1:3, j=10,.combine='rbind') %dopar% {#
+   c(i, j)#
+ }#
+#
+ foreach(icount(1000), j=10:100, .combine='rbind') %dopar% {#
+  c(i, j)#
+ }
+system.time(sort(runif(100)))
+qsort <- function(x) {n <- length(x) if (n == 0) {
+x
+} else {p <- sample(n, 1)smaller <- foreach(y=x[-p], .combine=c) %:% when(y <= x[p]) %do% ylarger  <- foreach(y=x[-p], .combine=c) %:% when(y >  x[p]) %do% yc(qsort(smaller), x[p], qsort(larger))
+}
+system.time(sort(runif(100000)))
+system.time(qsort(runif(100000)))
+require(doParallel)
+install.packages(doParallel)
+install.packages('doParallel')
+require(SciencesPo)
+install.packages(doParallel)
+require(doParallel)
+x <- iris[which(iris[,5] != "setosa"),c(1,5)]#
+trials <- 10000
+x
+# example using a single core#
+t1 <- system.time({#
+  r1 <- foreach(icount(trials), .combine=cbind) %do% {#
+    ind <- sample(100,100,replace= TRUE)#
+    results1 <- glm(x[ind,2]~x[ind,1],family=binomial(logit))#
+    coefficients(results1)#
+  }#
+})[3]
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+    ind <- sample(100,100,replace= TRUE)#
+    results1 <- glm(x[ind,2]~x[ind,1],family=binomial(logit))#
+    coefficients(results1)#
+  }#
+})[3]
+trialsPerCore <- as.integer(ceiling(trials / nCores)) # number of trials#
+                                                   # do to on each core#
+# function to do a single model run#
+model <- function(x) {#
+  ind <- sample(100,100,replace= TRUE)#
+  results1 <- glm(x[ind,2]~x[ind,1],family=binomial(logit))#
+  coefficients(results1)#
+}#
+# function producing a group of model runs#
+modelRun <- function(trials, x) {#
+  replicate(trials, model(x))#
+}#
+# call the model run for each core#
+t3 <- system.time(#
+  r3 <- foreach(icount(nCores), .combine= cbind) %dopar% modelRun(trialsPerCore, x)#
+)[3]#
+#
+stopCluster(cl)
+t1
+t2
+t3
+r3
+r2
+r1
+?fptp2av
+data(ge2010)
+head(ge2010)
+IR <-ge2010[ge2010$Region=="Northern Ireland",]
+IR
+APNI<- c("SF", "DUP", "SDLP", "TUV", "UCUNF")#
+BNP<-c("Ch P", "Con", "CPA", "NF", "UKIP");#
+Ch_P<-c("BNP", "CPA", "Con", "ED")#
+Con<-c("LD", "UKIP", "ED", "Ch P", "CPA")#
+CPA<-c("BNP", "Ch P", "Con", "ED") #
+DUP<-c("SDLP", "TUV", "UCUNF", "APNI") #
+ED<-c("Con", "BNP", "NF", "CPA", "Ch P")#
+Grn<-c("LD", "Lab", "SDLP", "PC", "SSP", "TUSC", "TUV") #
+Lab<-c("LD", "Grn", "SDLP", "Soc", "SSP", "TUSC", "TUV") #
+LD<-c("Lab", "Con", "Grn", "PC", "SDLP")#
+MRLP<-c("Con", "Lab", "LD", "Grn", "PC", "SDLP", "SNP", "SSP", "UKIP")#
+NF<-c("BNP", "Con", "ED", "UKIP")#
+PC<-c("Con", "Lab", "LD") #
+Respect<-c("Con", "Lab", "LD") #
+SDLP<-c("Grn", "Lab", "LD") #
+SF<-c("APNI", "USUNF") #
+Soc<-c("Lab", "SSP", "SDLP", "TUSC", "TUV") #
+SNP<-c("Ch P", "CPA", "UKIP")#
+SSP<-c("Grn", "Lab", "LD", "SDLP", "TUSC", "TUV") #
+TUSC<-c("SDLP", "Soc", "SSP", "TUV") #
+TUV<-c("SDLP", "Soc", "SSP", "TUSC") #
+UCUNF<-c("APNI", "SF", "DUP") #
+UKIP<-c("BNP", "NF", "Con")
+# vector with party/candidate relations:#
+party_chains <-structure(list(APNI,BNP,Ch_P,Con,CPA,DUP,ED,Grn,#
+	Lab,LD,MRLP,NF,PC,Respect,SDLP,SF,Soc,SNP,SSP,TUSC,TUV,UCUNF,#
+	UKIP), .Names = c("APNI","BNP","Ch_P","Con","CPA","DUP","ED","Grn","Lab",#
+"LD","MRLP","NF","PC","Respect","SDLP","SF","Soc","SNP","SSP","TUSC",#
+"TUV","UCUNF","UKIP" ));
+stopCluster(cl)
+?fptp2av
+trials <- 20#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+# example using 4 cores and parallelizing a group of trial runs#
+trialsPerCore <- as.integer(ceiling(trials / nCores)) # number of trials#
+                                                   # do to on each core#
+# function to do a single model run#
+model <- function(x) {#
+  fptp2av(data=IR, link=party_chains)#
+}#
+# function producing a group of model runs#
+modelRun <- function(trials, x) {#
+  replicate(trials, model(x))#
+}#
+# call the model run for each core#
+t3 <- system.time(#
+  r3 <- foreach(icount(nCores), .combine= cbind) %dopar% modelRun(trialsPerCore, x)#
+)[3]#
+#
+stopCluster(cl)
+trials <- 20#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+# example using 4 cores and parallelizing a group of trial runs#
+trialsPerCore <- as.integer(ceiling(trials / nCores)) # number of trials#
+                                                   # do to on each core#
+# function to do a single model run#
+model <- function(x) {#
+  SciencesPo::fptp2av(data=IR, link=party_chains)#
+}#
+# function producing a group of model runs#
+modelRun <- function(trials, x) {#
+  replicate(trials, model(x))#
+}#
+# call the model run for each core#
+t3 <- system.time(#
+  r3 <- foreach(icount(nCores), .combine= cbind) %dopar% modelRun(trialsPerCore, x)#
+)[3]#
+#
+stopCluster(cl)
+t3
+546.772/20
+ind <- sample(100,100,replace= TRUE)
+ind
+x
+results1 <- glm(x[ind,2]~x[ind,1],family=binomial(logit))
+results1
+x[ind,2]
+str(x)
+x[ind,1]
+### #
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR, link=party_chains)#
+  }#
+})[3]#
+#
+stopCluster(cl)
+t2
+data=IR[,1]
+IR[,1]
+IR[,2]
+IR[1,2]
+IR[1,]
+### This finishes behind about 20 sec.#
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR[1,], link=party_chains)#
+  }#
+})[3]#
+#
+stopCluster(cl)
+### This finishes behind about 20 sec.#
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR[,1], link=party_chains)#
+  }#
+})[3]#
+#
+stopCluster(cl)
+r2
+r3
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind, #
+.packages='SciencesPo')) %dopar% {#
+  fptp2av(data=IR[1,], link=party_chains)#
+  }#
+})[3]#
+print(r2)#
+stopCluster(cl)
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind, #
+.packages='SciencesPo') %dopar% {#
+  fptp2av(data=IR[1,], link=party_chains)#
+  }#
+})[3]#
+print(r2)#
+stopCluster(cl)
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind ) %dopar% {#
+  SciencesPo::fptp2av(data=IR[1,], link=party_chains)#
+  }#
+})[3]#
+print(r2)#
+stopCluster(cl)
+## This finishes behind about 20 sec.#
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR[1,], link=party_chains)#
+  }#
+}print(r2))[3]#
+#
+stopCluster(cl)
+### This finishes behind about 20 sec.#
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR[1,], link=party_chains)#
+  }#
+};print(r2))[3]#
+#
+stopCluster(cl)
+### This finishes behind about 20 sec.#
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR[1,], link=party_chains)#
+  }#
+print(r2)})[3]#
+#
+stopCluster(cl)
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR[1,], link=party_chains)#
+  }#
+})[3]#
+#
+stopCluster(cl)
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind, #
+.packages='SciencesPo') %dopar% {#
+  fptp2av(data=IR, link=party_chains)#
+  }#
+})[3]#
+print(r2)#
+stopCluster(cl)
+t2
+r2
+### This finishes behind about 20 sec.#
+# example using 4 cores and parallelizing each model trial#
+nCores <- 4#
+cl <- makeCluster(nCores)#
+registerDoParallel(cl)#
+#
+t2 <- system.time({#
+  r2 <- foreach(icount(trials), .combine=cbind) %dopar% {#
+  	SciencesPo::fptp2av(data=IR, link=party_chains)#
+  }#
+print(r2)})[3]#
+#
+stopCluster(cl)
+library(RColorBrewer) #to use brewer.pal#
+library(fields) #to use designer.colors#
+#
+#Function to create the polygon for each hexagon#
+Hexagon <- function (x, y, unitcell = 1, col = col) {#
+  polygon(c(x, x, x + unitcell/2, x + unitcell, x + unitcell, #
+            x + unitcell/2), c(y + unitcell * 0.125, #
+                               y + unitcell * 0.875, #
+                               y + unitcell * 1.125, #
+                               y + unitcell * 0.875, #
+                               y + unitcell * 0.125, #
+                               y - unitcell * 0.125), #
+          col = col, border=NA)#
+}#function#
+#
+#Start with a matrix that would be the numerical representation of you heatmap#
+#called Heatmap_Matrix#
+#This matrix has the same number of rows as the SOM map #
+#and the same number of columns as the SOM map#
+#and each value in the Heatmap represents the value for one hexagon#
+#Here [1,1] will become the lower left node (1st row, 1st column), #
+#[1,2] will become the node to the right#
+#[2,1] will be the first node to the left in the second row#
+#So visually you work your way from bottom left to top right#
+x <- as.vector(Heatmap_Matrix)#
+#
+#Number of rows and columns of your SOM#
+SOM_Rows <- dim(Heatmap_Matrix)[1]#
+SOM_Columns <- dim(Heatmap_Matrix)[2]#
+#
+#To make room for the legend#
+par(mar = c(0.4, 2, 2, 7))#
+#
+#Initiate the plot window but do show any axes or points on the plot#
+plot(0, 0, type = "n", axes = FALSE, xlim=c(0, SOM_Columns), #
+     ylim=c(0, SOM_Rows), xlab="", ylab= "", asp=1)#
+#
+#Create the color palette #
+#I use designer.colors to interpolate 50 colors between #
+#the maxmimum number of allowed values in Brewer #
+#Just replace this with any other color palette you like#
+ColRamp <- rev(designer.colors(n=50, col=brewer.pal(9, "Spectral")))#
+#
+#Make a vector with length(ColRamp) number of bins between the minimum and #
+#maximum value of x. #
+#Next match each point from x with one of the colors in ColorRamp#
+ColorCode <- rep("#FFFFFF", length(x)) #default is all white#
+Bins <- seq(min(x, na.rm=T), max(x, na.rm=T), length=length(ColRamp))#
+for (i in 1:length(x))#
+  if (!is.na(x[i])) ColorCode[i] <- ColRamp[which.min(abs(Bins-x[i]))] #
+#
+#Actual plotting of hexagonal polygons on map#
+offset <- 0.5 #offset for the hexagons when moving up a row#
+for (row in 1:SOM_Rows) {#
+  for (column in 0:(SOM_Columns - 1)) #
+    Hexagon(column + offset, row - 1, col = ColorCode[row + SOM_Rows * column])#
+  offset <- ifelse(offset, 0, 0.5)#
+}#
+#
+#Add legend to the right if you want to#
+image.plot(legend.only=TRUE, col=ColRamp, #
+           zlim=c(min(x, na.rm=T), max(x, na.rm=T)))
+install.packages('fields')
+install.packages('pvclust')
+install.packages("BaSTA")
+install.packages("pixmap")
+install.packages("portfolio")
+pvrect
+install.packages("mvtnorm")
+install.packages("expm")
+pvrect
+gfortran -v
+which(gfortran)
+which(fortran)
+gfortran -v
+install.packages("expm",type = 'source')
+Sys.getenv()
+sessionInfo()
+gfortran -v
+install.packages("expm",type = 'source')
+# Thresholded recurrence plot#
+thresholded_recurrence_plot <- function (#
+  x, #
+  threshold = 0, #
+  FUN = function (x) x, #
+  ...#
+) {#
+  image(-outer(#
+      x, x, #
+      function (a, b) #
+        ifelse(FUN(a-b)>threshold,1,0)#
+    ), #
+    ...)#
+  box()#
+}#
+thresholded_recurrence_plot(#
+  lorenz.ts[1:100],#
+  0,#
+  main = "Thresholded recurrence plot"#
+)
+library(tseriesChaos)#
+recurrence_plot(lorenz.ts[100:200],#
+                main = "Recurrence plot: Lorentz attractor")
+install.packages('tseriesChaos')
+library(pixmap)#
+z <- read.pnm("2006-08-27_Hello.pgm") # Created (by hand) with The Gimp#
+z <- z@grey#
+d <- cbind(#
+  x = col(z)[ ! z ],#
+  y = -row(z)[ ! z ]#
+)#
+N <- 10000#
+d <- d[sample(1:nrow(d), N, replace = TRUE),]#
+d <- d + rnorm(2*N)#
+#plot(d)#
+d <- apply(d, 2, scale)#
+explode <- function (#
+  d,#
+  FUN = function (x) { rank(x, na.last="keep") / length(x) }#
+) {#
+  # Convert to polar coordinates#
+  d <- data.frame( #
+    rho = sqrt(d[,1]^2 + d[,2]^2),#
+    theta = atan2(d[,2], d[,1])#
+  )#
+  d$rho <- FUN(d$rho)#
+  # Convert back to cartesian coordinates#
+  d <- cbind(#
+    x = d$rho * cos(d$theta),#
+    y = d$rho * sin(d$theta)#
+  )#
+  d#
+}#
+#plot(explode(d))#
+d <- explode(d, FUN = function (x) x^4)#
+d <- apply(d, 2, function (x) (x - min(x))/diff(range(x)))#
+d <- rbind(d, matrix(rnorm(2*N), nc=2))#
+#
+# Exercice: Find the word in the following cloud of points...#
+op <- par(mfrow=c(2,2), mar=c(.1,.1,.1,.1))#
+plot(d, axes = FALSE)#
+box()#
+plot( rank(d[,1]), rank(d[,2]), axes = FALSE )#
+box()#
+plot(explode(d), axes = FALSE)#
+box()#
+plot(explode(d, atan), axes = FALSE)#
+box()#
+par(op)
+library(pixmap)#
+z <- read.pnm("2006-08-27_Hello.pgm") # Created (by hand) with The Gimp#
+z <- z@grey#
+d <- cbind(#
+  x = col(z)[ ! z ],#
+  y = -row(z)[ ! z ]#
+)#
+N <- 10000#
+d <- d[sample(1:nrow(d), N, replace = TRUE),]#
+d <- d + rnorm(2*N)#
+#plot(d)#
+d <- apply(d, 2, scale)#
+explode <- function (#
+  d,#
+  FUN = function (x) { rank(x, na.last="keep") / length(x) }#
+) {#
+  # Convert to polar coordinates#
+  d <- data.frame( #
+    rho = sqrt(d[,1]^2 + d[,2]^2),#
+    theta = atan2(d[,2], d[,1])#
+  )#
+  d$rho <- FUN(d$rho)#
+  # Convert back to cartesian coordinates#
+  d <- cbind(#
+    x = d$rho * cos(d$theta),#
+    y = d$rho * sin(d$theta)#
+  )#
+  d#
+}#
+plot(explode(d))#
+d <- explode(d, FUN = function (x) x^4)#
+d <- apply(d, 2, function (x) (x - min(x))/diff(range(x)))#
+d <- rbind(d, matrix(rnorm(2*N), nc=2))#
+#
+# Exercice: Find the word in the following cloud of points...#
+op <- par(mfrow=c(2,2), mar=c(.1,.1,.1,.1))#
+plot(d, axes = FALSE)#
+box()#
+plot( rank(d[,1]), rank(d[,2]), axes = FALSE )#
+box()#
+plot(explode(d), axes = FALSE)#
+box()#
+plot(explode(d, atan), axes = FALSE)#
+box()#
+par(op)
+X = seq(1, 100, 5)#
+Y = seq (1, 100, 5)#
+Z = rnorm (length (X), 10, 2)#
+data1 <- data.frame (X, Y, )#
+data2 <- data.frame (X, Y, Z1 = Z - 5)#
+data3 <- data.frame (X, Y, Z1 = Z - 3)#
+#
+require(scatterplot3d)#
+s3d <- scatterplot3d(data1, color = "blue", pch = 19, xlim=NULL, ylim=NULL, zlim= c(0, 20))#
+s3d$points3d(data2, col = "red", pch = 18)#
+s3d$points3d(data3, col = "green4", pch = 17)
+X = seq(1, 100, 5)#
+Y = seq (1, 100, 5)#
+Z = rnorm (length (X), 10, 2)#
+data1 <- data.frame (X, Y)#
+data2 <- data.frame (X, Y, Z1 = Z - 5)#
+data3 <- data.frame (X, Y, Z1 = Z - 3)#
+#
+require(scatterplot3d)#
+s3d <- scatterplot3d(data1, color = "blue", pch = 19, xlim=NULL, ylim=NULL, zlim= c(0, 20))#
+s3d$points3d(data2, col = "red", pch = 18)#
+s3d$points3d(data3, col = "green4", pch = 17)
+X = seq(1, 100, 5)#
+Y = seq (1, 100, 5)#
+Z = rnorm (length (X), 10, 2)#
+data1 <- data.frame (X, Y, Z1 = Z - 7)#
+data2 <- data.frame (X, Y, Z1 = Z - 5)#
+data3 <- data.frame (X, Y, Z1 = Z - 3)#
+#
+require(scatterplot3d)#
+s3d <- scatterplot3d(data1, color = "blue", pch = 19, xlim=NULL, ylim=NULL, zlim= c(0, 20))#
+s3d$points3d(data2, col = "red", pch = 18)#
+s3d$points3d(data3, col = "green4", pch = 17)
+X = seq(1, 100, 5)#
+Y = seq (1, 100, 5)#
+Z = rnorm (length (X), 10, 2)#
+data1 <- data.frame (X, Y, Z1 = Z - 8)#
+data2 <- data.frame (X, Y, Z1 = Z - 5)#
+data3 <- data.frame (X, Y, Z1 = Z - 3)#
+#
+require(scatterplot3d)#
+s3d <- scatterplot3d(data1, color = "blue", pch = 19, xlim=NULL, ylim=NULL, zlim= c(0, 20))#
+s3d$points3d(data2, col = "red", pch = 18)#
+s3d$points3d(data3, col = "green4", pch = 17)
+ami <- read.table(file = "http://www.public.iastate.edu/~maitra/stat501/datasets/amitriptyline.dat",  col.names=c("TCAD", "drug", "gender", "antidepressant","PR", "dBP", "QRS"))
+ami
+cbind(TCAD, drug)
+cbind(ami$TCAD, ami$drug)
+testnormality <- function(X, numproj = 100000)#
+  {#
+    # note that the value returned is the q-value of the test#
+    p <- ncol(X)#
+    n <- nrow(X)#
+    x <- matrix(rnorm(numproj * p), nrow = p)#
+                                        # generate 100,000, standard#
+                                        # p-variate#
+                                        # normal random variables.#
+    y <- matrix(sqrt(apply(x^2, 2, sum)), nrow = p, ncol = numproj, by = T)#
+    z <- x / y#
+#
+    tempdat <- as.matrix(X) %*% z  # this gives rise to a p x numproj matrix#
+                                   # called tempdat here#
+#
+    # perform Shapiro-Wilks' test and calculate individual p-values on each of#
+    # the numproj observation sets.#
+#
+    pvals <- as.numeric(matrix(unlist(apply(tempdat, 2, shapiro.test)),#
+                             ncol=4, by = T)[,2])#
+#
+    return(min(sort(pvals) * numproj / (1:numproj)))#
+  }
+testnormality()
+testnormality(1)
+testnormality(10)
+testnormality(X=1:10)
+X <- sample(100,100)
+testnormality(X)
+install.packages('ICSNP')
+install.packages('tseriesChaos')
+install.packages('deSolve')
+require(SoundexBR)
+soundexBR("Daniel Marcelino")
+int2char
+soundexBR("Jão Souza")
+soundexBR(accent("João Souza"))
+soundexBR(accent("Joao Souza"))
+soundexBR(accent("Joao Sousa"))
+data1 <- data.frame(list(#
+fname=c('Ricardo','Maria','Tereza','Pedro','José','Germano'),#
+lname=c('Cunha','Andrade','Silva','Soares','Silva','Lima'),#
+age=c(67,89,78,65,68,67),#
+birth=c(1945,1923,1934,1947,1944,1945),#
+date=c(20120907,20120703,20120301,20120805,20121004,20121209)#
+))#
+#
+data2<-data.frame( list( fname=c('Maria','Lúcia','Paulo','Marcos','Ricardo','Germânio'),#
+lname=c('Andrada','Silva','Soares','Pereira','Cunha','Lima'),#
+age=c(67,88,78,60,67,80),#
+birth=c(1945,1924,1934,1952,1945,1932),#
+date=c(20121208,20121103,20120302,20120105,20120907,20121209)#
+))
+pairs<-compare.linkage(data1, data2,#
+blockfld=list(c(1,2,4),c(1,2)),#
+phonetic<-c(1,2), phonfun = soundexBR, strcmp = FALSE,#
+strcmpfun<-jarowinkler, exclude=FALSE,identity1 = NA,#
+identity2=NA, n_match <- NA, n_non_match = NA)
+require(RecordLinkage)
+pairs<-compare.linkage(data1, data2,#
+blockfld=list(c(1,2,4),c(1,2)),#
+phonetic<-c(1,2), phonfun = soundexBR, strcmp = FALSE,#
+strcmpfun<-jarowinkler, exclude=FALSE,identity1 = NA,#
+identity2=NA, n_match <- NA, n_non_match = NA)
+print(pairs)
+weights <- epiWeights(pairs, e = 0.01, f = pairs$frequencies)#
+hist(weights$Wdata, plot = FALSE) # Plot TRUE#
+getPairs(pairs, max.weight = Inf, min.weight = -Inf)
+dettach("SiencesPo")
+detach("SiencesPo")
+detach("SoudexBR")
+detach("SoundexBR")
+require(Soundex)
+require(SoundexBR)
+data1 <- data.frame(list(#
+fname=c('Ricardo','Maria','Tereza','Pedro','José','Germano'),#
+lname=c('Cunha','Andrade','Silva','Soares','Silva','Lima'),#
+age=c(67,89,78,65,68,67),#
+birth=c(1945,1923,1934,1947,1944,1945),#
+date=c(20120907,20120703,20120301,20120805,20121004,20121209)#
+))#
+#
+data2<-data.frame( list( fname=c('Maria','Lúcia','Paulo','Marcos','Ricardo','Germânio'),#
+lname=c('Andrada','Silva','Soares','Pereira','Cunha','Lima'),#
+age=c(67,88,78,60,67,80),#
+birth=c(1945,1924,1934,1952,1945,1932),#
+date=c(20121208,20121103,20120302,20120105,20120907,20121209)#
+))
+require(RecordLinkage)
+pairs<-compare.linkage(data1, data2,#
+blockfld=list(c(1,2,4),c(1,2)),#
+phonetic<-c(1,2), phonfun = soundexBR, strcmp = FALSE,#
+strcmpfun<-jarowinkler, exclude=FALSE,identity1 = NA,#
+identity2=NA, n_match <- NA, n_non_match = NA)#
+print(pairs)
+weights <- epiWeights(pairs, e = 0.01, f = pairs$frequencies)#
+hist(weights$Wdata, plot = FALSE) # Plot TRUE#
+getPairs(pairs, max.weight = Inf, min.weight = -Inf)
+names <- c('Ana Karolina Kuhnen', 'Ana Carolina Kuhnen', 'Ana Karolina',#
+'João Souza', 'João Souza', 'Dilma Vana Rousseff', 'Dilma Rousef','Aécio Neves' NA)#
+soundexBR(names)
+names <- c('Ana Karolina Kuhnen', 'Ana Carolina Kuhnen', 'Ana Karolina',#
+'João Souza', 'João Souza', 'Dilma Vana Rousseff', 'Dilma Rousef','Aécio Neves' 'NA')#
+soundexBR(names)
+names <- c('Ana Karolina Kuhnen', 'Ana Carolina Kuhnen', 'Ana Karolina',#
+'João Souza', 'João Souza', 'Dilma Vana Rousseff', 'Dilma Rousef','Aécio Neves')#
+soundexBR(names)
+names <- c('Ana Karolina Kuhnen', 'Ana Carolina Kuhnen', 'Ana Karolina',#
+'João Souza', 'João Souza', 'Dilma Vana Rousseff', 'Dilma Rousef','Aécio Neves', 'Aecio Neves')#
+soundexBR(names)
+?SoundexBR
+??SoundexBR
+require(SoundexBR)
+trials = 100000#
+results = rep(0,trials)#
+for(i in 1:trials) {#
+	results[i] = sum(sample(c(0,1),48,replace=T))#
+}#
+extremes = length(results[results<=14]) + length(results[results>=34]) #
+extremes/trials#
+dat <- data.frame( x=results, above=((results <= 14) | (results >= 34)))#
+library(ggplot2)#
+qplot(x,data=dat,geom="histogram",fill=above,breaks=seq(1,48))
+library(nlme)
+?nlme
+data(MathAchieve)
+MathAchieve[1:10,] # first 10 students
+library(lme)
+install.packages('lme')
+install.packages('lmer')
+install.packages('lme4')
+library(lme4)
+install.packages('gdal')
+install.packages('rgdal')
+install.packages('igraph')
+install.packages('basta')
+install.packages('BaSTA')
+?update
+?install.packages
+update.packages()
+install.packages('rgdal', type='source')
+install.packages('fun')
+lirabry(fun)
+library(fun)
+lights_out(width = 5, height = 5, steps = 3, cheat = FALSE,        col.off = "black", col.on = "white", col.frame = "lightblue",        seed = NULL)
+lights_out
+demo(package = "fun")
+TurtleGraphics
+alzheimer_test(char1 = c("9", "O", "M", "I", "F",        "D"), char2 = c("6", "C", "N", "T", "E", "O"), nr = 10, nc = 30,        seed = NULL, ...)
+alzheimer_test(char1 = c("9", "O", "M", "I", "F",        "D"), char2 = c("6", "C", "N", "T", "E", "O"), nr = 10, nc = 30,        seed = NULL)
+tag_cloud(c("daniel", "ana"), htmlOutput = "tagCloud.html", SWFPath,        JSPath, divId = "tagCloudId", width = 600, height = 400,        transparent = FALSE, tcolor = "333333", tcolor2 = "009900",        hicolor = "ff0000", distr = "true", tspeed = 100, version = 9,        bgcolor = "ffffff", useXML = FALSE, htmlTitle = "Tag Cloud",        noFlashJS, target = NULL, scriptOnly = FALSE, encode = FALSE,        reserved = FALSE)
+tag_cloud
+shutdown
+library(MASS)#
+corrdata=function(samples=200,r=0){#
+  data = mvrnorm(n=samples, mu=c(0, 0), Sigma=matrix(c(1, r, r, 1), nrow=2), empirical=TRUE)#
+  X = data[, 1]  # standard normal (mu=0, sd=1)#
+  Y = data[, 2]  # standard normal (mu=0, sd=1)#
+  data.frame(x=X,y=Y)#
+}#
+df=data.frame()#
+for (i in c(1,0.8,0.5,0.2,0,-0.2,-0.5,-0.8,-1)){#
+  tmp=corrdata(200,i)#
+  tmp['corr']=i#
+  df=rbind(df,tmp)#
+}#
+library(ggplot2)#
+g=ggplot(df,aes(x=x,y=y))+geom_point(size=1)#
+g+facet_wrap(~corr)+ stat_smooth(method='lm',se=FALSE,color='red')
+library(MASS)#
+corrdata=function(samples=200,r=0){#
+  data = mvrnorm(n=samples, mu=c(0, 0), Sigma=matrix(c(1, r, r, 1), nrow=2), empirical=TRUE)#
+  X = data[, 1]  # standard normal (mu=0, sd=1)#
+  Y = data[, 2]  # standard normal (mu=0, sd=1)#
+  data.frame(x=X,y=Y)#
+}#
+df=data.frame()#
+for (i in c(1,0.8,0.5,0.2,0,-0.2,-0.5,-0.8,-1)){#
+  tmp=corrdata(200,i)#
+  tmp['corr']=i#
+  df=rbind(df,tmp)#
+}#
+library(ggplot2)#
+g=ggplot(df,aes(x=x,y=y))+geom_point(size=1)#
+g+facet_wrap(~corr)+ stat_smooth(method='lm',se=FALSE,color='red') + coord_fixed()
+library(SciencesPo)
+library(MASS)#
+corrdata=function(samples=200,r=0){#
+  data = mvrnorm(n=samples, mu=c(0, 0), Sigma=matrix(c(1, r, r, 1), nrow=2), empirical=TRUE)#
+  X = data[, 1]  # standard normal (mu=0, sd=1)#
+  Y = data[, 2]  # standard normal (mu=0, sd=1)#
+  data.frame(x=X,y=Y)#
+}#
+df=data.frame()#
+for (i in c(1,0.8,0.5,0.2,0,-0.2,-0.5,-0.8,-1)){#
+  tmp=corrdata(200,i)#
+  tmp['corr']=i#
+  df=rbind(df,tmp)#
+}#
+library(ggplot2)#
+g=ggplot(df,aes(x=x,y=y))+geom_point(size=1)#
+g+facet_wrap(~corr)+ stat_smooth(method='lm',se=FALSE,color='red') + coord_fixed() +theme_minimalist()
+library(MASS)#
+corrdata=function(samples=200,r=0){#
+  data = mvrnorm(n=samples, mu=c(0, 0), Sigma=matrix(c(1, r, r, 1), nrow=2), empirical=TRUE)#
+  X = data[, 1]  # standard normal (mu=0, sd=1)#
+  Y = data[, 2]  # standard normal (mu=0, sd=1)#
+  data.frame(x=X,y=Y)#
+}#
+df=data.frame()#
+for (i in c(1,0.8,0.5,0.2,0,-0.2,-0.5,-0.8,-1)){#
+  tmp=corrdata(200,i)#
+  tmp['corr']=i#
+  df=rbind(df,tmp)#
+}#
+library(ggplot2)#
+g=ggplot(df,aes(x=x,y=y))+geom_point(size=1)#
+g+facet_wrap(~corr)+ stat_smooth(method='lm',se=FALSE,color='red') + coord_fixed() +theme_minimal()
+library(MASS)#
+corrdata=function(samples=200,r=0){#
+  data = mvrnorm(n=samples, mu=c(0, 0), Sigma=matrix(c(1, r, r, 1), nrow=2), empirical=TRUE)#
+  X = data[, 1]  # standard normal (mu=0, sd=1)#
+  Y = data[, 2]  # standard normal (mu=0, sd=1)#
+  data.frame(x=X,y=Y)#
+}#
+df=data.frame()#
+for (i in c(1,0.8,0.5,0.2,0,-0.2,-0.5,-0.8,-1)){#
+  tmp=corrdata(200,i)#
+  tmp['corr']=i#
+  df=rbind(df,tmp)#
+}#
+library(ggplot2)#
+g=ggplot(df,aes(x=x,y=y))+geom_point(size=1)#
+g+facet_wrap(~corr)+ stat_smooth(method='lm',se=FALSE,color='red') + coord_fixed() +theme_538()
+library(MASS)#
+corrdata=function(samples=200,r=0){#
+  data = mvrnorm(n=samples, mu=c(0, 0), Sigma=matrix(c(1, r, r, 1), nrow=2), empirical=TRUE)#
+  X = data[, 1]  # standard normal (mu=0, sd=1)#
+  Y = data[, 2]  # standard normal (mu=0, sd=1)#
+  data.frame(x=X,y=Y)#
+}#
+df=data.frame()#
+for (i in c(1,0.8,0.5,0.2,0,-0.2,-0.5,-0.8,-1)){#
+  tmp=corrdata(200,i)#
+  tmp['corr']=i#
+  df=rbind(df,tmp)#
+}#
+library(ggplot2)#
+g=ggplot(df,aes(x=x,y=y))+geom_point(size=1)#
+g+facet_wrap(~corr)+ stat_smooth(method='lm',se=FALSE,color='red') + coord_fixed() +theme_black()
+my.vec <- 1:10#
+result <- vapply(my.vec,function(x) x+2,FUN.VALUE=0)
+my.vec <- 1:10#
+result <- numeric(length(my.vec))#
+for(i in 1:length(my.vec)){#
+result[i] <- my.vec[i]+2}
+result
+my.vec <- 1:10#
+result <- lapply(my.vec,function(x) x+2)#
+#get the third element of result#
+result[3][[1]]
+result
+my.vec <- 1:1000000#
+system.time(result <- vapply(my.vec,function(x) x+2,FUN.VALUE=0))#
+system.time(result <- sapply(my.vec,function(x) x+2))
+system.time(result <- vapply(my.vec,function(x) x+2,FUN.VALUE=0))
+result
+my.vec <- 1:1000000#
+system.time(result <- sapply(my.vec,function(x) x+2))
+result
+anonymize <-#
+function(x, keep.names=TRUE){#
+  truenames <- names(x)#
+  if(length(x)>26){#
+   # letters <-replicate(floor(length(x)/26),{letters <-c(LETTERS, paste(LETTERS, LETTERS, sep=""))})#
+  }#
+  names(x)<-paste(sample(letters[1:length(x)]))#
+  level.x<-function(x){#
+    level.obs<-function(i){#
+      if(class(x[,i])=="factor" | class(x[,i])=="character"){#
+        var <-paste(names(x)[i],as.numeric(as.factor(x[,i])), sep="")#
+        }else if(is.numeric(x[,i])){#
+          var <-x[,i]- mean(x[,i], na.rm=T)}else{var<-x[,i]}#
+      return(var)#
+    }#
+    x <- data.frame(vapply(seq_along(x), level.obs, FUN.VALUE=0))#
+    if(keep.names==TRUE){#
+      names(x) <- truenames #
+    }else{#
+      names(x) <- names(x)#
+    }#
+    return(x)#
+  }#
+  x <-level.x(x)#
+  return(x)#
+}
+anonymize(result)
+anonymize()
+ls()
+anonymize(data1)
+anonymize <-#
+function(x, keep.names=TRUE){#
+  truenames <- names(x)#
+  if(length(x)>26){#
+   # letters <-replicate(floor(length(x)/26),{letters <-c(LETTERS, paste(LETTERS, LETTERS, sep=""))})#
+  }#
+  names(x)<-paste(sample(letters[1:length(x)]))#
+  level.x<-function(x){#
+    level.obs<-function(i){#
+      if(class(x[,i])=="factor" | class(x[,i])=="character"){#
+        var <-paste(names(x)[i],as.numeric(as.factor(x[,i])), sep="")#
+        }else if(is.numeric(x[,i])){#
+          var <-x[,i]- mean(x[,i], na.rm=T)}else{var<-x[,i]}#
+      return(var)#
+    }#
+    x <- data.frame(vapply(seq_along(x), level.obs, FUN.VALUE=""))#
+    if(keep.names==TRUE){#
+      names(x) <- truenames #
+    }else{#
+      names(x) <- names(x)#
+    }#
+    return(x)#
+  }#
+  x <-level.x(x)#
+  return(x)#
+}
+anonymize(data1)
+anonymize <-#
+function(x, keep.names=TRUE){#
+  truenames <- names(x)#
+  if(length(x)>26){#
+   # letters <-replicate(floor(length(x)/26),{letters <-c(LETTERS, paste(LETTERS, LETTERS, sep=""))})#
+  }#
+  names(x)<-paste(sample(letters[1:length(x)]))#
+  level.x<-function(x){#
+    level.obs<-function(i){#
+      if(class(x[,i])=="factor" | class(x[,i])=="character"){#
+        var <-paste(names(x)[i],as.numeric(as.factor(x[,i])), sep="")#
+        }else if(is.numeric(x[,i])){#
+          var <-x[,i]- mean(x[,i], na.rm=T)}else{var<-x[,i]}#
+      return(var)#
+    }#
+    x <- data.frame(sapply(seq_along(x), level.obs))#
+    if(keep.names==TRUE){#
+      names(x) <- truenames #
+    }else{#
+      names(x) <- names(x)#
+    }#
+    return(x)#
+  }#
+  x <-level.x(x)#
+  return(x)#
+}
+anonymize(data1)
+setwd('/Users/daniel/Temp')
+ls
+ls()
+dir()
+files <- list.files(pattern = "[.]csv$")
+files
+library(rbenchmark)#
+benchmark(replications = 10, order = "user.self",#
+  LAPPLY = {#
+    read.all <- lapply(files, read.table, header = TRUE)#
+    data1 <- do.call(rbind, read.all)#
+  },#
+  FOREACH = {#
+    library(doParallel)#
+    registerDoParallel(cores = 4)#
+    library(foreach)#
+    data2 <- foreach(i = files, .combine = rbind) %dopar% read.table(i, header = TRUE)#
+  }#
+)
+require(rbenchmark)
+install.packages('rbenchmark')
+install.packages('compare')
+library(rbenchmark)#
+benchmark(replications = 10, order = "user.self",#
+  LAPPLY = {#
+    read.all <- lapply(files, read.table, header = TRUE)#
+    data1 <- do.call(rbind, read.all)#
+  },#
+  FOREACH = {#
+    library(doParallel)#
+    registerDoParallel(cores = 4)#
+    library(foreach)#
+    data2 <- foreach(i = files, .combine = rbind) %dopar% read.table(i, header = TRUE)#
+  }#
+)#
+library(compare)#
+all.equal(data1, data2)
+head(data1)
+str(data1)
+head(data1)
+?read.table
+library(rbenchmark)#
+benchmark(replications = 10, order = "user.self",#
+  LAPPLY = {#
+    read.all <- lapply(files, read.table,sep=",", header = TRUE, quote = "")#
+    data1 <- do.call(rbind, read.all)#
+  },#
+  FOREACH = {#
+    library(doParallel)#
+    registerDoParallel(cores = 4)#
+    library(foreach)#
+    data2 <- foreach(i = files, .combine = rbind) %dopar% read.table(i, header = TRUE)#
+  }#
+)#
+library(compare)#
+all.equal(data1, data2)
+library(rbenchmark)#
+benchmark(replications = 10, order = "user.self",#
+  LAPPLY = {#
+    read.all <- lapply(files, read.table,sep=",", header = TRUE)#
+    data1 <- do.call(rbind, read.all)#
+  },#
+  FOREACH = {#
+    library(doParallel)#
+    registerDoParallel(cores = 4)#
+    library(foreach)#
+    data2 <- foreach(i = files, .combine = rbind) %dopar% read.table(i, header = TRUE)#
+  }#
+)#
+library(compare)#
+all.equal(data1, data2)
+head(data1)
+str(data1)
+library(rbenchmark)#
+benchmark(replications = 10, order = "user.self",#
+  LAPPLY = {#
+    read.all <- lapply(files, read.table, sep=",", header = TRUE)#
+    data1 <- do.call(rbind, read.all)#
+  },#
+  FOREACH = {#
+    library(doParallel)#
+    registerDoParallel(cores = 4)#
+    library(foreach)#
+    data2 <- foreach(i = files, .combine = rbind) %dopar% read.table(i, sep=",", header = TRUE)#
+  }#
+)#
+library(compare)#
+all.equal(data1, data2)
+library(rbenchmark)#
+benchmark(replications = 1, order = "user.self",#
+  LAPPLY = {#
+    read.all <- lapply(files, read.table, sep=",", header = TRUE)#
+    data1 <- do.call(rbind, read.all)#
+  },#
+  FOREACH = {#
+    library(doParallel)#
+    registerDoParallel(cores = 4)#
+    library(foreach)#
+    data2 <- foreach(i = files, .combine = rbind) %dopar% read.table(i, sep=",", header = TRUE)#
+  }#
+)#
+library(compare)#
+all.equal(data1, data2)
+str(data1)
+mean(data1$Rounds)
+median(data1$Rounds)
+detail(data1$Rounds)
+require("SciencesPo")
+detail(data1$Rounds)
+detail(data1)

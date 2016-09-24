@@ -1,0 +1,1001 @@
+"name","industry","sector","website","rank"
+"Walmart","General Merchandisers","Retailing","http://www.walmart.com",1
+"Exxon Mobil","Petroleum Refining","Energy","http://www.exxonmobil.com",2
+"Chevron","Petroleum Refining","Energy","http://www.chevron.com",3
+"Berkshire Hathaway","Insurance: Property and Casualty (Stock)","Financials","http://www.berkshirehathaway.com",4
+"Apple","Computers, Office Equipment","Technology","http://www.apple.com",5
+"General Motors","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.gm.com",6
+"Phillips 66","Petroleum Refining","Energy","http://www.phillips66.com",7
+"General Electric","Diversified Financials","Financials","http://www.ge.com",8
+"Ford Motor","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.ford.com",9
+"CVS Health","Food and Drug Stores","Food & Drug Stores","http://www.cvshealth.com",10
+"McKesson","Wholesalers: Health Care","Wholesalers","http://www.mckesson.com",11
+"AT&T","Telecommunications","Telecommunications","http://www.att.com",12
+"Valero Energy","Petroleum Refining","Energy","http://www.valero.com",13
+"UnitedHealth Group","Health Care: Insurance and Managed Care","Health Care","http://www.unitedhealthgroup.com",14
+"Verizon","Telecommunications","Telecommunications","http://www.verizon.com",15
+"AmerisourceBergen","Wholesalers: Health Care","Wholesalers","http://www.amerisourcebergen.com",16
+"Fannie Mae","Diversified Financials","Financials","http://www.fanniemae.com",17
+"Costco","Specialty Retailers: Other","Retailing","http://www.costco.com",18
+"HP","Computers, Office Equipment","Technology","http://www.hp.com",19
+"Kroger","Food and Drug Stores","Food & Drug Stores","http://www.thekrogerco.com",20
+"JP Morgan Chase","Commercial Banks","Financials","http://www.jpmorganchase.com",21
+"Express Scripts Holding","Health Care: Pharmacy and Other Services","Health Care","http://www.express-scripts.com",22
+"Bank of America Corp.","Commercial Banks","Financials","http://www.bankofamerica.com",23
+"IBM","Information Technology Services","Technology","http://www.ibm.com",24
+"Marathon Petroleum","Petroleum Refining","Energy","http://www.marathonpetroleum.com",25
+"Cardinal Health","Wholesalers: Health Care","Wholesalers","http://www.cardinal.com",26
+"Boeing","Aerospace and Defense","Aerospace & Defense","http://www.boeing.com",27
+"Citigroup","Commercial Banks","Financials","http://www.citigroup.com",28
+"Amazon.com","Internet Services and Retailing","Technology","http://www.amazon.com",29
+"Wells Fargo","Commercial Banks","Financials","http://www.wellsfargo.com",30
+"Microsoft","Computer Software","Technology","http://www.microsoft.com",31
+"Procter & Gamble","Household and Personal Products","Household Products","http://www.pg.com",32
+"Home Depot","Specialty Retailers: Other","Retailing","http://www.homedepot.com",33
+"Archer Daniels Midland","Food Production","Food, Beverages & Tobacco","http://www.adm.com",34
+"Walgreens","Food and Drug Stores","Food & Drug Stores","http://www.walgreensbootsalliance.com",35
+"Target","General Merchandisers","Retailing","http://www.target.com",36
+"Johnson & Johnson","Pharmaceuticals","Health Care","http://www.jnj.com",37
+"Anthem","Health Care: Insurance and Managed Care","Health Care","http://www.antheminc.com",38
+"MetLife","Insurance: Life, Health (stock)","Financials","http://www.metlife.com",39
+"Alphabet","Internet Services and Retailing","Technology","http://www.google.com",40
+"State Farm Insurance Cos.","Insurance: Property and Casualty (Mutual)","Financials","http://www.statefarm.com",41
+"Freddie Mac","Diversified Financials","Financials","http://www.freddiemac.com",42
+"Comcast","Telecommunications","Telecommunications","http://www.comcastcorporation.com",43
+"PepsiCo","Food Consumer Products","Food, Beverages & Tobacco","http://www.pepsico.com",44
+"United Technologies","Aerospace and Defense","Aerospace & Defense","http://www.utc.com",45
+"AIG","Insurance: Property and Casualty (Stock)","Financials","http://www.aig.com",46
+"UPS","Mail, Package, and Freight Delivery","Transportation","http://www.ups.com",47
+"Dow Chemical","Chemicals","Chemicals","http://www.dow.com",48
+"Aetna","Health Care: Insurance and Managed Care","Health Care","http://www.aetna.com",49
+"Lowe's","Specialty Retailers: Other","Retailing","http://www.lowes.com",50
+"ConocoPhillips","Mining, Crude-Oil Production","Energy","http://www.conocophillips.com",51
+"Intel","Semiconductors and Other Electronic Components","Technology","http://www.intel.com",52
+"Energy Transfer Equity","Pipelines","Energy","http://www.energytransfer.com",53
+"Caterpillar","Construction and Farm Machinery","Industrials","http://www.caterpillar.com",54
+"Prudential Financial","Insurance: Life, Health (stock)","Financials","http://www.prudential.com",55
+"Pfizer","Pharmaceuticals","Health Care","http://www.pfizer.com",56
+"Walt Disney","Entertainment","Media","http://www.disney.com",57
+"Humana","Health Care: Insurance and Managed Care","Health Care","http://www.humana.com",58
+"Enterprise Products Partners","Pipelines","Energy","http://www.enterpriseproducts.com",59
+"Cisco Systems","Network and Other Communications Equipment","Technology","http://www.cisco.com",60
+"Sysco","Wholesalers: Food and Grocery","Wholesalers","http://www.sysco.com",61
+"Ingram Micro","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.ingrammicro.com",62
+"Coca-Cola","Beverages","Food, Beverages & Tobacco","http://www.coca-colacompany.com",63
+"Lockheed Martin","Aerospace and Defense","Aerospace & Defense","http://www.lockheedmartin.com",64
+"FedEx","Mail, Package, and Freight Delivery","Transportation","http://www.fedex.com",65
+"Johnson Controls","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.johnsoncontrols.com",66
+"Plains GP Holdings","Pipelines","Energy","http://www.plainsallamerican.com",67
+"World Fuel Services","Wholesalers: Diversified","Wholesalers","http://www.wfscorp.com",68
+"CHS","Food Production","Food, Beverages & Tobacco","http://www.chsinc.com",69
+"American Airlines Group","Airlines","Transportation","http://www.aa.com",70
+"Merck","Pharmaceuticals","Health Care","http://www.merck.com",71
+"Best Buy","Specialty Retailers: Other","Retailing","http://www.bestbuy.com",72
+"Delta Air Lines","Airlines","Transportation","http://www.delta.com",73
+"Honeywell International","Electronics, Electrical Equip.","Industrials","http://www.honeywell.com",74
+"HCA Holdings","Health Care: Medical Facilities","Health Care","http://www.hcahealthcare.com",75
+"Goldman Sachs Group","Commercial Banks","Financials","http://www.gs.com",76
+"Tesoro","Petroleum Refining","Energy","http://www.tsocorp.com",77
+"Liberty Mutual Insurance Group","Insurance: Property and Casualty (Stock)","Financials","http://www.libertymutual.com",78
+"United Continental Holdings","Airlines","Transportation","http://www.unitedcontinentalholdings.com",79
+"New York Life Insurance","Insurance: Life, Health (Mutual)","Financials","http://www.newyorklife.com",80
+"Oracle","Computer Software","Technology","http://www.oracle.com",81
+"Morgan Stanley","Commercial Banks","Financials","http://www.morganstanley.com",82
+"Tyson Foods","Food Production","Food, Beverages & Tobacco","http://www.tysonfoods.com",83
+"Safeway","Food and Drug Stores","Food & Drug Stores","http://www.safeway.com",84
+"Nationwide","Insurance: Property and Casualty (Mutual)","Financials","http://www.nationwide.com",85
+"Deere","Construction and Farm Machinery","Industrials","http://www.johndeere.com",86
+"DuPont","Chemicals","Chemicals","http://www.dupont.com",87
+"American Express","Commercial Banks","Financials","http://www.americanexpress.com",88
+"Allstate","Insurance: Property and Casualty (Stock)","Financials","http://www.allstate.com",89
+"Cigna","Health Care: Insurance and Managed Care","Health Care","http://www.cigna.com",90
+"Mondelez International","Food Consumer Products","Food, Beverages & Tobacco","http://www.mondelezinternational.com",91
+"TIAA-CREF","Insurance: Life, Health (Mutual)","Financials","http://www.tiaa-cref.org",92
+"INTL FCStone","Diversified Financials","Financials","http://www.intlfcstone.com",93
+"Massachusetts Mutual Life Insurance","Insurance: Life, Health (Mutual)","Financials","http://www.massmutual.com",94
+"DirecTV","Telecommunications","Telecommunications","http://www.directv.com",95
+"Halliburton","Oil and Gas Equipment, Services","Energy","http://www.halliburton.com",96
+"Twenty-First Century Fox","Entertainment","Media","http://www.21cf.com",97
+"3M","zMiscellaneous","Household Products","http://www.3m.com",98
+"Sears Holdings","General Merchandisers","Retailing","http://www.searsholdings.com",99
+"General Dynamics","Aerospace and Defense","Aerospace & Defense","http://www.generaldynamics.com",100
+"Publix Super Markets","Food and Drug Stores","Food & Drug Stores","http://www.publix.com",101
+"Philip Morris International","Tobacco","Food, Beverages & Tobacco","http://www.pmi.com",102
+"TJX","Specialty Retailers: Apparel","Retailing","http://www.tjx.com",103
+"Time Warner","Entertainment","Media","http://www.timewarner.com",104
+"Macy's","General Merchandisers","Retailing","http://www.macysinc.com",105
+"Nike","Apparel","Apparel","http://www.nike.com",106
+"Tech Data","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.techdata.com",107
+"Avnet","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.avnet.com",108
+"Northwestern Mutual","Insurance: Life, Health (Mutual)","Financials","http://www.northwesternmutual.com",109
+"McDonald's","Food Services","Hotels, Resturants & Leisure","http://www.aboutmcdonalds.com",110
+"Exelon","Utilities: Gas and Electric","Energy","http://www.exeloncorp.com",111
+"Travelers Cos.","Insurance: Property and Casualty (Stock)","Financials","http://www.travelers.com",112
+"Qualcomm","Network and Other Communications Equipment","Technology","http://www.qualcomm.com",113
+"International Paper","Packaging, Containers","Materials","http://www.internationalpaper.com",114
+"Occidental Petroleum","Mining, Crude-Oil Production","Energy","http://www.oxy.com",115
+"Duke Energy","Utilities: Gas and Electric","Energy","http://www.duke-energy.com",116
+"Rite Aid","Food and Drug Stores","Food & Drug Stores","http://www.riteaid.com",117
+"Gilead Sciences","Pharmaceuticals","Health Care","http://www.gilead.com",118
+"Baker Hughes","Oil and Gas Equipment, Services","Energy","http://www.bakerhughes.com",119
+"Emerson Electric","Electronics, Electrical Equip.","Industrials","http://www.emerson.com",120
+"EMC","Computer Peripherals","Technology","http://www.emc.com",121
+"USAA","Insurance: Property and Casualty (Stock)","Financials","http://www.usaa.com",122
+"Union Pacific","Railroads","Transportation","http://www.up.com",123
+"Northrop Grumman","Aerospace and Defense","Aerospace & Defense","http://www.northropgrumman.com",124
+"Alcoa","Metals","Materials","http://www.alcoa.com",125
+"Capital One Financial","Commercial Banks","Financials","http://www.capitalone.com",126
+"National Oilwell Varco","Oil and Gas Equipment, Services","Energy","http://www.nov.com",127
+"US Foods","Wholesalers: Food and Grocery","Wholesalers","http://www.usfoods.com",128
+"Raytheon","Aerospace and Defense","Aerospace & Defense","http://www.raytheon.com",129
+"Time Warner Cable","Telecommunications","Telecommunications","http://www.twc.com",130
+"Arrow Electronics","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.arrow.com",131
+"Aflac","Insurance: Life, Health (stock)","Financials","http://www.aflac.com",132
+"Staples","Specialty Retailers: Other","Retailing","http://www.staples.com",133
+"Abbott Laboratories","Medical Products and Equipment","Health Care","http://www.abbott.com",134
+"Community Health Systems","Health Care: Medical Facilities","Health Care","http://www.chs.net",135
+"Fluor","Engineering, Construction","Engineering & Construction","http://www.fluor.com",136
+"Freeport-McMoRan","Mining, Crude-Oil Production","Energy","http://www.fcx.com",137
+"U.S. Bancorp","Commercial Banks","Financials","http://www.usbank.com",138
+"Nucor","Metals","Materials","http://www.nucor.com",139
+"Kimberly-Clark","Household and Personal Products","Household Products","http://www.kimberly-clark.com",140
+"Hess","Petroleum Refining","Energy","http://www.hess.com",141
+"Chesapeake Energy","Mining, Crude-Oil Production","Energy","http://www.chk.com",142
+"Xerox","Information Technology Services","Technology","http://www.xerox.com",143
+"ManpowerGroup","Temporary Help","Business Services","http://www.manpowergroup.com",144
+"Amgen","Pharmaceuticals","Health Care","http://www.amgen.com",145
+"AbbVie","Pharmaceuticals","Health Care","http://www.abbvie.com",146
+"Danaher","Scientific,Photographic and Control Equipment","Technology","http://www.danaher.com",147
+"Whirlpool","Electronics, Electrical Equip.","Industrials","http://www.whirlpoolcorp.com",148
+"PBF Energy","Petroleum Refining","Energy","http://www.pbfenergy.com",149
+"HollyFrontier","Petroleum Refining","Energy","http://www.hollyfrontier.com",150
+"Eli Lilly","Pharmaceuticals","Health Care","http://www.lilly.com",151
+"Devon Energy","Mining, Crude-Oil Production","Energy","http://www.devonenergy.com",152
+"Progressive","Insurance: Property and Casualty (Stock)","Financials","http://www.progressive.com",153
+"Cummins","Construction and Farm Machinery","Industrials","http://www.cummins.com",154
+"Icahn Enterprises","Petroleum Refining","Energy","http://www.ielp.com",155
+"AutoNation","Automotive Retailing, Services","Retailing","http://www.autonation.com",156
+"Kohl's","General Merchandisers","Retailing","http://www.kohlscorporation.com",157
+"Paccar","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.paccar.com",158
+"Dollar General","General Merchandisers","Retailing","http://www.dollargeneral.com",159
+"Hartford Financial Services Group","Insurance: Property and Casualty (Stock)","Financials","http://www.thehartford.com",160
+"Southwest Airlines","Airlines","Transportation","http://www.southwest.com",161
+"Anadarko Petroleum","Mining, Crude-Oil Production","Energy","http://www.anadarko.com",162
+"Southern","Utilities: Gas and Electric","Energy","http://www.southerncompany.com",163
+"Supervalu","Food and Drug Stores","Food & Drug Stores","http://www.supervalu.com",164
+"Kraft Foods Group","Food Consumer Products","Food, Beverages & Tobacco","http://www.kraftfoodsgroup.com",165
+"Goodyear Tire & Rubber","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.goodyear.com",166
+"EOG Resources","Mining, Crude-Oil Production","Energy","http://www.eogresources.com",167
+"CenturyLink","Telecommunications","Telecommunications","http://www.centurylink.com",168
+"Altria Group","Tobacco","Food, Beverages & Tobacco","http://www.altria.com",169
+"Tenet Healthcare","Health Care: Medical Facilities","Health Care","http://www.tenethealth.com",170
+"General Mills","Food Consumer Products","Food, Beverages & Tobacco","http://www.generalmills.com",171
+"eBay","Internet Services and Retailing","Technology","http://www.ebay.com",172
+"ConAgra Foods","Food Consumer Products","Food, Beverages & Tobacco","http://www.conagrafoods.com",173
+"Lear","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.lear.com",174
+"TRW Automotive Holdings","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.trw.com",175
+"United States Steel","Metals","Materials","http://www.ussteel.com",176
+"Penske Automotive Group","Automotive Retailing, Services","Retailing","http://www.penskeautomotive.com",177
+"AES","Utilities: Gas and Electric","Energy","http://www.aes.com",178
+"Colgate-Palmolive","Household and Personal Products","Household Products","http://www.colgatepalmolive.com",179
+"Global Partners","Wholesalers: Diversified","Wholesalers","http://www.globalp.com",180
+"Thermo Fisher Scientific","Scientific,Photographic and Control Equipment","Technology","http://www.thermofisher.com",181
+"PG&E Corp.","Utilities: Gas and Electric","Energy","http://www.pge.com",182
+"NextEra Energy","Utilities: Gas and Electric","Energy","http://www.nexteraenergy.com",183
+"American Electric Power","Utilities: Gas and Electric","Energy","http://www.aep.com",184
+"Baxter International","Medical Products and Equipment","Health Care","http://www.baxter.com",185
+"Centene","Health Care: Insurance and Managed Care","Health Care","http://www.centene.com",186
+"Starbucks","Food Services","Hotels, Resturants & Leisure","http://www.starbucks.com",187
+"Gap","Specialty Retailers: Apparel","Retailing","http://www.gapinc.com",188
+"Bank of New York Mellon Corp.","Commercial Banks","Financials","http://www.bnymellon.com",189
+"Micron Technology","Semiconductors and Other Electronic Components","Technology","http://www.micron.com",190
+"Jabil Circuit","Semiconductors and Other Electronic Components","Technology","http://www.jabil.com",191
+"PNC Financial Services Group","Commercial Banks","Financials","http://www.pnc.com",192
+"Kinder Morgan","Pipelines","Energy","http://www.kindermorgan.com",193
+"Office Depot","Specialty Retailers: Other","Retailing","http://www.officedepot.com",194
+"Bristol-Myers Squibb","Pharmaceuticals","Health Care","http://www.bms.com",195
+"NRG Energy","Energy","Energy","http://www.nrgenergy.com",196
+"Monsanto","Chemicals","Chemicals","http://www.monsanto.com",197
+"PPG Industries","Chemicals","Chemicals","http://www.ppg.com",198
+"Genuine Parts","Wholesalers: Diversified","Wholesalers","http://www.genpt.com",199
+"Omnicom Group","Advertising, marketing","Business Services","http://www.omnicomgroup.com",200
+"Illinois Tool Works","Industrial Machinery","Industrials","http://www.itw.com",201
+"Murphy USA","Specialty Retailers: Other","Retailing","http://corporate.murphyusa.com",202
+"Land O'Lakes","Food Consumer Products","Food, Beverages & Tobacco","http://www.landolakesinc.com",203
+"Western Refining","Petroleum Refining","Energy","http://www.wnr.com",204
+"Western Digital","Computer Peripherals","Technology","http://www.westerndigital.com",205
+"FirstEnergy","Utilities: Gas and Electric","Energy","http://www.firstenergycorp.com",206
+"Aramark","Diversified Outsourcing Services","Business Services","http://www.aramark.com",207
+"DISH Network","Telecommunications","Telecommunications","http://www.dish.com",208
+"Las Vegas Sands","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.sands.com",209
+"Kellogg","Food Consumer Products","Food, Beverages & Tobacco","http://www.kelloggcompany.com",210
+"Loews","Insurance: Property and Casualty (Stock)","Financials","http://www.loews.com",211
+"CBS","Entertainment","Media","http://www.cbscorporation.com",212
+"Ecolab","Chemicals","Chemicals","http://www.ecolab.com",213
+"Whole Foods Market","Food and Drug Stores","Food & Drug Stores","http://www.wholefoodsmarket.com",214
+"Chubb","Insurance: Property and Casualty (Stock)","Financials","http://www.chubb.com",215
+"Health Net","Health Care: Insurance and Managed Care","Health Care","http://www.healthnet.com",216
+"Waste Management","Waste Management","Business Services","http://www.wm.com",217
+"Apache","Mining, Crude-Oil Production","Energy","http://www.apachecorp.com",218
+"Textron","Aerospace and Defense","Aerospace & Defense","http://www.textron.com",219
+"Synnex","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.synnex.com",220
+"Marriott International","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.marriott.com",221
+"Viacom","Entertainment","Media","http://www.viacom.com",222
+"Lincoln National","Insurance: Life, Health (stock)","Financials","http://www.lfg.com",223
+"Nordstrom","General Merchandisers","Retailing","http://www.nordstrom.com",224
+"C.H. Robinson Worldwide","Transportation and Logistics","Transportation","http://www.chrobinson.com",225
+"Edison International","Utilities: Gas and Electric","Energy","http://www.edisoninvestor.com",226
+"Marathon Oil","Mining, Crude-Oil Production","Energy","http://www.marathonoil.com",227
+"Yum Brands","Food Services","Hotels, Resturants & Leisure","http://www.yum.com",228
+"Computer Sciences","Information Technology Services","Technology","http://www.csc.com",229
+"Parker-Hannifin","Industrial Machinery","Industrials","http://www.parker.com",230
+"DaVita HealthCare Partners","Health Care: Medical Facilities","Health Care","http://www.davita.com",231
+"CarMax","Automotive Retailing, Services","Retailing","http://www.carmax.com",232
+"Texas Instruments","Semiconductors and Other Electronic Components","Technology","http://www.ti.com",233
+"WellCare Health Plans","Health Care: Insurance and Managed Care","Health Care","http://www.wellcare.com",234
+"Marsh & McLennan","Diversified Financials","Financials","http://www.mmc.com",235
+"Consolidated Edison","Utilities: Gas and Electric","Energy","http://www.conedison.com",236
+"Oneok","Pipelines","Energy","http://www.oneok.com",237
+"Visa","Financial Data Services","Business Services","http://www.visa.com",238
+"Jacobs Engineering Group","Engineering, Construction","Engineering & Construction","http://www.jacobs.com",239
+"CSX","Railroads","Transportation","http://www.csx.com",240
+"Entergy","Utilities: Gas and Electric","Energy","http://www.entergy.com",241
+"Facebook","Internet Services and Retailing","Technology","http://www.facebook.com",242
+"Dominion Resources","Utilities: Gas and Electric","Energy","http://www.dom.com",243
+"Leucadia National","Food Production","Food, Beverages & Tobacco","http://www.leucadia.com",244
+"Toys ""R"" Us","Specialty Retailers: Other","Retailing","http://www.toysrusinc.com",245
+"DTE Energy","Utilities: Gas and Electric","Energy","http://www.dteenergy.com",246
+"Ameriprise Financial","Diversified Financials","Financials","http://www.ameriprise.com",247
+"VF","Apparel","Apparel","http://www.vfc.com",248
+"Praxair","Chemicals","Chemicals","http://www.praxair.com",249
+"J.C. Penney","General Merchandisers","Retailing","http://www.jcpenney.com",250
+"Automatic Data Processing","Diversified Outsourcing Services","Business Services","http://www.adp.com",251
+"L-3 Communications","Aerospace and Defense","Aerospace & Defense","http://www.l-3com.com",252
+"CDW","Information Technology Services","Technology","http://www.cdw.com",253
+"Guardian Life Ins. Co. of America","Insurance: Life, Health (Mutual)","Financials","http://www.guardianlife.com",254
+"Xcel Energy","Utilities: Gas and Electric","Energy","http://www.xcelenergy.com",255
+"Norfolk Southern","Railroads","Transportation","http://www.nscorp.com",256
+"PPL","Utilities: Gas and Electric","Energy","http://www.pplweb.com",257
+"R.R. Donnelley & Sons","Publishing, Printing","Media","http://www.rrdonnelley.com",258
+"Huntsman","Chemicals","Chemicals","http://www.huntsman.com",259
+"Bed Bath & Beyond","Specialty Retailers: Other","Retailing","http://www.bedbathandbeyond.com",260
+"Stanley Black & Decker","Home Equipment, Furnishings","Household Products","http://www.stanleyblackanddecker.com",261
+"L Brands","Specialty Retailers: Apparel","Retailing","http://www.lb.com",262
+"Liberty Interactive","Internet Services and Retailing","Technology","http://www.libertyinteractive.com",263
+"Farmers Insurance Exchange","Insurance: Property and Casualty (Mutual)","Financials","http://www.farmers.com",264
+"First Data","Financial Data Services","Business Services","http://www.firstdata.com",265
+"Sherwin-Williams","Chemicals","Chemicals","http://www.sherwin.com",266
+"BlackRock","Securities","Financials","http://www.blackrock.com",267
+"Voya Financial","Insurance: Life, Health (stock)","Financials","http://www.voya.com",268
+"Ross Stores","Specialty Retailers: Apparel","Retailing","http://www.rossstores.com",269
+"Sempra Energy","Utilities: Gas and Electric","Energy","http://www.sempra.com",270
+"Estee Lauder","Household and Personal Products","Household Products","http://www.elcompanies.com",271
+"H.J. Heinz","Food Consumer Products","Food, Beverages & Tobacco","http://www.heinz.com",272
+"Reinsurance Group of America","Insurance: Life, Health (stock)","Financials","http://www.rgare.com",273
+"Public Service Enterprise Group","Utilities: Gas and Electric","Energy","http://www.pseg.com",274
+"Cameron International","Oil and Gas Equipment, Services","Energy","http://www.c-a-m.com",275
+"Navistar International","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.navistar.com",276
+"CST Brands","Specialty Retailers: Other","Retailing","http://www.cstbrands.com",277
+"State Street Corp.","Commercial Banks","Financials","http://www.statestreet.com",278
+"Unum Group","Insurance: Life, Health (stock)","Financials","http://www.unum.com",279
+"Hilton Worldwide Holdings","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.hiltonworldwide.com",280
+"Family Dollar Stores","General Merchandisers","Retailing","http://www.familydollar.com",281
+"Principal Financial","Insurance: Life, Health (stock)","Financials","http://www.principal.com",282
+"Reliance Steel & Aluminum","Metals","Materials","http://www.rsac.com",283
+"Air Products & Chemicals","Chemicals","Chemicals","http://www.airproducts.com",284
+"Assurant","Insurance: Property and Casualty (Stock)","Financials","http://www.assurant.com",285
+"Peter Kiewit Sons'","Engineering, Construction","Engineering & Construction","http://www.kiewit.com",286
+"Henry Schein","Wholesalers: Health Care","Wholesalers","http://www.henryschein.com",287
+"Cognizant Technology Solutions","Information Technology Services","Technology","http://www.cognizant.com",288
+"MGM Resorts International","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.mgmresorts.com",289
+"W.W. Grainger","Wholesalers: Diversified","Wholesalers","http://www.grainger.com",290
+"Group 1 Automotive","Automotive Retailing, Services","Retailing","http://www.group1auto.com",291
+"BB&T Corp.","Commercial Banks","Financials","http://www.bbt.com",292
+"WestRock","Packaging, Containers","Materials","http://www.westrock.com",293
+"Advance Auto Parts","Specialty Retailers: Other","Retailing","http://www.advanceautoparts.com",294
+"Ally Financial","Commercial Banks","Financials","http://www.ally.com",295
+"AGCO","Construction and Farm Machinery","Industrials","http://www.agcocorp.com",296
+"Corning","Network and Other Communications Equipment","Technology","http://www.corning.com",297
+"Biogen","Pharmaceuticals","Health Care","http://www.biogen.com",298
+"NGL Energy Partners","Wholesalers: Diversified","Wholesalers","http://www.nglenergypartners.com",299
+"Stryker","Medical Products and Equipment","Health Care","http://www.stryker.com",300
+"Molina Healthcare","Health Care: Insurance and Managed Care","Health Care","http://www.molinahealthcare.com",301
+"Precision Castparts","Aerospace and Defense","Aerospace & Defense","http://www.precast.com",302
+"Discover Financial Services","Commercial Banks","Financials","http://www.discoverfinancial.com",303
+"Genworth Financial","Insurance: Life, Health (stock)","Financials","http://www.genworth.com",304
+"Eastman Chemical","Chemicals","Chemicals","http://www.eastman.com",305
+"Dean Foods","Food Consumer Products","Food, Beverages & Tobacco","http://www.deanfoods.com",306
+"AutoZone","Specialty Retailers: Other","Retailing","http://www.autozone.com",307
+"MasterCard","Financial Data Services","Business Services","http://www.mastercard.com",308
+"Owens & Minor","Wholesalers: Health Care","Wholesalers","http://www.owens-minor.com",309
+"Hormel Foods","Food Consumer Products","Food, Beverages & Tobacco","http://www.hormelfoods.com",310
+"GameStop","Specialty Retailers: Other","Retailing","http://www.gamestopcorp.com",311
+"Autoliv","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.autoliv.com",312
+"CenterPoint Energy","Utilities: Gas and Electric","Energy","http://www.centerpointenergy.com",313
+"Fidelity National Financial","Insurance: Property and Casualty (Stock)","Financials","http://www.fnf.com",314
+"Sonic Automotive","Automotive Retailing, Services","Retailing","http://www.sonicautomotive.com",315
+"HD Supply Holdings","Wholesalers: Diversified","Wholesalers","http://www.hdsupply.com",316
+"Charter Communications","Telecommunications","Telecommunications","http://www.charter.com",317
+"Crown Holdings","Packaging, Containers","Materials","http://www.crowncork.com",318
+"Applied Materials","Semiconductors and Other Electronic Components","Technology","http://www.appliedmaterials.com",319
+"Mosaic","Chemicals","Chemicals","http://www.mosaicco.com",320
+"CBRE Group","Real estate","Financials","http://www.cbre.com",321
+"Avon Products","Household and Personal Products","Household Products","http://www.avoncompany.com",322
+"Republic Services","Waste Management","Business Services","http://www.republicservices.com",323
+"Universal Health Services","Health Care: Medical Facilities","Health Care","http://www.uhsinc.com",324
+"Darden Restaurants","Food Services","Hotels, Resturants & Leisure","http://www.darden.com",325
+"Steel Dynamics","Metals","Materials","http://www.steeldynamics.com",326
+"SunTrust Banks","Commercial Banks","Financials","http://www.suntrust.com",327
+"Caesars Entertainment","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.caesars.com",328
+"Targa Resources","Pipelines","Energy","http://www.targaresources.com",329
+"Dollar Tree","Specialty Retailers: Other","Retailing","http://www.dollartree.com",330
+"News Corp.","Publishing, Printing","Media","http://www.newscorp.com",331
+"Ball","Packaging, Containers","Materials","http://www.ball.com",332
+"Thrivent Financial for Lutherans","Insurance: Life, Health (Mutual)","Financials","http://www.thrivent.com",333
+"Masco","Home Equipment, Furnishings","Household Products","http://www.masco.com",334
+"Franklin Resources","Securities","Financials","http://www.franklinresources.com",335
+"Avis Budget Group","Automotive Retailing, Services","Retailing","http://www.avisbudgetgroup.com",336
+"Reynolds American","Tobacco","Food, Beverages & Tobacco","http://www.reynoldsamerican.com",337
+"Becton Dickinson","Medical Products and Equipment","Health Care","http://www.bd.com",338
+"Priceline Group","Internet Services and Retailing","Technology","http://www.pricelinegroup.com",339
+"Broadcom","Semiconductors and Other Electronic Components","Technology","http://www.broadcom.com",340
+"Tenneco","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.tenneco.com",341
+"Campbell Soup","Food Consumer Products","Food, Beverages & Tobacco","http://www.campbellsoupcompany.com",342
+"AECOM","Engineering, Construction","Engineering & Construction","http://www.aecom.com",343
+"Visteon","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.visteon.com",344
+"Delek US Holdings","Petroleum Refining","Energy","http://www.delekus.com",345
+"Dover","Industrial Machinery","Industrials","http://www.dovercorporation.com",346
+"BorgWarner","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.borgwarner.com",347
+"Jarden","Home Equipment, Furnishings","Household Products","http://www.jarden.com",348
+"UGI","Energy","Energy","http://www.ugicorp.com",349
+"Murphy Oil","Mining, Crude-Oil Production","Energy","http://www.murphyoilcorp.com",350
+"PVH","Apparel","Apparel","http://www.pvh.com",351
+"Core-Mark Holding","Wholesalers: Food and Grocery","Wholesalers","http://www.core-mark.com",352
+"Calpine","Energy","Energy","http://www.calpine.com",353
+"D.R. Horton","Homebuilders","Engineering & Construction","http://www.drhorton.com",354
+"Weyerhaeuser","Forest and Paper Products","Materials","http://www.weyerhaeuser.com",355
+"KKR","Securities","Financials","http://www.kkr.com",356
+"FMC Technologies","Oil and Gas Equipment, Services","Energy","http://www.fmctechnologies.com",357
+"American Family Insurance Group","Insurance: Property and Casualty (Stock)","Financials","http://www.amfam.com",358
+"SpartanNash","Wholesalers: Food and Grocery","Wholesalers","http://www.spartannash.com",359
+"WESCO International","Wholesalers: Diversified","Wholesalers","http://www.wesco.com",360
+"Quanta Services","Engineering, Construction","Engineering & Construction","http://www.quantaservices.com",361
+"Mohawk Industries","zMiscellaneous","Household Products","http://www.mohawkind.com",362
+"Motorola Solutions","Network and Other Communications Equipment","Technology","http://www.motorolasolutions.com",363
+"Lennar","Homebuilders","Engineering & Construction","http://www.lennar.com",364
+"TravelCenters of America","Specialty Retailers: Other","Retailing","http://www.ta-petrol.com",365
+"Sealed Air","Packaging, Containers","Materials","http://www.sealedair.com",366
+"Eversource Energy","Utilities: Gas and Electric","Energy","http://www.eversource.com",367
+"Coca-Cola Enterprises","Beverages","Food, Beverages & Tobacco","http://www.cokecce.com",368
+"Celgene","Pharmaceuticals","Health Care","http://www.celgene.com",369
+"Williams","Energy","Energy","http://www.williams.com",370
+"Ashland","Chemicals","Chemicals","http://www.ashland.com",371
+"Interpublic Group","Advertising, marketing","Business Services","http://www.interpublic.com",372
+"Blackstone Group","Diversified Financials","Financials","http://www.blackstone.com",373
+"Ralph Lauren","Apparel","Apparel","http://www.ralphlauren.com",374
+"Quest Diagnostics","Health Care: Pharmacy and Other Services","Health Care","http://www.questdiagnostics.com",375
+"Hershey","Food Consumer Products","Food, Beverages & Tobacco","http://www.thehersheycompany.com",376
+"Terex","Construction and Farm Machinery","Industrials","http://www.terex.com",377
+"Boston Scientific","Medical Products and Equipment","Health Care","http://www.bostonscientific.com",378
+"Newmont Mining","Mining, Crude-Oil Production","Energy","http://www.newmont.com",379
+"Allergan","Pharmaceuticals","Health Care","http://www.allergan.com",380
+"O'Reilly Automotive","Specialty Retailers: Other","Retailing","http://www.oreillyauto.com",381
+"Casey's General Stores","Specialty Retailers: Other","Retailing","http://www.caseys.com",382
+"CMS Energy","Utilities: Gas and Electric","Energy","http://www.cmsenergy.com",383
+"Foot Locker","Specialty Retailers: Apparel","Retailing","http://www.footlocker-inc.com",384
+"W.R. Berkley","Insurance: Property and Casualty (Stock)","Financials","http://www.wrberkley.com",385
+"PetSmart","Specialty Retailers: Other","Retailing","http://www.petsmart.com",386
+"Pacific Life","Insurance: Life, Health (stock)","Financials","http://www.pacificlife.com",387
+"Commercial Metals","Metals","Materials","http://www.cmc.com",388
+"Agilent Technologies","Scientific,Photographic and Control Equipment","Technology","http://www.agilent.com",389
+"Huntington Ingalls Industries","Aerospace and Defense","Aerospace & Defense","http://www.huntingtoningalls.com",390
+"Mutual of Omaha Insurance","Insurance: Life, Health (stock)","Financials","http://www.mutualofomaha.com",391
+"Live Nation Entertainment","Entertainment","Media","http://www.livenation.com",392
+"Dick's Sporting Goods","Specialty Retailers: Other","Retailing","http://www.dickssportinggoods.com",393
+"Oshkosh","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.oshkoshcorporation.com",394
+"Celanese","Chemicals","Chemicals","http://www.celanese.com",395
+"Spirit AeroSystems Holdings","Aerospace and Defense","Aerospace & Defense","http://www.spiritaero.com",396
+"United Natural Foods","Wholesalers: Food and Grocery","Wholesalers","http://www.unfi.com",397
+"Peabody Energy","Mining, Crude-Oil Production","Energy","http://www.peabodyenergy.com",398
+"Owens-Illinois","Packaging, Containers","Materials","http://www.o-i.com",399
+"Dillard's","General Merchandisers","Retailing","http://www.dillards.com",400
+"Level 3 Communications","Telecommunications","Telecommunications","http://www.level3.com",401
+"Pantry","Specialty Retailers: Other","Retailing","http://www.couche-tard.com",402
+"LKQ","Wholesalers: Diversified","Wholesalers","http://www.lkqcorp.com",403
+"Integrys Energy Group","Utilities: Gas and Electric","Energy","www.wecenergygroup.com",404
+"Symantec","Computer Software","Technology","http://www.symantec.com",405
+"Buckeye Partners","Pipelines","Energy","http://www.buckeye.com",406
+"Ryder System","Trucking, Truck Leasing","Transportation","http://www.ryder.com",407
+"SanDisk","Semiconductors and Other Electronic Components","Technology","http://www.sandisk.com",408
+"Rockwell Automation","Electronics, Electrical Equip.","Industrials","http://www.rockwellautomation.com",409
+"Dana Holding","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.dana.com",410
+"Lansing Trade Group","Wholesalers: Diversified","Wholesalers","http://www.lansingtradegroup.com",411
+"NCR","Computers, Office Equipment","Technology","http://www.ncr.com",412
+"Expeditors International of Washington","Transportation and Logistics","Transportation","http://www.expeditors.com",413
+"Omnicare","Health Care: Pharmacy and Other Services","Health Care","http://www.omnicare.com",414
+"AK Steel Holding","Metals","Materials","http://www.aksteel.com",415
+"Fifth Third Bancorp","Commercial Banks","Financials","http://www.53.com",416
+"Seaboard","Food Production","Food, Beverages & Tobacco","http://www.seaboardcorp.com",417
+"NiSource","Utilities: Gas and Electric","Energy","http://www.nisource.com",418
+"Cablevision Systems","Telecommunications","Telecommunications","http://www.cablevision.com",419
+"Anixter International","Wholesalers: Diversified","Wholesalers","http://www.anixter.com",420
+"EMCOR Group","Engineering, Construction","Engineering & Construction","http://www.emcorgroup.com",421
+"Fidelity National Information Services","Financial Data Services","Business Services","http://www.fisglobal.com",422
+"Barnes & Noble","Specialty Retailers: Other","Retailing","http://www.barnesandnobleinc.com",423
+"KBR","Engineering, Construction","Engineering & Construction","http://www.kbr.com",424
+"Auto-Owners Insurance","Insurance: Property and Casualty (Mutual)","Financials","http://www.auto-owners.com",425
+"Jones Financial","Securities","Financials","http://www.edwardjones.com",426
+"Avery Dennison","Chemicals","Chemicals","http://www.averydennison.com",427
+"NetApp","Computer Peripherals","Technology","http://www.netapp.com",428
+"iHeartMedia","Entertainment","Media","http://www.iheartmedia.com",429
+"Discovery Communications","Entertainment","Media","http://www.discoverycommunications.com",430
+"Harley-Davidson","Transportation Equipment","Transportation","http://www.harley-davidson.com",431
+"Sanmina","Semiconductors and Other Electronic Components","Technology","http://www.sanmina.com",432
+"Trinity Industries","Transportation Equipment","Transportation","http://www.trin.net",433
+"J.B. Hunt Transport Services","Trucking, Truck Leasing","Transportation","http://www.jbhunt.com",434
+"Charles Schwab","Securities","Financials","http://www.aboutschwab.com",435
+"Erie Insurance Group","Insurance: Property and Casualty (Stock)","Financials","http://www.erieinsurance.com",436
+"Dr Pepper Snapple Group","Beverages","Food, Beverages & Tobacco","http://www.drpeppersnapplegroup.com",437
+"Ameren","Utilities: Gas and Electric","Energy","http://www.ameren.com",438
+"Mattel","Toys, Sporting Goods","Household Products","http://www.mattel.com",439
+"Laboratory Corp. of America","Health Care: Pharmacy and Other Services","Health Care","http://www.labcorp.com",440
+"TEGNA","Publishing, Printing","Media","http://www.tegna.com/",441
+"Starwood Hotels & Resorts","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.starwoodhotels.com",442
+"General Cable","Electronics, Electrical Equip.","Industrials","http://www.generalcable.com",443
+"A-Mark Precious Metals","zMiscellaneous","Materials","http://www.amark.com",444
+"Graybar Electric","Wholesalers: Diversified","Wholesalers","http://www.graybar.com",445
+"Energy Future Holdings","Energy","Energy","http://www.energyfutureholdings.com",446
+"HRG Group","Household and Personal Products","Household Products","http://www.hrggroup.com",447
+"MRC Global","Oil and Gas Equipment, Services","Energy","http://www.mrcglobal.com",448
+"Spectra Energy","Pipelines","Energy","http://www.spectraenergy.com",449
+"Asbury Automotive Group","Automotive Retailing, Services","Retailing","http://www.asburyauto.com",450
+"Packaging Corp. of America","Packaging, Containers","Materials","http://www.packagingcorp.com",451
+"Windstream Holdings","Telecommunications","Telecommunications","http://www.windstream.com",452
+"PulteGroup","Homebuilders","Engineering & Construction","http://www.pultegroupinc.com",453
+"JetBlue Airways","Airlines","Transportation","http://www.jetblue.com",454
+"Newell Rubbermaid","Home Equipment, Furnishings","Household Products","http://www.newellrubbermaid.com",455
+"Con-way","Transportation and Logistics","Transportation","http://www.con-way.com",456
+"Calumet Specialty Products Partners","Petroleum Refining","Energy","http://www.calumetspecialty.com",457
+"Expedia","Internet Services and Retailing","Technology","http://www.expediainc.com",458
+"American Financial Group","Insurance: Property and Casualty (Stock)","Financials","http://www.afginc.com",459
+"Tractor Supply","Specialty Retailers: Other","Retailing","http://www.tractorsupply.com",460
+"United Rentals","Miscellaneous","Business Services","http://www.unitedrentals.com",461
+"Ingredion","Food Production","Food, Beverages & Tobacco","http://www.ingredion.com",462
+"Navient","Diversified Financials","Financials","http://www.navient.com",463
+"MeadWestvaco","Packaging, Containers","Materials","http://www.mwv.com",464
+"AGL Resources","Utilities: Gas and Electric","Energy","http://www.aglresources.com",465
+"St. Jude Medical","Medical Products and Equipment","Health Care","http://www.sjm.com",466
+"J.M. Smucker","Food Consumer Products","Food, Beverages & Tobacco","http://www.jmsmucker.com",467
+"Western Union","Financial Data Services","Business Services","http://www.westernunion.com",468
+"Clorox","Household and Personal Products","Household Products","http://www.thecloroxcompany.com",469
+"Domtar","Forest and Paper Products","Materials","http://www.domtar.com",470
+"Kelly Services","Temporary Help","Business Services","http://www.kellyservices.com",471
+"Old Republic International","Insurance: Property and Casualty (Stock)","Financials","http://www.oldrepublic.com",472
+"Advanced Micro Devices","Semiconductors and Other Electronic Components","Technology","http://www.amd.com",473
+"Netflix","Specialty Retailers: Other","Retailing","http://www.netflix.com",474
+"Booz Allen Hamilton Holding","Information Technology Services","Technology","http://www.boozallen.com",475
+"Quintiles Transnational Holdings","Health Care: Pharmacy and Other Services","Health Care","http://www.quintiles.com",476
+"Wynn Resorts","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.wynnresorts.com",477
+"Jones Lang LaSalle","Real estate","Financials","http://www.jll.com",478
+"Regions Financial","Commercial Banks","Financials","http://www.regions.com",479
+"CH2M Hill","Engineering, Construction","Engineering & Construction","http://www.ch2m.com",480
+"Western & Southern Financial Group","Insurance: Life, Health (Mutual)","Financials","http://www.westernsouthern.com",481
+"Lithia Motors","Automotive Retailing, Services","Retailing","http://www.lithia.com",482
+"salesforce.com","Computer Software","Technology","http://www.salesforce.com",483
+"Alaska Air Group","Airlines","Transportation","http://www.alaskaair.com",484
+"Host Hotels & Resorts","Real estate","Financials","http://www.hosthotels.com",485
+"Harman International Industries","Electronics, Electrical Equip.","Industrials","http://www.harman.com",486
+"Amphenol","Network and Other Communications Equipment","Technology","http://www.amphenol.com",487
+"Realogy Holdings","Real estate","Financials","http://www.realogy.com",488
+"Essendant","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.essendant.com",489
+"Hanesbrands","Apparel","Apparel","http://www.hanes.com",490
+"Kindred Healthcare","Health Care: Medical Facilities","Health Care","http://www.kindredhealthcare.com",491
+"ARRIS Group","Network and Other Communications Equipment","Technology","http://www.arris.com",492
+"Insight Enterprises","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.insight.com",493
+"Alliance Data Systems","Financial Data Services","Business Services","http://www.alliancedata.com",494
+"LifePoint Health","Health Care: Medical Facilities","Health Care","http://www.lifepointhealth.net",495
+"Pioneer Natural Resources","Mining, Crude-Oil Production","Energy","http://www.pxd.com",496
+"Wyndham Worldwide","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.wyndhamworldwide.com",497
+"Owens Corning","Building Materials, Glass","Materials","http://www.owenscorning.com",498
+"Alleghany","Insurance: Property and Casualty (Stock)","Financials","http://www.alleghany.com",499
+"McGraw Hill Financial","Financial Data Services","Business Services","http://www.mhfi.com",500
+"Big Lots","Specialty Retailers: Other","Retailing","http://www.biglots.com",501
+"Northern Tier Energy","Petroleum Refining","Energy","http://www.ntenergy.com",502
+"Hexion","Chemicals","Chemicals","http://www.hexion.com",503
+"Markel","Insurance: Property and Casualty (Stock)","Financials","http://www.markelcorp.com",504
+"Noble Energy","Mining, Crude-Oil Production","Energy","http://www.nobleenergyinc.com",505
+"Leidos Holdings","Information Technology Services","Technology","http://www.leidos.com",506
+"Rockwell Collins","Aerospace and Defense","Aerospace & Defense","http://www.rockwellcollins.com",507
+"Airgas","Wholesalers: Diversified","Wholesalers","http://www.airgas.com",508
+"Sprague Resources","Wholesalers: Diversified","Wholesalers","http://www.spragueenergy.com",509
+"YRC Worldwide","Trucking, Truck Leasing","Transportation","http://www.yrcw.com",510
+"Hanover Insurance Group","Insurance: Property and Casualty (Stock)","Financials","http://www.hanover.com",511
+"Fiserv","Financial Data Services","Business Services","http://www.fiserv.com",512
+"Lorillard","Tobacco","Food, Beverages & Tobacco","www.reynoldsamerican.com",513
+"American Tire Distributors Holdings","Wholesalers: Diversified","Wholesalers","http://www.atd-us.com",514
+"ABM Industries","Diversified Outsourcing Services","Business Services","http://www.abm.com",515
+"Sonoco Products","Packaging, Containers","Materials","http://www.sonoco.com",516
+"Harris","Network and Other Communications Equipment","Technology","http://www.harris.com",517
+"Telephone & Data Systems","Telecommunications","Telecommunications","http://www.tdsinc.com",518
+"WEC Energy Group","Utilities: Gas and Electric","Energy","www.wecenergygroup.com",519
+"Linn Energy","Mining, Crude-Oil Production","Energy","http://www.linnenergy.com",520
+"Raymond James Financial","Securities","Financials","http://www.raymondjames.com",521
+"Berry Plastics Group","Packaging, Containers","Materials","http://www.berryplastics.com",522
+"Regency Energy Partners","Oil and Gas Equipment, Services","Energy","http://www.regencygasservices.com",523
+"SCANA","Utilities: Gas and Electric","Energy","http://www.scana.com",523
+"Cincinnati Financial","Insurance: Property and Casualty (Stock)","Financials","http://www.cinfin.com",525
+"Atmos Energy","Utilities: Gas and Electric","Energy","http://www.atmosenergy.com",526
+"Pepco Holdings","Utilities: Gas and Electric","Energy","http://www.pepcoholdings.com",527
+"Flowserve","Industrial Machinery","Industrials","http://www.flowserve.com",528
+"Simon Property Group","Real estate","Financials","http://www.simon.com",529
+"Constellation Brands","Beverages","Food, Beverages & Tobacco","http://www.cbrands.com",530
+"Quad/Graphics","Publishing, Printing","Media","http://www.qg.com",531
+"Burlington Stores","Specialty Retailers: Apparel","Retailing","http://www.burlingtonstores.com",532
+"Neiman Marcus Group","Specialty Retailers: Apparel","Retailing","http://www.neimanmarcusgroup.com",533
+"Bemis","Packaging, Containers","Materials","http://www.bemis.com",534
+"Coach","Apparel","Apparel","http://www.coach.com",535
+"Continental Resources","Mining, Crude-Oil Production","Energy","http://www.clr.com",536
+"Ascena Retail Group","Specialty Retailers: Apparel","Retailing","http://www.ascenaretail.com",537
+"Zoetis","Pharmaceuticals","Health Care","http://www.zoetis.com",538
+"Orbital ATK","Aerospace and Defense","Aerospace & Defense","http://www.orbitalatk.com",539
+"Frontier Communications","Telecommunications","Telecommunications","http://www.frontier.com",540
+"Levi Strauss","Apparel","Apparel","http://www.levistrauss.com",541
+"SPX","Industrial Machinery","Industrials","http://www.spx.com",542
+"CF Industries Holdings","Chemicals","Chemicals","http://www.cfindustries.com",543
+"Michaels Cos.","Specialty Retailers: Other","Retailing","http://www.michaels.com",544
+"M&T Bank Corp.","Commercial Banks","Financials","http://www.mtb.com",545
+"Rush Enterprises","Automotive Retailing, Services","Retailing","http://www.rushenterprises.com",546
+"Aleris","Metals","Materials","http://www.aleris.com",547
+"Nexeo Solutions Holdings","Wholesalers: Diversified","Wholesalers","http://www.nexeosolutions.com",548
+"Keurig Green Mountain","Beverages","Food, Beverages & Tobacco","http://www.keurig.com",549
+"Superior Energy Services","Oil and Gas Equipment, Services","Energy","http://www.superiorenergy.com",550
+"Williams-Sonoma","Specialty Retailers: Other","Retailing","http://www.williams-sonomainc.com",551
+"Robert Half International","Temporary Help","Business Services","http://www.roberthalf.com",552
+"Nvidia","Semiconductors and Other Electronic Components","Technology","http://www.nvidia.com",553
+"First American Financial","Insurance: Property and Casualty (Stock)","Financials","http://www.firstam.com",554
+"Zimmer Biomet Holdings","Medical Products and Equipment","Health Care","www.zimmerbiomet.com",555
+"MDU Resources Group","Energy","Energy","http://www.mdu.com",556
+"Juniper Networks","Network and Other Communications Equipment","Technology","http://www.juniper.net",557
+"Arthur J. Gallagher","Diversified Financials","Financials","http://www.ajg.com",558
+"Colfax","Industrial Machinery","Industrials","http://www.colfaxcorp.com",559
+"Cliffs Natural Resources","Mining, Crude-Oil Production","Energy","http://www.cliffsnaturalresources.com",560
+"Yahoo","Internet Services and Retailing","Technology","http://www.yahoo.com",561
+"MasTec","Engineering, Construction","Engineering & Construction","http://www.mastec.com",562
+"Lam Research","Semiconductors and Other Electronic Components","Technology","http://www.lamresearch.com",563
+"Axiall","Chemicals","Chemicals","http://www.axiall.com",564
+"Intercontinental Exchange","Securities","Financials","http://www.theice.com",565
+"Cintas","Diversified Outsourcing Services","Business Services","http://www.cintas.com",566
+"Coty","Household and Personal Products","Household Products","http://www.coty.com",567
+"CA","Computer Software","Technology","http://www.ca.com",568
+"Andersons","Food Production","Food, Beverages & Tobacco","http://www.andersonsinc.com",569
+"Valspar","Chemicals","Chemicals","http://www.valsparglobal.com",570
+"Northern Trust","Commercial Banks","Financials","http://www.northerntrust.com",571
+"Intuit","Computer Software","Technology","http://www.intuit.com",572
+"Tutor Perini","Engineering, Construction","Engineering & Construction","http://www.tutorperini.com",573
+"Polaris Industries","Transportation Equipment","Transportation","http://www.polaris.com",574
+"Hospira","Pharmaceuticals","Health Care","http://www.hospira.com",575
+"FM Global","Insurance: Property and Casualty (Stock)","Financials","http://www.fmglobal.com",576
+"NVR","Homebuilders","Engineering & Construction","http://www.nvrinc.com",577
+"Liberty Media","Entertainment","Media","http://www.libertymedia.com",578
+"Edgewell Personal Care","Household and Personal Products","Household Products","www.edgewell.com",579
+"Bloomin' Brands","Food Services","Hotels, Resturants & Leisure","http://www.bloominbrands.com",580
+"Avaya","Network and Other Communications Equipment","Technology","http://www.avaya.com",581
+"Westlake Chemical","Chemicals","Chemicals","http://www.westlake.com",582
+"Hyatt Hotels","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.hyatt.com",583
+"Mead Johnson Nutrition","Food Consumer Products","Food, Beverages & Tobacco","http://www.meadjohnson.com",584
+"Activision Blizzard","Computer Software","Technology","http://www.activisionblizzard.com",585
+"Protective Life","Insurance: Life, Health (stock)","Financials","http://www.protective.com",586
+"Envision Healthcare Holdings","Health Care: Pharmacy and Other Services","Health Care","http://www.evhc.net",587
+"Fortune Brands Home & Security","Home Equipment, Furnishings","Household Products","http://www.fbhs.com",588
+"RPM International","Chemicals","Chemicals","http://www.rpminc.com",589
+"VWR","Wholesalers: Diversified","Wholesalers","http://www.vwr.com",590
+"LPL Financial Holdings","Securities","Financials","http://www.lpl.com",591
+"KeyCorp","Commercial Banks","Financials","http://www.key.com",592
+"Swift Transportation","Trucking, Truck Leasing","Transportation","http://www.swifttrans.com",593
+"Alpha Natural Resources","Mining, Crude-Oil Production","Energy","http://www.alphanr.com",594
+"Hasbro","Toys, Sporting Goods","Household Products","http://www.hasbro.com",595
+"Resolute Forest Products","Forest and Paper Products","Materials","http://www.resolutefp.com",596
+"Tiffany","Specialty Retailers: Other","Retailing","http://www.tiffany.com",597
+"McCormick","Food Consumer Products","Food, Beverages & Tobacco","http://www.mccormickcorporation.com",598
+"Graphic Packaging Holding","Packaging, Containers","Materials","http://www.graphicpkg.com",599
+"Greif","Packaging, Containers","Materials","http://www.greif.com",600
+"Allegheny Technologies","Metals","Materials","http://www.atimetals.com",601
+"Securian Financial Group","Insurance: Life, Health (stock)","Financials","http://www.securian.com",602
+"B/E Aerospace","Aerospace and Defense","Aerospace & Defense","http://www.beaerospace.com",603
+"Exelis","Aerospace and Defense","Aerospace & Defense","http://www.exelisinc.com",604
+"Adobe Systems","Computer Software","Technology","http://www.adobe.com",605
+"Molson Coors Brewing","Beverages","Food, Beverages & Tobacco","http://www.molsoncoors.com",606
+"Roundy's","Food and Drug Stores","Food & Drug Stores","http://www.roundys.com",607
+"CNO Financial Group","Insurance: Life, Health (stock)","Financials","http://www.cnoinc.com",608
+"Adams Resources & Energy","Energy","Energy","http://www.adamsresources.com",609
+"Belk","General Merchandisers","Retailing","http://www.belk.com",610
+"Chipotle Mexican Grill","Food Services","Hotels, Resturants & Leisure","http://www.chipotle.com",611
+"American Tower","Telecommunications","Telecommunications","http://www.americantower.com",612
+"FMC","Chemicals","Chemicals","http://www.fmc.com",613
+"Hillshire Brands","Food Consumer Products","Food, Beverages & Tobacco","http://www.tysonfoods.com",614
+"AmTrust Financial Services","Insurance: Property and Casualty (Stock)","Financials","http://www.amtrustgroup.com",615
+"Brunswick","Transportation Equipment","Transportation","http://www.brunswick.com",616
+"Patterson","Wholesalers: Health Care","Wholesalers","http://www.pattersoncompanies.com",617
+"Southwestern Energy","Mining, Crude-Oil Production","Energy","http://www.swn.com",618
+"Ametek","Scientific,Photographic and Control Equipment","Technology","http://www.ametek.com",619
+"T. Rowe Price","Securities","Financials","http://www.troweprice.com",620
+"Torchmark","Insurance: Life, Health (stock)","Financials","http://www.torchmarkcorp.com",621
+"Darling Ingredients","Food Production","Food, Beverages & Tobacco","http://www.darlingii.com",622
+"Leggett & Platt","Home Equipment, Furnishings","Household Products","http://www.leggett.com",623
+"Watsco","Wholesalers: Diversified","Wholesalers","http://www.watsco.com",624
+"Crestwood Equity Partners","Energy","Energy","http://www.crestwoodlp.com",625
+"Xylem","Industrial Machinery","Industrials","http://www.xyleminc.com",626
+"Silgan Holdings","Packaging, Containers","Materials","http://www.silganholdings.com",627
+"Toll Brothers","Homebuilders","Engineering & Construction","http://www.tollbrothers.com",628
+"Manitowoc","Construction and Farm Machinery","Industrials","http://www.manitowoc.com",629
+"Science Applications International","Information Technology Services","Technology","http://www.saic.com",630
+"Carlyle Group","Securities","Financials","http://www.carlyle.com",631
+"Timken","Industrial Machinery","Industrials","http://www.timken.com",632
+"Genesis Energy","Pipelines","Energy","http://www.genesisenergy.com",633
+"WPX Energy","Mining, Crude-Oil Production","Energy","http://www.wpxenergy.com",634
+"CareFusion","Medical Products and Equipment","Health Care","http://www.carefusion.com",635
+"Pitney Bowes","Computers, Office Equipment","Technology","http://www.pb.com",636
+"Ingles Markets","Food and Drug Stores","Food & Drug Stores","http://www.ingles-markets.com",637
+"PolyOne","Chemicals","Chemicals","http://www.polyone.com",638
+"Brookdale Senior Living","Health Care: Medical Facilities","Health Care","http://www.brookdale.com",639
+"CommScope Holding","Network and Other Communications Equipment","Technology","http://www.commscope.com",640
+"Meritor","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.meritor.com",641
+"Joy Global","Construction and Farm Machinery","Industrials","http://www.joyglobal.com",642
+"Unified Grocers","Wholesalers: Food and Grocery","Wholesalers","http://www.unifiedgrocers.com",643
+"Triumph Group","Aerospace and Defense","Aerospace & Defense","http://www.triumphgroup.com",644
+"Magellan Health","Health Care: Insurance and Managed Care","Health Care","http://www.magellanhealth.com",645
+"Sally Beauty Holdings","Specialty Retailers: Other","Retailing","http://www.sallybeautyholdings.com",646
+"Flowers Foods","Food Consumer Products","Food, Beverages & Tobacco","http://www.flowersfoods.com",647
+"Abercrombie & Fitch","Specialty Retailers: Apparel","Retailing","http://www.abercrombie.com",648
+"New Jersey Resources","Energy","Energy","http://www.njresources.com",649
+"Fastenal","Specialty Retailers: Other","Retailing","http://www.fastenal.com",650
+"NII Holdings","Telecommunications","Telecommunications","http://www.nii.com",651
+"Consol Energy","Mining, Crude-Oil Production","Energy","http://www.consolenergy.com",652
+"USG","Building Materials, Glass","Materials","http://www.usg.com",653
+"Brink's","Diversified Outsourcing Services","Business Services","http://www.brinks.com",654
+"Helmerich & Payne","Oil and Gas Equipment, Services","Energy","http://www.hpinc.com",655
+"Lexmark International","Computer Peripherals","Technology","http://www.lexmark.com",656
+"American Axle & Manufacturing","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.aam.com",657
+"Crown Castle International","Telecommunications","Telecommunications","http://www.crowncastle.com",658
+"Targa Energy","Pipelines","Energy","http://www.targaresources.com",659
+"Oceaneering International","Oil and Gas Equipment, Services","Energy","http://www.oceaneering.com",660
+"Cabot","Chemicals","Chemicals","http://www.cabotcorp.com",661
+"CIT Group","Commercial Banks","Financials","http://www.cit.com",662
+"Cabela's","Specialty Retailers: Other","Retailing","http://www.cabelas.com",663
+"Forest Laboratories","Pharmaceuticals","Health Care","http://www.actavis.com",664
+"DCP Midstream Partners","Pipelines","Energy","http://www.dcppartners.com",665
+"Ryerson Holding","Metals","Materials","http://www.ryerson.com",666
+"QEP Resources","Mining, Crude-Oil Production","Energy","http://www.qepres.com",667
+"Thor Industries","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.thorindustries.com",668
+"HSN","Specialty Retailers: Other","Retailing","http://www.hsni.com",669
+"Graham Holdings","Education","Business Services","http://www.ghco.com",670
+"Electronic Arts","Computer Software","Technology","http://www.ea.com",671
+"Boise Cascade","Wholesalers: Diversified","Wholesalers","http://www.bc.com",672
+"Hub Group","Transportation and Logistics","Transportation","http://www.hubgroup.com",673
+"CACI International","Information Technology Services","Technology","http://www.caci.com",674
+"Roper Technologies","Scientific,Photographic and Control Equipment","Technology","http://www.ropertech.com",675
+"Towers Watson","Diversified Outsourcing Services","Business Services","http://www.towerswatson.com",676
+"Smart & Final Stores","Food and Drug Stores","Food & Drug Stores","http://www.smartandfinal.com",677
+"Big Heart Pet Brands","Food Consumer Products","Food, Beverages & Tobacco","http://www.bigheartpet.com",678
+"Fossil Group","Apparel","Apparel","http://www.fossilgroup.com",679
+"Nasdaq OMX Group","Securities","Financials","http://www.nasdaqomx.com",680
+"Country Financial","Insurance: Property and Casualty (Mutual)","Financials","http://www.countryfinancial.com",681
+"Snap-on","Industrial Machinery","Industrials","http://www.snapon.com",682
+"Pinnacle West Capital","Utilities: Gas and Electric","Energy","http://www.pinnaclewest.com",683
+"EchoStar","Network and Other Communications Equipment","Technology","http://www.echostar.com",684
+"Systemax","Specialty Retailers: Other","Retailing","http://www.systemax.com",685
+"WhiteWave Foods","Food Consumer Products","Food, Beverages & Tobacco","http://www.whitewave.com",686
+"CUNA Mutual Group","Insurance: Life, Health (stock)","Financials","http://www.cunamutual.com",687
+"Cooper Tire & Rubber","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.coopertire.com",688
+"ADT","Diversified Outsourcing Services","Business Services","http://www.adt.com",689
+"Cerner","Health Care: Pharmacy and Other Services","Health Care","http://www.cerner.com",690
+"Clean Harbors","Waste Management","Business Services","http://www.cleanharbors.com",691
+"First Solar","Energy","Energy","http://www.firstsolar.com",692
+"Lennox International","Industrial Machinery","Industrials","http://www.lennoxinternational.com",693
+"Enable Midstream Partners","Pipelines","Energy","http://www.enablemidstream.com",694
+"Hubbell","Electronics, Electrical Equip.","Industrials","http://www.hubbell.com",695
+"Unisys","Information Technology Services","Technology","http://www.unisys.com",696
+"Alliant Energy","Utilities: Gas and Electric","Energy","http://www.alliantenergy.com",697
+"Welltower","Real estate","Financials","www.welltower.com",698
+"Moody's","Diversified Financials","Financials","http://www.moodys.com",699
+"C.R. Bard","Medical Products and Equipment","Health Care","http://www.crbard.com",700
+"Urban Outfitters","Specialty Retailers: Apparel","Retailing","http://www.urbanoutfittersinc.com",701
+"Church & Dwight","Household and Personal Products","Household Products","http://www.churchdwight.com",702
+"American Eagle Outfitters","Specialty Retailers: Apparel","Retailing","http://www.ae.com",703
+"Oaktree Capital Group","Securities","Financials","http://www.oaktreecapital.com",704
+"Regal Beloit","Electronics, Electrical Equip.","Industrials","http://www.regalbeloit.com",705
+"Tailored Brands","Specialty Retailers: Apparel","Retailing","http://www.menswearhouse.com",706
+"Cooper-Standard Holdings","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.cooperstandard.com",707
+"W.R. Grace","Chemicals","Chemicals","http://www.grace.com",708
+"Ulta Salon Cosmetics & Fragrance","Specialty Retailers: Other","Retailing","http://www.ulta.com",709
+"Hawaiian Electric Industries","Utilities: Gas and Electric","Energy","http://www.hei.com",710
+"SkyWest","Airlines","Transportation","http://www.skywest.com",711
+"Green Plains","Energy","Energy","http://www.gpreinc.com",712
+"LVB Acquisition","Medical Products and Equipment","Health Care","http://www.biomet.com",713
+"NBTY","Pharmaceuticals","Health Care","http://www.nbty.com",714
+"Carlisle","Building Materials, Glass","Materials","http://www.carlisle.com",715
+"United Refining","Petroleum Refining","Energy","http://www.urc.com",716
+"Tesla Motors","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.teslamotors.com",717
+"Groupon","Internet Services and Retailing","Technology","http://www.groupon.com",718
+"Landstar System","Trucking, Truck Leasing","Transportation","http://www.landstar.com",719
+"Patterson-UTI Energy","Oil and Gas Equipment, Services","Energy","http://www.patenergy.com",720
+"EP Energy","Mining, Crude-Oil Production","Energy","http://www.epenergy.com",721
+"ON Semiconductor","Semiconductors and Other Electronic Components","Technology","http://www.onsemi.com",722
+"Rent-A-Center","Specialty Retailers: Other","Retailing","http://www.rentacenter.com",723
+"SunGard Data Systems","Financial Data Services","Business Services","http://www.sungard.com",724
+"Citrix Systems","Network and Other Communications Equipment","Technology","http://www.citrix.com",725
+"Amkor Technology","Semiconductors and Other Electronic Components","Technology","http://www.amkor.com",726
+"TD Ameritrade Holding","Securities","Financials","http://www.amtd.com",727
+"Worthington Industries","Metals","Materials","http://www.worthingtonindustries.com",728
+"Valmont Industries","Construction and Farm Machinery","Industrials","http://www.valmont.com",729
+"Iron Mountain","Diversified Outsourcing Services","Business Services","http://www.ironmountain.com",730
+"Puget Energy","Utilities: Gas and Electric","Energy","http://www.pugetenergy.com",731
+"CME Group","Securities","Financials","http://www.cmegroup.com",732
+"IAC/InterActiveCorp","Internet Services and Retailing","Technology","http://www.iac.com",733
+"Par Pacific Holdings","Petroleum Refining","Energy","http://www.parpacific.com/",734
+"Taylor Morrison Home","Homebuilders","Engineering & Construction","http://www.taylormorrison.com",735
+"Chiquita Brands International","Food Production","Food, Beverages & Tobacco","http://www.chiquita.com",736
+"International Flavors & Fragrances","Chemicals","Chemicals","http://www.iff.com",737
+"Whiting Petroleum","Mining, Crude-Oil Production","Energy","http://www.whiting.com",738
+"Under Armour","Apparel","Apparel","http://www.uabiz.com",739
+"Ventas","Real estate","Financials","http://www.ventasreit.com",740
+"NuStar Energy","Pipelines","Energy","http://www.nustarenergy.com",741
+"Select Medical Holdings","Health Care: Medical Facilities","Health Care","http://www.selectmedicalholdings.com",742
+"Diebold","Computers, Office Equipment","Technology","http://www.diebold.com",743
+"American National Insurance","Insurance: Life, Health (stock)","Financials","http://www.anico.com",744
+"Varian Medical Systems","Medical Products and Equipment","Health Care","http://www.varian.com",745
+"Apollo Education Group","Education","Business Services","http://www.apollogrp.edu",746
+"Westinghouse Air Brake Technologies","Industrial Machinery","Industrials","http://www.wabtec.com",747
+"SunPower","Energy","Energy","http://www.sunpower.com",748
+"Warner Music Group","Entertainment","Media","http://www.wmg.com",749
+"American Water Works","zMiscellaneous","Energy","http://www.amwater.com",750
+"H&R Block","Diversified Financials","Financials","http://www.hrblock.com",751
+"Mercury General","Insurance: Property and Casualty (Stock)","Financials","http://www.mercuryinsurance.com",752
+"TECO Energy","Utilities: Gas and Electric","Energy","http://www.tecoenergy.com",753
+"Service Corp. International","zMiscellaneous","Business Services","http://www.sci-corp.com",754
+"Vulcan Materials","Building Materials, Glass","Materials","http://www.vulcanmaterials.com",755
+"Brown-Forman","Beverages","Food, Beverages & Tobacco","http://www.brown-forman.com",756
+"Regal Entertainment Group","Entertainment","Media","http://www.regmovies.com",757
+"Tempur Sealy International","Home Equipment, Furnishings","Household Products","http://www.tempursealy.com",758
+"Steelcase","Home Equipment, Furnishings","Household Products","http://www.steelcase.com",759
+"MWI Veterinary Supply","Wholesalers: Diversified","Wholesalers","http://www.mwivet.com",760
+"RS Legacy","Specialty Retailers: Other","Retailing","http://www.radioshackcorporation.com",761
+"Sprouts Farmers Market","Food and Drug Stores","Food & Drug Stores","http://www.sprouts.com",762
+"Sabre","Internet Services and Retailing","Technology","http://www.sabre.com",763
+"Martin Marietta Materials","Building Materials, Glass","Materials","http://www.martinmarietta.com",764
+"Huntington Bancshares","Commercial Banks","Financials","http://www.huntington.com",765
+"Alere","Medical Products and Equipment","Health Care","http://www.alere.com",766
+"TreeHouse Foods","Food Consumer Products","Food, Beverages & Tobacco","http://www.treehousefoods.com",767
+"Arch Coal","Mining, Crude-Oil Production","Energy","http://www.archcoal.com",768
+"KLA-Tencor","Semiconductors and Other Electronic Components","Technology","http://www.kla-tencor.com",769
+"Crane","Industrial Machinery","Industrials","http://www.craneco.com",770
+"Iasis Healthcare","Health Care: Medical Facilities","Health Care","http://www.iasishealthcare.com",771
+"BWX Technologies","Industrial Machinery","Industrials","www.bwxt.com",772
+"Dentsply Sirona","Medical Products and Equipment","Health Care","http://www.dentsplysirona.com",773
+"Tribune Media","Entertainment","Media","http://www.tribunemedia.com",774
+"ScanSource","Wholesalers: Electronics and Office Equipment","Wholesalers","http://www.scansource.com",775
+"Univision Communications","Entertainment","Media","http://corporate.univision.com",776
+"Brinker International","Food Services","Hotels, Resturants & Leisure","http://www.brinker.com",777
+"Archrock","Oil and Gas Equipment, Services","Energy","http://www.archrock.com/",778
+"Carter's","Apparel","Apparel","http://www.carters.com",779
+"Analog Devices","Semiconductors and Other Electronic Components","Technology","http://www.analog.com",780
+"Genesco","Specialty Retailers: Apparel","Retailing","http://www.genesco.com",781
+"Scotts Miracle-Gro","Chemicals","Chemicals","http://www.scotts.com",782
+"Convergys","Diversified Outsourcing Services","Business Services","http://www.convergys.com",783
+"Exide Technologies","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.exide.com",784
+"WABCO Holdings","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.wabco-auto.com",785
+"Kennametal","Industrial Machinery","Industrials","http://www.kennametal.com",786
+"Amerco","Trucking, Truck Leasing","Transportation","http://www.amerco.com",787
+"Bon-Ton Stores","General Merchandisers","Retailing","http://www.bonton.com",788
+"Team Health Holdings","Health Care: Pharmacy and Other Services","Health Care","http://www.teamhealth.com",789
+"Regeneron Pharmaceuticals","Pharmaceuticals","Health Care","http://www.regeneron.com",790
+"OneMain Holdings","Diversified Financials","Financials","www.archrock.com",791
+"Lincoln Electric Holdings","Industrial Machinery","Industrials","http://www.lincolnelectric.com",792
+"Dresser-Rand Group","Industrial Machinery","Industrials","http://www.dresser-rand.com",793
+"West","Diversified Outsourcing Services","Business Services","http://www.west.com",794
+"Benchmark Electronics","Semiconductors and Other Electronic Components","Technology","http://www.bench.com",795
+"Pall","Industrial Machinery","Industrials","http://www.pall.com",796
+"Old Dominion Freight Line","Trucking, Truck Leasing","Transportation","http://www.odfl.com",797
+"MSC Industrial Direct","Wholesalers: Diversified","Wholesalers","http://www.mscdirect.com",798
+"Sentry Insurance Group","Insurance: Property and Casualty (Mutual)","Financials","http://www.sentry.com",799
+"Sigma-Aldrich","Chemicals","Chemicals","http://www.sigma-aldrich.com",800
+"WGL Holdings","Energy","Energy","http://www.wglholdings.com",801
+"Weis Markets","Food and Drug Stores","Food & Drug Stores","http://www.weismarkets.com",802
+"Sanderson Farms","Food Production","Food, Beverages & Tobacco","http://www.sandersonfarms.com",803
+"StanCorp Financial Group","Insurance: Life, Health (stock)","Financials","http://www.stancorpfinancial.com",804
+"Hyster-Yale Materials Handling","Industrial Machinery","Industrials","http://www.hyster-yale.com",805
+"Wolverine World Wide","Apparel","Apparel","http://www.wolverineworldwide.com",806
+"DST Systems","Financial Data Services","Business Services","http://www.dstsystems.com",807
+"Legg Mason","Securities","Financials","http://www.leggmason.com",808
+"Teradata","Computer Software","Technology","http://www.teradata.com",809
+"Aaron's","Specialty Retailers: Other","Retailing","http://www.aarons.com",810
+"Antero Resources","Mining, Crude-Oil Production","Energy","http://www.anteroresources.com",811
+"Metaldyne Performance Group","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.mpgdriven.com",812
+"Range Resources","Mining, Crude-Oil Production","Energy","http://www.rangeresources.com",813
+"Vornado Realty Trust","Real estate","Financials","http://www.vno.com",814
+"Boyd Gaming","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.boydgaming.com",815
+"Covance","Health Care: Pharmacy and Other Services","Health Care","http://www.labcorp.com",816
+"Armstrong World Industries","Building Materials, Glass","Materials","http://www.armstrong.com",817
+"Cracker Barrel Old Country Store","Food Services","Hotels, Resturants & Leisure","http://www.crackerbarrel.com",818
+"Chico's FAS","Specialty Retailers: Apparel","Retailing","http://www.chicosfas.com",819
+"Scripps Networks Interactive","Entertainment","Media","http://www.scrippsnetworksinteractive.com",820
+"Universal Forest Products","Forest and Paper Products","Materials","http://www.ufpi.com",821
+"Concho Resources","Mining, Crude-Oil Production","Energy","http://www.concho.com",822
+"ITT","Industrial Machinery","Industrials","http://www.itt.com",823
+"HCC Insurance Holdings","Insurance: Property and Casualty (Stock)","Financials","http://www.hcc.com",824
+"Moog","Aerospace and Defense","Aerospace & Defense","http://www.moog.com",825
+"IMS Health Holdings","Health Care: Pharmacy and Other Services","Health Care","http://www.imshealth.com",826
+"Cinemark Holdings","Entertainment","Media","http://www.cinemark.com",827
+"Comerica","Commercial Banks","Financials","http://www.comerica.com",828
+"Equity Residential","Real estate","Financials","http://www.equityresidential.com",829
+"Ryland Group","Homebuilders","Engineering & Construction","http://www.ryland.com",830
+"GNC Holdings","Food and Drug Stores","Food & Drug Stores","http://www.gnc.com",831
+"ArcBest","Trucking, Truck Leasing","Transportation","http://www.arcb.com",832
+"Vectren","Utilities: Gas and Electric","Energy","http://www.vectren.com",833
+"Curtiss-Wright","Aerospace and Defense","Aerospace & Defense","http://www.curtisswright.com",834
+"Tupperware Brands","Household and Personal Products","Household Products","http://www.tupperwarebrands.com",835
+"Westar Energy","Utilities: Gas and Electric","Energy","http://www.westarenergy.com",836
+"Albemarle","Chemicals","Chemicals","http://www.albemarle.com",837
+"AptarGroup","Packaging, Containers","Materials","http://www.aptar.com",838
+"Pinnacle Foods","Food Consumer Products","Food, Beverages & Tobacco","http://www.pinnaclefoods.com",839
+"Penn National Gaming","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.pngaming.com",840
+"J.Crew Group","Specialty Retailers: Apparel","Retailing","http://www.jcrew.com",841
+"Vantiv","Financial Data Services","Business Services","http://www.vantiv.com",842
+"Kansas City Southern","Railroads","Transportation","http://www.kcsouthern.com",843
+"Caleres","Specialty Retailers: Apparel","Retailing","http://www.caleres.com",844
+"Nu Skin Enterprises","Household and Personal Products","Household Products","http://www.nuskinenterprises.com",845
+"Great Plains Energy","Utilities: Gas and Electric","Energy","http://www.greatplainsenergy.com",846
+"Kirby","zMiscellaneous","Transportation","http://www.kirbycorp.com",847
+"General Growth Properties","Real estate","Financials","http://www.ggp.com",848
+"Broadridge Financial Solutions","Financial Data Services","Business Services","http://www.broadridge.com",849
+"Stericycle","Waste Management","Business Services","http://www.stericycle.com",850
+"Global Payments","Financial Data Services","Business Services","http://www.globalpaymentsinc.com",851
+"Nortek","Industrial Machinery","Industrials","http://www.nortekinc.com",852
+"Schnitzer Steel Industries","Metals","Materials","http://www.schnitzersteel.com",853
+"Universal","Tobacco","Food, Beverages & Tobacco","http://www.universalcorp.com",854
+"ANN","Specialty Retailers: Apparel","Retailing","http://www.anninc.com",855
+"Hologic","Medical Products and Equipment","Health Care","http://www.hologic.com",856
+"Panera Bread","Food Services","Hotels, Resturants & Leisure","http://www.panerabread.com",857
+"AOL","Internet Services and Retailing","Technology","http://www.corp.aol.com",858
+"SM Energy","Mining, Crude-Oil Production","Energy","http://www.sm-energy.com",859
+"Paychex","Diversified Outsourcing Services","Business Services","http://www.paychex.com",860
+"PriceSmart","Specialty Retailers: Other","Retailing","http://www.pricesmart.com",861
+"Autodesk","Computer Software","Technology","http://www.autodesk.com",862
+"Affiliated Managers Group","Securities","Financials","http://www.amg.com",863
+"Tops Holding","Food and Drug Stores","Food & Drug Stores","http://www.topsmarkets.com",864
+"Dynegy","Energy","Energy","http://www.dynegy.com",865
+"DSW","Specialty Retailers: Apparel","Retailing","http://www.dswinc.com",866
+"Vishay Intertechnology","Semiconductors and Other Electronic Components","Technology","http://www.vishay.com",867
+"Mettler-Toledo International","Scientific,Photographic and Control Equipment","Technology","http://www.mt.com",868
+"SunEdison","Semiconductors and Other Electronic Components","Technology","http://www.sunedison.com",869
+"Tetra Tech","Engineering, Construction","Engineering & Construction","http://www.tetratech.com",870
+"Momentive Performance Materials","Chemicals","Chemicals","http://www.momentive.com",871
+"EnerSys","Electronics, Electrical Equip.","Industrials","http://www.enersys.com",872
+"Donaldson","Industrial Machinery","Industrials","http://www.donaldson.com",873
+"EQT","Energy","Energy","http://www.eqt.com",874
+"Monster Beverage","Beverages","Food, Beverages & Tobacco","http://www.monsterbevcorp.com",875
+"PC Connection","Specialty Retailers: Other","Retailing","http://www.pcconnection.com",876
+"Total System Services","Financial Data Services","Business Services","http://www.tsys.com",877
+"ServiceMaster Global Holdings","Diversified Outsourcing Services","Business Services","http://www.servicemaster.com",878
+"Medical Mutual of Ohio","Insurance: Life, Health (Mutual)","Financials","http://www.medmutual.com",879
+"Applied Industrial Technologies","Wholesalers: Diversified","Wholesalers","http://www.applied.com",880
+"Maxim Integrated Products","Semiconductors and Other Electronic Components","Technology","http://www.maximintegrated.com",881
+"OGE Energy","Utilities: Gas and Electric","Energy","http://www.oge.com",882
+"A. Schulman","Chemicals","Chemicals","http://www.aschulman.com",883
+"Equinix","Telecommunications","Telecommunications","http://www.equinix.com",884
+"Mednax","Health Care: Pharmacy and Other Services","Health Care","http://www.mednax.com",885
+"Equifax","Financial Data Services","Business Services","http://www.equifax.com",886
+"CalAtlantic Group","Homebuilders","Engineering & Construction","www.calatlantichomes.com",887
+"Denbury Resources","Mining, Crude-Oil Production","Energy","http://www.denbury.com",888
+"Cimarex Energy","Mining, Crude-Oil Production","Energy","http://www.cimarex.com",889
+"Mutual of America Life Insurance","Insurance: Life, Health (Mutual)","Financials","http://www.mutualofamerica.com",890
+"Guess","Apparel","Apparel","http://www.guess.com",891
+"Post Holdings","Food Consumer Products","Food, Beverages & Tobacco","http://www.postholdings.com",892
+"HealthSouth","Health Care: Medical Facilities","Health Care","http://www.healthsouth.com",893
+"Ferrellgas Partners","Energy","Energy","http://www.ferrellgas.com",894
+"KB Home","Homebuilders","Engineering & Construction","http://www.kbhome.com",895
+"Boston Properties","Real estate","Financials","http://www.bostonproperties.com",896
+"Trimble Navigation","Scientific,Photographic and Control Equipment","Technology","http://www.trimble.com",897
+"Teledyne Technologies","Scientific,Photographic and Control Equipment","Technology","http://www.teledyne.com",898
+"Acuity Brands","Electronics, Electrical Equip.","Industrials","http://www.acuitybrands.com",899
+"Skechers U.S.A.","Apparel","Apparel","http://www.skx.com",900
+"Xilinx","Semiconductors and Other Electronic Components","Technology","http://www.xilinx.com",901
+"Plexus","Semiconductors and Other Electronic Components","Technology","http://www.plexus.com",902
+"Newfield Exploration","Mining, Crude-Oil Production","Energy","http://www.newfield.com",903
+"TransDigm Group","Aerospace and Defense","Aerospace & Defense","http://www.transdigm.com",904
+"Kar Auction Services","Wholesalers: Diversified","Wholesalers","http://www.karauctionservices.com",905
+"Mueller Industries","Industrial Machinery","Industrials","http://www.muellerindustries.com",906
+"Zions Bancorp.","Commercial Banks","Financials","http://www.zionsbancorporation.com",907
+"Insperity","Diversified Outsourcing Services","Business Services","http://www.insperity.com",908
+"XPO Logistics","Transportation and Logistics","Transportation","http://www.xpo.com",909
+"Sears Hometown & Outlet Stores","Specialty Retailers: Other","Retailing","http://www.shos.com",910
+"A.O. Smith","Electronics, Electrical Equip.","Industrials","http://www.aosmith.com",911
+"Alliance One International","Tobacco","Food, Beverages & Tobacco","http://www.aointl.com",912
+"Take-Two Interactive Software","Computer Software","Technology","http://www.take2games.com",913
+"hhgregg","Specialty Retailers: Other","Retailing","http://www.hhgregg.com",914
+"RPC","Oil and Gas Equipment, Services","Energy","http://www.rpc.net",915
+"NewMarket","Chemicals","Chemicals","http://www.newmarket.com",916
+"Beacon Roofing Supply","Wholesalers: Diversified","Wholesalers","http://www.becn.com",917
+"Edwards Lifesciences","Medical Products and Equipment","Health Care","http://www.edwards.com",918
+"Triple-S Management","Health Care: Insurance and Managed Care","Health Care","http://www.triplesmanagement.com",919
+"Hawaiian Holdings","Airlines","Transportation","http://www.hawaiianairlines.com",920
+"Heartland Payment Systems","Financial Data Services","Business Services","http://www.heartlandpaymentsystems.com",921
+"Belden","Electronics, Electrical Equip.","Industrials","http://www.belden.com",922
+"Magellan Midstream Partners","Pipelines","Energy","http://www.magellanlp.com",923
+"Outerwall","Specialty Retailers: Other","Retailing","http://www.outerwall.com",924
+"KapStone Paper & Packaging","Packaging, Containers","Materials","http://www.kapstonepaper.com",925
+"Alliance Holdings","Mining, Crude-Oil Production","Energy","http://www.ahgp.com",926
+"Skyworks Solutions","Semiconductors and Other Electronic Components","Technology","http://www.skyworksinc.com",927
+"Ciena","Network and Other Communications Equipment","Technology","http://www.ciena.com",928
+"Granite Construction","Engineering, Construction","Engineering & Construction","http://www.graniteconstruction.com",929
+"Education Management","Education","Business Services","http://www.edmc.edu",930
+"Party City Holdings","Specialty Retailers: Other","Retailing","http://www.partycity.com",931
+"HCP","Real estate","Financials","http://www.hcpi.com",932
+"Parexel International","Health Care: Pharmacy and Other Services","Health Care","http://www.parexel.com",933
+"Delta Tucker Holdings","Aerospace and Defense","Aerospace & Defense","http://www.dyn-intl.com",934
+"Pinnacle Entertainment","Hotels, Casinos, Resorts","Hotels, Resturants & Leisure","http://www.pnkinc.com",935
+"Stifel Financial","Securities","Financials","http://www.stifel.com",936
+"Pool","Wholesalers: Diversified","Wholesalers","http://www.poolcorp.com",937
+"Olin","Chemicals","Chemicals","http://www.olin.com",938
+"Knights of Columbus","Insurance: Life, Health (Mutual)","Financials","http://www.kofc.org",939
+"PerkinElmer","Scientific,Photographic and Control Equipment","Technology","http://www.perkinelmer.com",940
+"Alexion Pharmaceuticals","Pharmaceuticals","Health Care","http://www.alexion.com",941
+"IHS","Financial Data Services","Business Services","http://www.ihs.com",942
+"Oil States International","Oil and Gas Equipment, Services","Energy","http://www.oilstatesintl.com",943
+"HNI","Home Equipment, Furnishings","Household Products","http://www.hnicorp.com",944
+"LinkedIn","Internet Services and Retailing","Technology","http://www.linkedin.com",945
+"Diplomat Pharmacy","Food and Drug Stores","Food & Drug Stores","http://www.diplomat.is",946
+"Brocade Communications Systems","Network and Other Communications Equipment","Technology","http://www.brocade.com",947
+"Greenbrier Cos.","Transportation Equipment","Transportation","http://www.gbrx.com",948
+"AMC Networks","Entertainment","Media","http://www.amcnetworks.com",949
+"Kemper","Insurance: Property and Casualty (Stock)","Financials","http://www.kemper.com",950
+"Ocwen Financial","Diversified Financials","Financials","http://www.ocwen.com",951
+"Public Storage","zMiscellaneous","Business Services","http://www.publicstorage.com",952
+"TriNet Group","Diversified Outsourcing Services","Business Services","http://www.trinet.com",953
+"Chemtura","Chemicals","Chemicals","http://www.chemtura.com",954
+"Symetra Financial","Insurance: Life, Health (stock)","Financials","http://www.symetra.com",955
+"Tower International","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.towerinternational.com",956
+"Meritage Homes","Homebuilders","Engineering & Construction","http://www.meritagehomes.com",957
+"MarkWest Energy Partners","Pipelines","Energy","http://www.markwest.com",958
+"Bio-Rad Laboratories","Medical Products and Equipment","Health Care","http://www.bio-rad.com",959
+"TrueBlue","Temporary Help","Business Services","http://www.trueblue.com",960
+"Cabot Oil & Gas","Mining, Crude-Oil Production","Energy","http://www.cabotog.com",961
+"Carpenter Technology","Metals","Materials","http://www.cartech.com",962
+"Toro","Construction and Farm Machinery","Industrials","http://www.thetorocompany.com",963
+"American Equity Investment Life Holding","Insurance: Life, Health (stock)","Financials","http://www.american-equity.com",964
+"Express","Specialty Retailers: Apparel","Retailing","http://www.express.com",965
+"Eastman Kodak","Scientific,Photographic and Control Equipment","Technology","http://www.kodak.com",966
+"Hain Celestial Group","Food Consumer Products","Food, Beverages & Tobacco","http://www.hain.com",967
+"Nationstar Mortgage Holdings","Diversified Financials","Financials","http://www.nationstarmtg.com",968
+"IDEX","Industrial Machinery","Industrials","http://www.idexcorp.com",969
+"Popular","Commercial Banks","Financials","http://www.popular.com",970
+"Werner Enterprises","Trucking, Truck Leasing","Transportation","http://www.werner.com",971
+"Esterline Technologies","Aerospace and Defense","Aerospace & Defense","http://www.esterline.com",972
+"Intuitive Surgical","Medical Products and Equipment","Health Care","http://www.intuitivesurgical.com",973
+"Allison Transmission Holdings","Motor Vehicles and Parts","Motor Vehicles & Parts","http://www.allisontransmission.com",974
+"SemGroup","Pipelines","Energy","http://www.semgroupcorp.com",975
+"Southwest Gas","Utilities: Gas and Electric","Energy","http://www.swgas.com",976
+"G-III Apparel Group","Apparel","Apparel","http://www.g-iii.com",977
+"National Fuel Gas","Utilities: Gas and Electric","Energy","http://www.nationalfuelgas.com",978
+"H.B. Fuller","Chemicals","Chemicals","http://www.hbfuller.com",979
+"Penn Mutual Life Insurance","Insurance: Life, Health (stock)","Financials","http://www.pennmutual.com",980
+"RCS Capital","Securities","Financials","http://www.rcscapital.com",981
+"Columbia Sportswear","Apparel","Apparel","http://www.columbia.com",982
+"Amica Mutual Insurance","Insurance: Property and Casualty (Mutual)","Financials","http://www.amica.com",983
+"Primoris Services","Engineering, Construction","Engineering & Construction","http://www.prim.com",984
+"Energen","Mining, Crude-Oil Production","Energy","http://www.energen.com",985
+"Rexnord","Industrial Machinery","Industrials","http://www.rexnord.com",986
+"Seventy Seven Energy","Oil and Gas Equipment, Services","Energy","http://www.77nrg.com",987
+"Waste Connections","Waste Management","Business Services","http://www.wasteconnections.com",988
+"Pep Boys-Manny, Moe & Jack","Specialty Retailers: Other","Retailing","http://www.pepboys.com",989
+"Harsco","Metals","Materials","http://www.harsco.com",990
+"Hovnanian Enterprises","Homebuilders","Engineering & Construction","http://www.khov.com",991
+"Willbros Group","Oil and Gas Equipment, Services","Energy","http://www.willbros.com",992
+"Wendy's","Food Services","Hotels, Resturants & Leisure","http://www.aboutwendys.com",993
+"International Game Technology","Industrial Machinery","Industrials","http://www.igt.com",994
+"Synopsys","Computer Software","Technology","http://www.synopsys.com",995
+"Universal American","Health Care: Insurance and Managed Care","Health Care","http://www.universalamerican.com",996
+"AAR","Aerospace and Defense","Aerospace & Defense","http://www.aarcorp.com",997
+"Selective Insurance Group","Insurance: Property and Casualty (Stock)","Financials","http://www.selective.com",998
+"Gartner","Information Technology Services","Technology","http://www.gartner.com",999
+"E*Trade Financial","Securities","Financials","http://www.etrade.com",1000
