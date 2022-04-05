@@ -1,5 +1,5 @@
-# This is My Datasets Inventory 
-### Feel free to add some.
+# This is my inventory of datasets  
+## I use this mainly for teaching, but feel free to add some dataset too
 
 * [Social Security Death Master File](http://ssdmf.info/download.html) (Free)
 
